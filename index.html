@@ -25,7 +25,7 @@
                     <ul class="social-icons">
                         <li>
                             <a href="https://www.linkedin.com/in/jorgeherraizsoler/" title="Linkedin"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -41,7 +41,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/jherraizsoler" title="Github" target="_blank">
+                            <a href="https://github.com/jherraizsoler" title="Github" rel="noopener noreferrer" target="_blank">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 30 30"
                                     stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -230,15 +230,15 @@
             </a>
         </div>
     </nav>
-
+    <label for="mobile-nav" class="visually-hidden">Navegación:</label
     <select id="mobile-nav" class="mobile-nav" onchange="window.location.href=this.value">
-        <option value="" selected disabled>Selecciona una sección</option>
-        <option value="#contenedorSeccionesAcademicas">Académico</option>
-        <option value="#contenedorSeccionesExperiencia">Experiencia</option>
-        <option value="#proyectos">Proyectos</option>
-        <option value="#contenedorSeccionesCCI">Cursos</option>
-        <option value="#contenedorTecnologias">Tecnologías</option>
-        <option value="#contenedorRecomendaciones">Recomendaciones</option>
+        <option value="" selected disabled hidden>Selecciona una sección</option>
+        <option value="#contenedorSeccionesAcademicas" hidden>Académico</option>
+        <option value="#contenedorSeccionesExperiencia" hidden>Experiencia</option>
+        <option value="#proyectos" hidden>Proyectos</option>
+        <option value="#contenedorSeccionesCCI" hidden>Cursos</option>
+        <option value="#contenedorTecnologias" hidden>Tecnologías</option>
+        <option value="#contenedorRecomendaciones" hidden>Recomendaciones</option>
     </select>
 
 
@@ -286,7 +286,7 @@
     <section class="seccionesNav">
         <div id="contenedorSeccionesAcademicas">
             <h2 id="Academico" class="titulos">Academic Section</h2>
-            <sl-tab-group class="centered-tabs" style="--sl-color-primary-500: #04b61f;">
+            <sl-tab-group class="centered-tabs">
                 <sl-tab slot="nav" panel="desarrollador">Developer</sl-tab>
                 <sl-tab slot="nav" panel="bigdata_ia">Big Data - AI</sl-tab>
                 <sl-tab slot="nav" panel="soporte_it">IT Support</sl-tab>
@@ -319,7 +319,7 @@
                             </ul>
                         </div>
                         <a href="https://todofp.es/que-estudiar/ciclos/informatica-comunicaciones/sistemas-microniformaticos-redes.html"
-                            target="_blank" class="panel-link">Learn more</a>
+                            rel="noopener noreferrer" target="_blank" class="panel-link">Learn more</a>
                     </div>
                 </sl-tab-panel>
 
@@ -341,7 +341,7 @@
                                 <li>Applied Big Data</li>
                             </ul>
                         </div>
-                        <a href="#" target="_blank" class="panel-link">Learn more</a>
+                        <a href="#" rel="noopener noreferrer" target="_blank" class="panel-link">Learn more</a>
                     </div>
                 </sl-tab-panel>
 
@@ -371,7 +371,7 @@
                             </ul>
                         </div>
                         <a href="https://todofp.es/que-estudiar/ciclos/informatica-comunicaciones/sistemas-microniformaticos-redes.html"
-                            target="_blank" class="panel-link">Learn more</a>
+                            rel="noopener noreferrer" target="_blank" class="panel-link">Learn more</a>
                     </div>
                 </sl-tab-panel>
 
@@ -380,7 +380,7 @@
         </div>
         <div id="contenedorSeccionesExperiencia">
             <h2 id="ExperienciaLaboral" class="titulos">Work Experience</h2>
-            <sl-tab-group class="centered-tabs" style="--sl-color-primary-500: #04b61f;">
+            <sl-tab-group class="centered-tabs">
                 <sl-tab slot="nav" panel="desarrolladorExperiencia">Developer</sl-tab>
                 <sl-tab slot="nav" panel="soporte_itExperiencia">IT Support</sl-tab>
 
@@ -435,7 +435,7 @@
                         </div>
                         <br>
                         <a href="https://www.hiberus.com/soluciones/gisir?gad_campaignid=88008915&gad_source=1&gbraid=0AAAAADvFRD2OP7scb96A6d2Im4zm7v-x4&gclid=CjwKCAjwlaTGBhANEiwAoRgXBamcgGG6PJ5ftQBZKFm_KhVvONLcXThUU36kLl11EmrdnKU5bQBWERoCG4cQAvD_BwE&utm_content=cuentaESP"
-                            target="_blank" class="panel-link">Learn more</a>
+                            rel="noopener noreferrer" target="_blank" class="panel-link">Learn more</a>
                     </div>
                 </sl-tab-panel>
 
@@ -484,7 +484,7 @@
                         </div>
                         <br>
                         <a href="https://www.hiberus.com/soluciones/gisir?gad_campaignid=88008915&gad_source=1&gbraid=0AAAAADvFRD2OP7scb96A6d2Im4zm7v-x4&gclid=CjwKCAjwlaTGBhANEiwAoRgXBamcgGG6PJ5ftQBZKFm_KhVvONLcXThUU36kLl11EmrdnKU5bQBWERoCG4cQAvD_BwE&utm_content=cuentaESP"
-                            target="_blank" class="panel-link">Learn more</a>
+                            rel="noopener noreferrer" target="_blank" class="panel-link">Learn more</a>
                     </div>
                 </sl-tab-panel>
             </sl-tab-group>
@@ -497,27 +497,26 @@
             <div class="articles">
                 <article class="project-card" data-project-id="1_en">
                     <figure>
-                        <img src="Media/Proyectos/Proyecto1/imagenPrincipal.jpeg" alt="Preview">
+                        <img src="Media/Proyectos/Proyecto1/banner_github_OmniCareAI.png" alt="Preview">
                     </figure>
                     <div class="article-preview">
-                        <h2>FullStack App Desktop Task System Project</h2>
+                        <h2>OmniCare AI: Medical Agent System</h2>
                     </div>
                 </article>
-
                 <article class="project-card" data-project-id="2_en">
                     <figure>
-                        <img src="Media/Proyectos/Proyecto2/imagenPrincipal.jpeg" alt="Preview">
+                        <img src="Media/Proyectos/Proyecto2/portada_pequeña_proyecto_LangChain_LangGraph.png" alt="Preview">
                     </figure>
                     <div class="article-preview">
-                        <h2>FullStack App Web People System Project</h2>
+                        <h2>Agent Ecosystem: LangChain & LangGraph</h2>
                     </div>
                 </article>
                 <article class="project-card" data-project-id="3_en">
                     <figure>
-                        <img src="Media/Proyectos/Proyecto3/imagenPrincipal.jpeg" alt="Preview">
+                        <img src="Media/Proyectos/Proyecto3/Portada_Informes_IA_BigData.png" alt="Preview">
                     </figure>
                     <div class="article-preview">
-                        <h2>FullStack App Web Contact System Project</h2>
+                        <h2>High-Volume AI & Big Data Architectures</h2>
                     </div>
                 </article>
                 <article class="project-card" data-project-id="4_en">
@@ -616,7 +615,6 @@
                         <h2>FullStack Mobile App PersonalHub Project</h2>
                     </div>
                 </article>
-
                 <article class="project-card" data-project-id="16_en">
                     <figure>
                         <img src="Media/Proyectos/Proyecto15/imagenPrincipal.jpeg" alt="Preview">
@@ -633,7 +631,6 @@
                         <h2>Proyecto Frontend Porfolio Jorge Herraiz Soler</h2>
                     </div>
                 </article>
-
                 <article class="project-card" data-project-id="18_en">
                     <figure>
                         <img src="Media/Proyectos/Proyecto18/imagenPrincipal.jpeg" alt="Preview">
@@ -666,7 +663,7 @@
                         <h2>Fullstack Web App Project Job Board Validation Vacancies</h2>
                     </div>
                 </article>
-                 <article class="project-card" data-project-id="22_en">
+                <article class="project-card" data-project-id="22_en">
                     <figure>
                         <img src="Media/Proyectos/Proyecto22/imagenPrincipal.jpeg" alt="Preview">
                     </figure>
@@ -722,6 +719,30 @@
                         <h2>Complete Documentation of a Fictional Company's Network and Simulation with Cisco Packet Tracer</h2>
                     </div>
                 </article>
+                <article class="project-card" data-project-id="29_en">
+                    <figure>
+                        <img src="Media/Proyectos/Proyecto29/imagenPrincipal.jpeg" alt="Preview">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>FullStack App Desktop Task System Project</h2>
+                    </div>
+                </article>
+                <article class="project-card" data-project-id="30_en">
+                    <figure>
+                        <img src="Media/Proyectos/Proyecto30/imagenPrincipal.jpeg" alt="Preview">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>FullStack App Web People System Project</h2>
+                    </div>
+                </article>
+                <article class="project-card" data-project-id="31_en">
+                    <figure>
+                        <img src="Media/Proyectos/Proyecto31/imagenPrincipal.jpeg" alt="Preview">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>FullStack App Web Contact System Project</h2>
+                    </div>
+                </article>
             </div>
         </div>
 
@@ -729,7 +750,7 @@
              <img id="fullscreen-image" src="" alt="Ampliada">
         </div>
 
-         <div class="modal-container" id="modal-container">
+        <div class="modal-container" id="modal-container">
             <div class="modal" id="modal-content">
                 <button class="botonClose" id="close-modal">X</button>
             </div>
@@ -751,7 +772,7 @@
                         <h2>AWS Academy Graduate - AWS Academy Cloud Foundations</h2>
                         <p>
                             Issued by
-                            <a href="https://www.credly.com/organizations/amazon-web-services/badges" target="_blank"
+                            <a href="https://www.credly.com/organizations/amazon-web-services/badges" rel="noopener noreferrer" target="_blank"
                                 title="Amazon Web Services Training and Certification"> Amazon Web Services Training and
                                 Certification</a>
                         </p>
@@ -765,10 +786,10 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.credly.com/badges/48290217-d646-477e-a282-af638acb674c/public_url"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://aws.amazon.com/training/awsacademy/" target="_blank" class="secondaryCCI">
+                            <a href="https://aws.amazon.com/training/awsacademy/" rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn more
                             </a>
                         </div>
@@ -785,7 +806,7 @@
                         <h2>AWS Academy Graduate - AWS Academy Introduction to Cloud Semester 1</h2>
                         <p>
                             Issued by
-                            <a href="https://www.credly.com/organizations/amazon-web-services/badges" target="_blank"
+                            <a href="https://www.credly.com/organizations/amazon-web-services/badges" rel="noopener noreferrer" target="_blank"
                                 title="Amazon Web Services Training and Certification"> Amazon Web Services Training and
                                 Certification</a>
                         </p>
@@ -800,10 +821,49 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.credly.com/badges/2e104816-bd70-4786-829a-211b4345cb11/public_url"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://aws.amazon.com/training/awsacademy/" target="_blank" class="secondaryCCI">
+                            <a href="https://aws.amazon.com/training/awsacademy/" rel="noopener noreferrer" target="_blank" class="secondaryCCI">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="containerCCI">
+                <article class="cardCCI card_UDEMY_CCI">
+                    <div class='backgroundCCI'>
+                        <img src="Media/udemy2.jpg" alt="profile">
+                    </div>
+                    <div class='contentCCI'>
+                        <h2>Udemy: Complete Course: LangChain, LangGraph, and AI Agents with Python</h2>
+                        <p>
+                            Certificate of completion with
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
+                            <br>
+                            Instructors: Santiago Hernández
+                        </p>
+                        <p>Prepared for</p>
+                        <ul class="chipsCCI">
+                            <li class="chipCCI">LangChain & LangGraph</li>
+                            <li class="chipCCI">Autonomous Agents with Python</li>
+                            <li class="chipCCI">Advanced RAG (ChromaDB/FAISS)</li>
+                            <li class="chipCCI">Multi-Agent Systems</li>
+                            <li class="chipCCI">Intelligent Memory & Checkpoints</li>
+                            <li class="chipCCI">Human-in-the-loop (Human Escalation)</li>
+                            <li class="chipCCI">Prompt Engineering & Pydantic</li>
+                            <li class="chipCCI">LLM Integration (OpenAI/Gemini)</li>
+                            <li class="chipCCI">AI Workflow Automation</li>
+                        </ul>
+                        <div class="action-buttonsCCI">
+                            <a href="https://www.udemy.com/certificate/UC-50d85abc-606e-4f55-bf65-01d5ccebdf9a/"
+                                rel="noopener noreferrer" target="_blank">
+                                Certification
+                            </a>
+                            <a href="https://www.udemy.com/course/curso-completo-langchain-langgraph-y-agentes-ia-con-python/"
+                                 rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -821,7 +881,7 @@
                         <h2>Udemy:HTML5 Course from scratch: The most complete course in Spanish</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
                             <br>
                             Instructors: Víctor Robles
                         </p>
@@ -838,11 +898,11 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.udemy.com/certificate/UC-3de7edcf-99ab-4c7f-8fe6-d2a2b20bb9aa/"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Certification
                             </a>
                             <a href="https://www.udemy.com/course/el-curso-de-html5-desde-cero-mas-completo/?couponCode=ACCAGE0923"
-                                target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -860,7 +920,7 @@
                         <h2>Udemy: Master in CSS3: Responsive, SASS, Flexbox, Grid and Bootstrap</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
                             <br>
                             Instructors: Víctor Robles
                         </p>
@@ -881,11 +941,11 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.udemy.com/certificate/UC-23dc1609-28d5-41b6-b0c0-6caee2c94ae4/"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Certification
                             </a>
                             <a href="https://www.udemy.com/course/master-en-css-responsive-sass-flexbox-grid-y-boostrap-4/?couponCode=ACCAGE0923"
-                                target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -903,7 +963,7 @@
                         <h2>Udemy: UX: Máster en Diseño web y Experiencia de Usuario</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
                             <br>
                             Instructors: Juan Fernando Urrego
                         </p>
@@ -917,11 +977,11 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.udemy.com/certificate/UC-bda8d890-0062-46c9-9797-ec62206668ea/"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Certification
                             </a>
                             <a href="https://www.udemy.com/course/ux-master-en-diseno-web-y-experiencia-de-usuario/"
-                                target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -940,7 +1000,7 @@
                         <h2>Udemy: Certificate of Completion: Java University - Zero to Expert - Updated (+150 hrs)</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
                             <br>
                             Instructors: Global Mentoring Ing. Ubaldo Acosta
                         </p>
@@ -964,11 +1024,11 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.udemy.com/certificate/UC-bda8d890-0062-46c9-9797-ec62206668ea/"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Certification
                             </a>
                             <a href="https://www.udemy.com/course/ux-master-en-diseno-web-y-experiencia-de-usuario/"
-                                target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -986,7 +1046,7 @@
                         <h2>freeCodeCamp: JavaScript Algorithms and Data Structures</h2>
                         <p>
                             With
-                            <a href="https://www.freecodecamp.org/learn" target="_blank" title="freecodecamp">
+                            <a href="https://www.freecodecamp.org/learn" rel="noopener noreferrer" target="_blank" title="freecodecamp">
                                 freecodecamp</a>
                         </p>
                         <p>Prepared for</p>
@@ -1008,18 +1068,17 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.freecodecamp.org/certification/fcc4c8e0234-e71d-47fc-9df0-514391ca53e7/javascript-algorithms-and-data-structures"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Certification
                             </a>
                             <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/"
-                                target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
                     </div>
                 </article>
             </div>
-
 
             <!--  Cisco: Networking basics -->
             <div class="containerCCI">
@@ -1031,7 +1090,7 @@
                         <h2>Cisco: Networking basics</h2>
                         <p>
                             With
-                            <a href="https://skillsforall.com/#netacadStory" target="_blank" title="Cisco Academy">
+                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank" title="Cisco Academy">
                                 CISCO ACADEMY</a>
                         </p>
                         <p>Prepared for</p>
@@ -1045,10 +1104,10 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.credly.com/badges/a4bba55a-c0ed-4760-9faa-744b9d060e3f/public_url"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://skillsforall.com/course/networking-basics?courseLang=en-US" target="_blank"
+                            <a href="https://skillsforall.com/course/networking-basics?courseLang=en-US" rel="noopener noreferrer" target="_blank"
                                 class="secondaryCCI">
                                 Learn More
                             </a>
@@ -1056,8 +1115,6 @@
                     </div>
                 </article>
             </div>
-
-
 
             <!--  Cisco: Course DAM - NDG Linux Essentials: View report -->
             <div class="containerCCI">
@@ -1069,7 +1126,7 @@
                         <h2>Cisco: Course DAM - NDG Linux Essentials: View report</h2>
                         <p>
                             With
-                            <a href="https://skillsforall.com/#netacadStory" target="_blank" title="Cisco Academy">
+                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank" title="Cisco Academy">
                                 CISCO ACADEMY</a>
                         </p>
                         <p>Prepared for</p>
@@ -1079,11 +1136,11 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.linkedin.com/feed/update/urn:li:activity:7211362873908854785/"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Completion announcement
                             </a>
                             <a href="https://www.linkedin.com/feed/update/urn:li:activity:7211362873908854785/"
-                                target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -1101,7 +1158,7 @@
                         <h2>Cisco: Certificate of completion: Python Essentials 1</h2>
                         <p>
                             With
-                            <a href="https://skillsforall.com/#netacadStory" target="_blank" title="Cisco Academy">
+                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank" title="Cisco Academy">
                                 CISCO ACADEMY</a>
                         </p>
                         <p>Prepared for</p>
@@ -1118,11 +1175,11 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.credly.com/badges/0f94661b-e16a-4788-9ad5-3b9c03975736"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
                             <a href="https://www.netacad.com/courses/python-essentials-1?courseLang=en-US"
-                                target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -1130,7 +1187,7 @@
                 </article>
             </div>
 
-            <!--  Cisco: Certificado finalización:  Python Essentials 1 -->
+            <!--  Cisco: Certificado finalización:  Python Essentials 2 -->
             <div class="containerCCI">
                 <article class="cardCCI card_CISCO_CCI">
                     <div class='backgroundCCI'>
@@ -1140,7 +1197,7 @@
                         <h2>Cisco: Certificate of completion: Python Essentials 2</h2>
                         <p>
                             With
-                            <a href="https://skillsforall.com/#netacadStory" target="_blank" title="Cisco Academy">
+                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank" title="Cisco Academy">
                                 CISCO ACADEMY</a>
                         </p>
                         <p>Prepared for</p>
@@ -1157,11 +1214,11 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.credly.com/badges/7a7c1361-7f5a-4911-957b-948627b6230f"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
                             <a href="https://www.netacad.com/courses/python-essentials-2?courseLang=en-US"
-                                target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -1180,7 +1237,7 @@
                         <h2>Google Cloud Skills Boost: Introduction to Generative AI Studio</h2>
                         <p>
                             With
-                            <a href="https://www.cloudskillsboost.google/" target="_blank"
+                            <a href="https://www.cloudskillsboost.google/" rel="noopener noreferrer" target="_blank"
                                 title="Google Cloud Skills Boost"> Google Cloud Skills Boost</a>
                         </p>
                         <p>Prepared for</p>
@@ -1191,10 +1248,10 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.cloudskillsboost.google/public_profiles/ba66a981-e671-4168-bf2d-d189331ed3b4/badges/4943557?locale=es"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://www.cloudskillsboost.google/course_templates/552" target="_blank"
+                            <a href="https://www.cloudskillsboost.google/course_templates/552" rel="noopener noreferrer" target="_blank"
                                 class="secondaryCCI">
                                 Learn More
                             </a>
@@ -1214,7 +1271,7 @@
                         <h2>Oracle University: Java Explorer</h2>
                         <p>
                             With
-                            <a href="https://mylearn.oracle.com/ou/home" target="_blank" title="Oracle University">
+                            <a href="https://mylearn.oracle.com/ou/home" rel="noopener noreferrer" target="_blank" title="Oracle University">
                                 Oracle University</a>
                         </p>
                         <p>Prepared for</p>
@@ -1229,10 +1286,10 @@
                         </ul>
                         <div class="action-buttonsCCI">
                             <a href="https://www.linkedin.com/in/jorgeherraizsoler/details/certifications/"
-                                target="_blank">
+                                rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://mylearn.oracle.com/ou/learning-path/java-explorer/79726" target="_blank"
+                            <a href="https://mylearn.oracle.com/ou/learning-path/java-explorer/79726" rel="noopener noreferrer" target="_blank"
                                 class="secondaryCCI">
                                 Learn More
                             </a>
@@ -1247,114 +1304,107 @@
             <h2 id="Tecnologias" class="titulos">Technologies</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Programming Languages</h3>
+                    <h3>Inteligencia Artificial & Big Data</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_azul">Java</span>
-                        <span class="skill-pill_azul">C#</span>
-                        <span class="skill-pill_azul">Python</span>
-                        <span class="skill-pill_azul">JavaScript</span>
-                        <span class="skill-pill_azul">TypeScript</span>
-                        <span class="skill-pill_azul">Kotlin</span>
+                        <span>LangChain</span>
+                        <span>LangGraph</span>
+                        <span>RAG (Retrieval)</span>
+                        <span>TensorFlow</span>
+                        <span>OpenAI / Gemini</span>
+                        <span>ChromaDB / FAISS</span>
+                        <span>Arquitectura Lambda</span>
+                        <span>Deep Learning</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Frameworks & Backend Servers</h3>
+                    <h3>Lenguajes de Programación</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_verde">Spring</span>
-                        <span class="skill-pill_verde">Spring Boot</span>
-                        <span class="skill-pill_verde">.NET</span>
-                        <span class="skill-pill_verde">JakartaEE</span>
-                        <span class="skill-pill_verde">Tomcat 7</span>
-                        <span class="skill-pill_verde">Tomcat 9</span>
-                        <span class="skill-pill_verde">Glassfish</span>
-                        <span class="skill-pill_verde">Servlets</span>
-                        <span class="skill-pill_verde">EJB</span>
+                        <span>Java</span>
+                        <span>C#</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>Kotlin</span>
+                        <span>R (Data Science)</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Databases & Persistence</h3>
+                    <h3>Frameworks & Servidores Backend</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_morado">SQL Server</span>
-                        <span class="skill-pill_morado">MySQL</span>
-                        <span class="skill-pill_morado">Oracle</span>
-                        <span class="skill-pill_morado">PostgreSQL</span>
-                        <span class="skill-pill_morado">MongoDB</span>
-                        <span class="skill-pill_morado">Hibernate</span>
-                        <span class="skill-pill_morado">JPA</span>
-                        <span class="skill-pill_morado">Entity Framework</span>
-                        <span class="skill-pill_morado">EclipseLink</span>
+                        <span>Spring / Spring Boot</span>
+                        <span>.NET 8</span>
+                        <span>FastAPI</span>
+                        <span>Django 5.0</span>
+                        <span>JakartaEE</span>
+                        <span>Tomcat 7 / 9</span>
+                        <span>Glassfish</span>
+                        <span>Servlets / EJB</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Frontend Frameworks & Libraries</h3>
+                    <h3>Bases de Datos & Persistencia</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_naranja">React</span>
-                        <span class="skill-pill_naranja">Angular</span>
-                        <span class="skill-pill_naranja">jQuery</span>
-                        <span class="skill-pill_naranja">Bootstrap</span>
-                        <span class="skill-pill_naranja">jqGrid</span>
-                        <span class="skill-pill_naranja">JSF</span>
-                        <span class="skill-pill_naranja">JSP</span>
-                        <span class="skill-pill_naranja">JSPx</span>
-                        <span class="skill-pill_naranja">JSTL</span>
-                        <span class="skill-pill_naranja">Primefaces</span>
-                        <span class="skill-pill_naranja">Flatlaf</span>
-                        <span class="skill-pill_naranja">Swing</span>
-                        <span class="skill-pill_naranja">JavaFX</span>
-                        <span class="skill-pill_naranja">Facelets</span>
+                        <span>SQL Server</span>
+                        <span>MySQL</span>
+                        <span>Oracle</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB (NoSQL)</span>
+                        <span>Hibernate / JPA</span>
+                        <span>Entity Framework</span>
+                        <span>EclipseLink</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Development & DevOps Tools</h3>
+                    <h3>Frameworks & Librerías Frontend</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_roja">Git</span>
-                        <span class="skill-pill_roja">GitHub</span>
-                        <span class="skill-pill_roja">Eclipse</span>
-                        <span class="skill-pill_roja">Visual Studio</span>
-                        <span class="skill-pill_roja">IntelliJ IDEA</span>
-                        <span class="skill-pill_roja">NetBeans</span>
-                        <span class="skill-pill_roja">Postman</span>
-                        <span class="skill-pill_roja">AWS</span>
-                        <span class="skill-pill_roja">GitExtensions</span>
-                        <span class="skill-pill_roja">DiffMerge</span>
-                        <span class="skill-pill_roja">Swagger</span>
-                        <span class="skill-pill_roja">PuTTY</span>
+                        <span>React</span>
+                        <span>Angular</span>
+                        <span>Streamlit</span>
+                        <span>Bootstrap</span>
+                        <span>jQuery / jqGrid</span>
+                        <span>JSF / JSP / JSPx</span>
+                        <span>JavaFX / Swing</span>
+                        <span>Primefaces</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>Web Technologies & Protocols</h3>
+                    <h3>Herramientas de Desarrollo y DevOps</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_verdeAzulado">JSON</span>
-                        <span class="skill-pill_verdeAzulado">XML</span>
-                        <span class="skill-pill_verdeAzulado">AJAX</span>
-                        <span class="skill-pill_verdeAzulado">JasperReports</span>
-                        <span class="skill-pill_verdeAzulado">TLS/SSL</span>
-                        <span class="skill-pill_verdeAzulado">JWS</span>
-                        <span class="skill-pill_verdeAzulado">FormData</span>
-                        <span class="skill-pill_verdeAzulado">Cookies</span>
-                        <span class="skill-pill_verdeAzulado">RSS</span>
-                        <span class="skill-pill_verdeAzulado">ATOM</span>
-                        <span class="skill-pill_verdeAzulado">XSLT</span>
-                        <span class="skill-pill_verdeAzulado">XPath</span>
-                        <span class="skill-pill_verdeAzulado">XQuery</span>
+                        <span>Git / GitHub</span>
+                        <span>Docker / Microservicios</span>
+                        <span>AWS / Azure</span>
+                        <span>Postman / Swagger / Scalar</span>
+                        <span>IntelliJ / Visual Studio</span>
+                        <span>Eclipse / NetBeans</span>
+                        <span>Maven</span>
                     </div>
                 </div>
 
-                 <div class="skill-category">
-                    <h3>Specific Libraries & Systems</h3>
+                <div class="skill-category">
+                    <h3>Tecnologías & Protocolos Web</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_rosa">Odoo</span>
-                        <span class="skill-pill_rosa">Lombok</span>
-                        <span class="skill-pill_rosa">JDBC</span>
-                        <span class="skill-pill_rosa">iTextPDF</span>
-                        <span class="skill-pill_rosa">Thymeleaf</span>
-                        <span class="skill-pill_rosa">SLF4J</span>
-                        <span class="skill-pill_rosa">Log4j</span>
+                        <span>JSON / XML</span>
+                        <span>AJAX / WebSockets</span>
+                        <span>JWT / SSL</span>
+                        <span>XSLT / XPath / XQuery</span>
+                        <span>JasperReports</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Librerías & Sistemas Específicos</h3>
+                    <div class="skill-list">
+                        <span>Odoo</span>
+                        <span>Lombok</span>
+                        <span>JDBC</span>
+                        <span>Thymeleaf</span>
+                        <span>Log4j / SLF4J</span>
+                        <span>Tavily Search</span>
                     </div>
                 </div>
             </div>

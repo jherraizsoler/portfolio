@@ -1,140 +1,127 @@
 // 1. Datos de todos los proyectos en un objeto
 const projectsData = {
   "1_es": {
-    title: "Proyecto FullStack App Desktop Sistema de Tareas",
+    title: "OmniCare AI - Sistema de Agentes Médicos Autónomos",
     content: `
         <h3>Descripción del Proyecto</h3>
-        <p>Este proyecto es una aplicación **Full-Stack de escritorio** diseñada para la gestión completa de tareas. Combina un robusto backend con una interfaz de usuario nativa y moderna para ofrecer una experiencia fluida y eficiente. Su objetivo es proporcionar una herramienta completa para realizar operaciones **CRUD** (Crear, Leer, Actualizar y Borrar).</p>
+        <p>OmniCare AI es una solución de ingeniería de vanguardia que converge el desarrollo de software empresarial con la <b>IA Generativa</b>. Se trata de un ecosistema de agentes autónomos diseñado bajo una arquitectura de microservicios escalable, capaz de automatizar procesos clínicos complejos con razonamiento avanzado.</p>
         
-        <h4>Backend: El Núcleo del Sistema</h4>
-        <p>El backend está desarrollado con **Spring Boot** y **Spring Framework**, lo que garantiza una arquitectura sólida. Utiliza **JPA** (Java Persistence API) para la persistencia, con la información almacenada en una base de datos **MySQL**. La integración de **Lombok** optimiza el código y reduce la verbosidad para un desarrollo más ágil.</p>
+        <h4>Arquitectura Híbrida y Software Sólido</h4>
+        <p>El sistema utiliza una infraestructura distribuida donde cada componente cumple un rol crítico:</p>
+        <ul>
+            <li><b>Backend Core (.NET 8):</b> Gestiona la lógica de negocio y el streaming de respuestas en tiempo real, documentado con Scalar.</li>
+            <li><b>AI Engine (LangGraph & FastAPI):</b> Orquestación de agentes (Retriever, Analyst, Ethics Reviewer) mediante grafos de estados para asegurar trazabilidad.</li>
+            <li><b>Data Layer (Django 5.0):</b> Gestión de persistencia, seguridad JWT y auditoría de Big Data.</li>
+            <li><b>Frontend (Streamlit):</b> Dashboard dinámico con interfaz adaptativa según roles.</li>
+        </ul>
         
-        <h4>Frontend: Experiencia de Usuario Moderna</h4>
-        <p>El frontend se construye con **JavaFX**, una librería para crear interfaces de usuario de escritorio. Esta elección permite diseñar una UX/UI moderna y nativa que se integra perfectamente con el sistema operativo del usuario.</p>
-        
-        <h4>Integración y Funcionalidad Completa</h4>
-        <p>El proyecto es un verdadero sistema Full-Stack, donde el frontend se comunica con el backend de Spring Boot a través de una **API RESTful**. Esta separación de responsabilidades permite que cada capa se desarrolle de forma independiente.</p>
+        <h4>Gestión Especializada y Ética</h4>
+        <p>El sistema implementa un control de acceso granular para <b>Supervisores, Médicos y Pacientes</b>. Además, incluye un <b>Ethics Reviewer Agent</b> que valida éticamente cada respuesta de la IA, garantizando el cumplimiento normativo en entornos de salud.</p>
     `,
     images: [
-      "Media/Proyectos/Proyecto1/imagenPrincipal.jpeg",
-      "Media/Proyectos/Proyecto1/ventanaPrincipal_1.jpeg",
+      "Media/Proyectos/Proyecto1/banner_github_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/login_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/paciente_chat_Medico_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/medico_Mis_Pacientes_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/medico_registrar_paciente_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/medico_pdf_Informe_Clinico_digital_paciente_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/supervisor_Medicos_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/supervisor_Auditoria_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/supervisor_Perfil_OmniCareAI.png",
     ],
     skills: [
-      "JavaFX",
-      "Spring Framework",
-      "MySQL",
-      "Programación",
-      "Maven",
-      "JPA",
-      "Spring Boot",
-      "Lombok",
-      "Gestión de proyectos",
-      "Metodologías ágiles",
-      "Capacidad de análisis e investigación",
+      ".NET 8",
+      "LangGraph",
+      "Python",
+      "FastAPI",
+      "Django 5.0",
+      "Microservicios",
+      "Agentic AI",
+      "Big Data",
+      "Clean Architecture",
+      "IA Generativa",
+      "JWT Security",
+      "Scalar",
     ],
     links: {
-      github: "https://github.com/jherraizsoler/tareas_JavaFX-SpringBoot",
-      linkedin:
-        "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363223176245370881-Sg4H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+      github: "https://github.com/jherraizsoler/OmniCare-AI",
+      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_proyectoabrfinalizado-ai-softwarearchitecture-activity-7414018104952856576-z2Bv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
   "2_es": {
-    title: "Proyecto FullStack App Web Sistema de Personas",
+    title: "Especialización en Agentes Autónomos (LangChain & LangGraph)",
     content: `
-        <h3>Descripción del Proyecto</h3>
-        <p>Desarrollé un sistema de gestión de personas completo, aplicando un enfoque **full-stack con tecnologías de Jakarta EE**. El proyecto está construido sobre una arquitectura robusta, utilizando un stack moderno y empresarial ideal para aplicaciones de negocio.</p>
+        <h3>Especialista en IA Generativa</h3>
+        <p>Durante finales de 2025, desarrollé un ecosistema de aplicaciones de IA enfocadas en soluciones empresariales, evolucionando de simples prompts a <b>Agentes Autónomos</b> con razonamiento avanzado y memoria persistente.</p>
         
-        <h4>Capa de Presentación</h4>
-        <p>Diseñé y desarrollé la interfaz de usuario con **Jakarta Server Faces (JSF)**, mejorada con la biblioteca de componentes **PrimeFaces** para una experiencia web interactiva y receptiva.</p>
+        <h4>Hitos Técnicos del Ecosistema</h4>
+        <ul>
+            <li><b>SOC Multi-Agente:</b> Coordinación de agentes especializados en ciberseguridad.</li>
+            <li><b>Asistente Legal RAG:</b> Análisis de contratos mediante recuperación semántica con ChromaDB y FAISS.</li>
+            <li><b>Helpdesk Inteligente:</b> Agente con escalado humano y control de flujo (Human-in-the-loop).</li>
+            <li><b>Sistema de Screening de CVs:</b> Automatización de evaluación de candidatos con integración de múltiples fuentes.</li>
+        </ul>
         
-        <h4>Lógica de Negocio y Persistencia</h4>
-        <p>La lógica de negocio se implementa de forma segura y transaccional con **Enterprise JavaBeans (EJB)**, mientras que la persistencia de datos se gestiona con **Jakarta Persistence API (JPA)** y **EclipseLink** para un mapeo ORM eficiente con una base de datos **MySQL**. El despliegue se realizó en un servidor **GlassFish 8.0.0**.</p>
-        
-        <h4>Seguridad y Modularidad</h4>
-        <p>El sistema incluye un módulo de seguridad con roles de usuario (admin, user, guest), garantizando el acceso controlado a las funcionalidades. Este proyecto demuestra una sólida comprensión de las mejores prácticas de desarrollo de software empresarial, incluyendo la separación de preocupaciones y la modularidad del código, lo que lo hace un proyecto fácilmente escalable y mantenible.</p>
-        
-        <h4>Documentación</h4>
-        <p>El proyecto cuenta con manuales de instalación y configuración en el apartado de README.md, y en el paquete de documentación se encuentra todo lo necesario y los requisitos para testear el proyecto en **Netbeans**.</p>
+        <h4>Arquitectura y Capacidades</h4>
+        <p>Implementación de flujos cíclicos con <b>LangGraph</b>, permitiendo pausas, reanudación y gestión de memoria híbrida (Checkpoints y Ventanas Deslizantes). Integración de herramientas externas como Tavily Search y Gmail Toolkit para acciones en tiempo real.</p>
     `,
     images: [
-      "Media/Proyectos/Proyecto2/imagenPrincipal.jpeg",
-      "Media/Proyectos/Proyecto2/Pantalla_EditarPersona.jpg",
-      "Media/Proyectos/Proyecto2/Pantalla_EliminarPersona.jpg",
-      "Media/Proyectos/Proyecto2/Pantalla_ListadoPersonas.jpg",
-      "Media/Proyectos/Proyecto2/Pantalla_Login_Usuario_es_admin o user_Contraseña_es_123_.jpg",
-      "Media/Proyectos/Proyecto2/Pantalla_Principal_User_.jpg",
+      "Media/Proyectos/Proyecto2/portada_proyecto_LangChain_LangGraph.png"
     ],
     skills: [
-      "Jakarta EE",
-      "MySQL",
-      "GlassFish",
-      "Jakarta JWS",
-      "PrimeFaces",
-      "Maven",
-      "EJB",
-      "SLF4J",
-      "JPA",
-      "EclipseLink",
-      "Java",
-      "Gestión y documentación de proyectos",
-      "HTML5",
-      "Metodologías ágiles",
-      "Apache Netbeans IDE",
+      "LangGraph",
+      "LangChain (LCEL)",
+      "Python",
+      "RAG (Retrieval Augmented Generation)",
+      "OpenAI GPT-4o",
+      "Google Gemini",
+      "ChromaDB / FAISS",
+      "Streamlit",
+      "FastAPI",
+      "Agentes de IA",
+      "Liderazgo Técnico"
     ],
     links: {
-      github: "https://github.com/jherraizsoler/personas-ejb-jee-web",
-      linkedin:
-        "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364310370116583424-1ZNv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+      github: "https://github.com/jherraizsoler/LangGraph-LangChain-Agentic-Workflows",
+      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_inteligenciaartificial-aiforbusiness-langgraph-activity-7410688640797917184-reJP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk"
     },
   },
   "3_es": {
-    title: "Proyecto FullStack App Web Sistema de Contactos",
+    title: "Arquitecturas de Alta Volumetría: IA & Big Data (500TB)",
     content: `
-        <h3>Descripción del Proyecto</h3>
-        <p>Desarrollé un **Sistema de Gestión de Contactos** completo y funcional, diseñado para una administración eficiente de la información. Este proyecto full-stack me permitió aplicar mis conocimientos en el desarrollo de aplicaciones web, desde la persistencia de datos hasta la interfaz de usuario, utilizando un stack tecnológico moderno y robusto.</p>
+        <h3>Ingeniería de Datos y IA Avanzada</h3>
+        <p>Este proyecto es una Prueba de Concepto (PoC) integral que aborda los desafíos de la ingeniería de datos moderna y la IA a escala masiva, centrada en cinco ejes estratégicos para garantizar escalabilidad y precisión diagnóstica.</p>
         
-        <h4>Funcionalidad CRUD</h4>
-        <p>El corazón de la aplicación es la funcionalidad **CRUD (Crear, Leer, Actualizar, Borrar)**, que permite a los usuarios gestionar sus contactos de manera intuitiva y segura. Cada operación está validada para asegurar la integridad de los datos.</p>
+        <h4>Ejes Estratégicos y Arquitectura</h4>
+        <ul>
+            <li><b>Sistemas de Big Data (SBD):</b> Diseño de infraestructura basada en <b>Arquitectura Lambda</b> para el procesamiento híbrido (Batch/Streaming) de 500TB de datos bajo propiedades ACID.</li>
+            <li><b>Visión Artificial (MIA):</b> Implementación de redes neuronales convolucionales con <b>TensorFlow</b> y MobileNetV2, bajo marcos de IA responsable.</li>
+            <li><b>Ingeniería Predictiva (PIA):</b> Modelos de clasificación mediante Inferencia Bayesiana y optimización de espacios de estados con búsqueda heurística.</li>
+            <li><b>Aprendizaje Automatizado (SAA):</b> Auditoría de robustez mediante curvas ROC/AUC y gestión de incertidumbre con lógica difusa.</li>
+            <li><b>Seguridad y Minería (BDA):</b> Protección de datos con criptografía RSA y gestión de bases de datos NoSQL con MongoDB.</li>
+        </ul>
         
-        <h4>Tecnologías Backend</h4>
-        <p>En el backend, utilicé **Java con Spring Boot 3.5.3**, creando un sistema escalable y de alto rendimiento. Para la capa de persistencia, integré **Spring Data JPA** con una base de datos **MySQL**, lo que simplificó la interacción con los datos. La gestión de dependencias fue manejada por **Maven**, y la integración de **Lombok** me ayudó a mantener un código limpio y conciso.</p>
-        
-        <h4>Interfaz de Usuario</h4>
-        <p>La interfaz de usuario fue construida con **Thymeleaf**, un motor de plantillas que se integra perfectamente con Spring. Esto me permitió desarrollar una experiencia de usuario fluida y generar vistas dinámicas del lado del servidor.</p>
-        
-        <p>En resumen, este proyecto es una prueba concreta de mis habilidades como desarrollador full-stack, demostrando mi capacidad para construir soluciones completas y prácticas que resuelven problemas del mundo real.</p>
+        <h4>Impacto Técnico</h4>
+        <p>Integración de un stack tecnológico robusto (Python, R, TensorFlow, MongoDB) enfocado en el rigor estadístico, la eficiencia en el procesamiento de activos de alta volumetría y los estándares más exigentes de la industria.</p>
     `,
     images: [
-      "Media/Proyectos/Proyecto3/imagenPrincipal.jpeg",
-      "Media/Proyectos/Proyecto3/Pantalla_AgregarContactol.jpg",
-      "Media/Proyectos/Proyecto3/Pantalla_EditarContacto.jpg",
-      "Media/Proyectos/Proyecto3/Pantalla_principal.jpg",
+      "Media/Proyectos/Proyecto3/Portada_Informes_IA_BigData.png",
     ],
     skills: [
-      "Spring Framework",
-      "MySQL",
-      "Thymeleaf",
-      "Programación",
-      "Maven",
-      "JPA",
-      "Administración de sistemas y servidores",
-      "CSS Responsive",
-      "SASS",
-      "Flexbox",
-      "Grid",
-      "Bootstrap",
-      "Spring Boot",
-      "Analítico y algorítmico",
-      "Gestión y documentación de proyectos",
-      "Metodologías ágiles",
-      "Planificación de proyectos",
-      "Lombok",
-      "Capacidad de análisis e investigación",
+      "Arquitectura Lambda",
+      "Big Data (500TB)",
+      "TensorFlow",
+      "Machine Learning Engineering",
+      "MongoDB (NoSQL)",
+      "Deep Learning",
+      "Inferencia Bayesiana",
+      "Cloud (AWS/Azure)",
+      "Criptografía RSA",
+      "Python / R"
     ],
     links: {
-      github: "https://github.com/jherraizsoler/contactos_Thymeleaf-SpringBoot",
-      linkedin:
-        "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363947996163510272-Z__I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+      github: "https://github.com/jherraizsoler/informes_ia_bigdata",
+      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_informe-pia-activity-7407811986094374913-2SVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk"
     },
   },
   "4_es": {
@@ -704,7 +691,6 @@ const projectsData = {
       linkedin: "https://lnkd.in/p/dxk_Axrc",
     },
   },
-  
   "17_es": {
         title: "Proyecto Frontend Porfolio Jorge Herraiz Soler",
         content: "Estoy realizando mi porfolio desde cero, estoy materializando mis ideas de aquel porfolio que me gustaría tener, cuáles son las primeras sensaciones y cuidar el contenido. Quiero crear un porfolio que demuestre quien soy, que es lo que hago, cuál es mi iniciativa, mi camino, cuáles son mis valores, principios y el cuidado de los detalles. Me gusta mostrar en el porfolio, el disfrute y estudio constante que estoy desarrollando desde hace 3 años focalizándome en el sector IT. Tecnologías utilizadas: - HTML5 - CSS3 - JavaScript - Shoelace-style para algunos componentes para sección Académica y Experiencia Aprendizaje, elementos o componentes nuevos: - Nav estatico, componente blanco izquierdo con botones de guia por el portafolio (clip-path) - Footer Statico (z-index) - Circulo radius filtro blur cursor, Diseño y UX/UI - Cambio de Idioma Boton / Componente modalidad traductor Ingles y Español - Modo Dark / Light Boton / Componente modalidad Visibilidad / colores - PopUps / Ventanas emergentes Mostrar mas información sobre los proyectos - Sección Académico mejorado - Sección Experiencia mejorado - Sección Proyectos mejorado - Sección Cursos y Certificaciones actualizado - Sección Tecnologías implementado y mejorado - Sección Recomendaciones implementado y mejorado Ultima actualización 19/09/2025 @jherraizsoler",
@@ -1211,26 +1197,24 @@ const projectsData = {
         linkedin: "https://lnkd.in/p/d_p9d42i"
     }
   },
-
-  // Ingles
-  "1_en": {
-    title: "FullStack App Desktop Task System Project",
+  "29_es": {
+    title: "Proyecto FullStack App Desktop Sistema de Tareas",
     content: `
-        <h3>Project Description</h3>
-        <p>This project is a **Full-Stack desktop** application designed for comprehensive task management. It combines a robust backend with a modern, native user interface to provide a fluid and efficient experience. Its objective is to offer a complete tool for performing **CRUD** operations (Create, Read, Update, and Delete).</p>
+        <h3>Descripción del Proyecto</h3>
+        <p>Este proyecto es una aplicación **Full-Stack de escritorio** diseñada para la gestión completa de tareas. Combina un robusto backend con una interfaz de usuario nativa y moderna para ofrecer una experiencia fluida y eficiente. Su objetivo es proporcionar una herramienta completa para realizar operaciones **CRUD** (Crear, Leer, Actualizar y Borrar).</p>
         
-        <h4>Backend: The System's Core</h4>
-        <p>The backend is developed with **Spring Boot** and **Spring Framework**, ensuring a solid architecture. It uses **JPA** (Java Persistence API) for persistence, with information stored in a **MySQL** database. The integration of **Lombok** optimizes the code and reduces verbosity for more agile development.</p>
+        <h4>Backend: El Núcleo del Sistema</h4>
+        <p>El backend está desarrollado con **Spring Boot** y **Spring Framework**, lo que garantiza una arquitectura sólida. Utiliza **JPA** (Java Persistence API) para la persistencia, con la información almacenada en una base de datos **MySQL**. La integración de **Lombok** optimiza el código y reduce la verbosidad para un desarrollo más ágil.</p>
         
-        <h4>Frontend: Modern User Experience</h4>
-        <p>The frontend is built with **JavaFX**, a library for creating desktop user interfaces. This choice allows for designing a modern, native UX/UI that integrates seamlessly with the user's operating system.</p>
+        <h4>Frontend: Experiencia de Usuario Moderna</h4>
+        <p>El frontend se construye con **JavaFX**, una librería para crear interfaces de usuario de escritorio. Esta elección permite diseñar una UX/UI moderna y nativa que se integra perfectamente con el sistema operativo del usuario.</p>
         
-        <h4>Integration and Full Functionality</h4>
-        <p>The project is a true Full-Stack system, where the frontend communicates with the Spring Boot backend through a **RESTful API**. This separation of responsibilities allows each layer to be developed independently.</p>
+        <h4>Integración y Funcionalidad Completa</h4>
+        <p>El proyecto es un verdadero sistema Full-Stack, donde el frontend se comunica con el backend de Spring Boot a través de una **API RESTful**. Esta separación de responsabilidades permite que cada capa se desarrolle de forma independiente.</p>
     `,
     images: [
-      "Media/Proyectos/Proyecto1/imagenPrincipal.jpeg",
-      "Media/Proyectos/Proyecto1/ventanaPrincipal_1.jpeg",
+      "Media/Proyectos/Proyecto29/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto29/ventanaPrincipal_1.jpeg",
     ],
     skills: [
       "JavaFX",
@@ -1251,31 +1235,31 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363223176245370881-Sg4H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "2_en": {
-    title: "FullStack App Web People System Project",
+  "30_es": {
+    title: "Proyecto FullStack App Web Sistema de Personas",
     content: `
-        <h3>Project Description</h3>
-        <p>I developed a complete people management system, applying a **full-stack approach with Jakarta EE technologies**. The project is built on a robust architecture, using a modern and enterprise-grade stack ideal for business applications.</p>
+        <h3>Descripción del Proyecto</h3>
+        <p>Desarrollé un sistema de gestión de personas completo, aplicando un enfoque **full-stack con tecnologías de Jakarta EE**. El proyecto está construido sobre una arquitectura robusta, utilizando un stack moderno y empresarial ideal para aplicaciones de negocio.</p>
         
-        <h4>Presentation Layer</h4>
-        <p>I designed and developed the user interface with **Jakarta Server Faces (JSF)**, enhanced with the **PrimeFaces** component library for an interactive and responsive web experience.</p>
+        <h4>Capa de Presentación</h4>
+        <p>Diseñé y desarrollé la interfaz de usuario con **Jakarta Server Faces (JSF)**, mejorada con la biblioteca de componentes **PrimeFaces** para una experiencia web interactiva y receptiva.</p>
         
-        <h4>Business Logic and Persistence</h4>
-        <p>The business logic is implemented securely and transactionally with **Enterprise JavaBeans (EJB)**, while data persistence is managed with **Jakarta Persistence API (JPA)** and **EclipseLink** for efficient ORM mapping to a **MySQL** database. The deployment was carried out on a **GlassFish 8.0.0** server.</p>
+        <h4>Lógica de Negocio y Persistencia</h4>
+        <p>La lógica de negocio se implementa de forma segura y transaccional con **Enterprise JavaBeans (EJB)**, mientras que la persistencia de datos se gestiona con **Jakarta Persistence API (JPA)** y **EclipseLink** para un mapeo ORM eficiente con una base de datos **MySQL**. El despliegue se realizó en un servidor **GlassFish 8.0.0**.</p>
         
-        <h4>Security and Modularity</h4>
-        <p>The system includes a security module with user roles (admin, user, guest), ensuring controlled access to functionalities. This project demonstrates a solid understanding of enterprise software development best practices, including the separation of concerns and code modularity, which makes it an easily scalable and maintainable project.</p>
+        <h4>Seguridad y Modularidad</h4>
+        <p>El sistema incluye un módulo de seguridad con roles de usuario (admin, user, guest), garantizando el acceso controlado a las funcionalidades. Este proyecto demuestra una sólida comprensión de las mejores prácticas de desarrollo de software empresarial, incluyendo la separación de preocupaciones y la modularidad del código, lo que lo hace un proyecto fácilmente escalable y mantenible.</p>
         
-        <h4>Documentation</h4>
-        <p>The project includes installation and configuration manuals in the README.md section, and the documentation package contains everything necessary and the requirements to test the project in **Netbeans**.</p>
+        <h4>Documentación</h4>
+        <p>El proyecto cuenta con manuales de instalación y configuración en el apartado de README.md, y en el paquete de documentación se encuentra todo lo necesario y los requisitos para testear el proyecto en **Netbeans**.</p>
     `,
     images: [
-      "Media/Proyectos/Proyecto2/imagenPrincipal.jpeg",
-      "Media/Proyectos/Proyecto2/Pantalla_EditarPersona.jpg",
-      "Media/Proyectos/Proyecto2/Pantalla_EliminarPersona.jpg",
-      "Media/Proyectos/Proyecto2/Pantalla_ListadoPersonas.jpg",
-      "Media/Proyectos/Proyecto2/Pantalla_Login_Usuario_es_admin o user_Contraseña_es_123_.jpg",
-      "Media/Proyectos/Proyecto2/Pantalla_Principal_User_.jpg",
+      "Media/Proyectos/Proyecto30/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto30/Pantalla_EditarPersona.jpg",
+      "Media/Proyectos/Proyecto30/Pantalla_EliminarPersona.jpg",
+      "Media/Proyectos/Proyecto30/Pantalla_ListadoPersonas.jpg",
+      "Media/Proyectos/Proyecto30/Pantalla_Login_Usuario_es_admin o user_Contraseña_es_123_.jpg",
+      "Media/Proyectos/Proyecto30/Pantalla_Principal_User_.jpg",
     ],
     skills: [
       "Jakarta EE",
@@ -1300,28 +1284,28 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364310370116583424-1ZNv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "3_en": {
-    title: "FullStack App Web Contact System Project",
+  "31_es": {
+    title: "Proyecto FullStack App Web Sistema de Contactos",
     content: `
-        <h3>Project Description</h3>
-        <p>I developed a complete and functional **Contact Management System**, designed for efficient information administration. This full-stack project allowed me to apply my knowledge in web application development, from data persistence to the user interface, using a modern and robust technology stack.</p>
+        <h3>Descripción del Proyecto</h3>
+        <p>Desarrollé un **Sistema de Gestión de Contactos** completo y funcional, diseñado para una administración eficiente de la información. Este proyecto full-stack me permitió aplicar mis conocimientos en el desarrollo de aplicaciones web, desde la persistencia de datos hasta la interfaz de usuario, utilizando un stack tecnológico moderno y robusto.</p>
         
-        <h4>CRUD Functionality</h4>
-        <p>The heart of the application is the **CRUD (Create, Read, Update, Delete)** functionality, which allows users to manage their contacts intuitively and securely. Each operation is validated to ensure data integrity.</p>
+        <h4>Funcionalidad CRUD</h4>
+        <p>El corazón de la aplicación es la funcionalidad **CRUD (Crear, Leer, Actualizar, Borrar)**, que permite a los usuarios gestionar sus contactos de manera intuitiva y segura. Cada operación está validada para asegurar la integridad de los datos.</p>
         
-        <h4>Backend Technologies</h4>
-        <p>On the backend, I used **Java with Spring Boot 3.5.3**, creating a scalable and high-performance system. For the persistence layer, I integrated **Spring Data JPA** with a **MySQL** database, which simplified data interaction. Dependency management was handled by **Maven**, and the integration of **Lombok** helped me maintain clean and concise code.</p>
+        <h4>Tecnologías Backend</h4>
+        <p>En el backend, utilicé **Java con Spring Boot 3.5.3**, creando un sistema escalable y de alto rendimiento. Para la capa de persistencia, integré **Spring Data JPA** con una base de datos **MySQL**, lo que simplificó la interacción con los datos. La gestión de dependencias fue manejada por **Maven**, y la integración de **Lombok** me ayudó a mantener un código limpio y conciso.</p>
         
-        <h4>User Interface</h4>
-        <p>The user interface was built with **Thymeleaf**, a template engine that integrates perfectly with Spring. This allowed me to develop a fluid user experience and generate dynamic server-side views.</p>
+        <h4>Interfaz de Usuario</h4>
+        <p>La interfaz de usuario fue construida con **Thymeleaf**, un motor de plantillas que se integra perfectamente con Spring. Esto me permitió desarrollar una experiencia de usuario fluida y generar vistas dinámicas del lado del servidor.</p>
         
-        <p>In summary, this project is a concrete proof of my skills as a full-stack developer, demonstrating my ability to build complete and practical solutions that solve real-world problems.</p>
-        `,
+        <p>En resumen, este proyecto es una prueba concreta de mis habilidades como desarrollador full-stack, demostrando mi capacidad para construir soluciones completas y prácticas que resuelven problemas del mundo real.</p>
+    `,
     images: [
-      "Media/Proyectos/Proyecto3/imagenPrincipal.jpeg",
-      "Media/Proyectos/Proyecto3/Pantalla_AgregarContactol.jpg",
-      "Media/Proyectos/Proyecto3/Pantalla_EditarContacto.jpg",
-      "Media/Proyectos/Proyecto3/Pantalla_principal.jpg",
+      "Media/Proyectos/Proyecto31/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto31/Pantalla_AgregarContactol.jpg",
+      "Media/Proyectos/Proyecto31/Pantalla_EditarContacto.jpg",
+      "Media/Proyectos/Proyecto31/Pantalla_principal.jpg",
     ],
     skills: [
       "Spring Framework",
@@ -1348,6 +1332,133 @@ const projectsData = {
       github: "https://github.com/jherraizsoler/contactos_Thymeleaf-SpringBoot",
       linkedin:
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363947996163510272-Z__I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+    },
+  },
+
+
+  // Ingles
+  "1_en": {
+    title: "OmniCare AI - Autonomous Medical Agent System",
+    content: `
+        <h3>Project Description</h3>
+        <p>OmniCare AI is a cutting-edge engineering solution where enterprise software development converges with <b>Generative AI</b>. It is an autonomous agent ecosystem designed under a scalable microservices architecture, capable of automating complex clinical processes through advanced reasoning.</p>
+        
+        <h4>Hybrid Architecture & Robust Software</h4>
+        <p>The system leverages a distributed infrastructure where each component plays a critical role:</p>
+        <ul>
+            <li><b>Backend Core (.NET 8):</b> Manages business logic and real-time response streaming, professionally documented with Scalar.</li>
+            <li><b>AI Engine (LangGraph & FastAPI):</b> Orchestrates autonomous agents (Retriever, Analyst, Ethics Reviewer) using state graphs to ensure traceability.</li>
+            <li><b>Data Layer (Django 5.0):</b> Handles persistence, JWT security, and Big Data auditing for clinical trends.</li>
+            <li><b>Frontend (Streamlit):</b> Dynamic dashboard featuring role-based adaptive interfaces.</li>
+        </ul>
+        
+        <h4>Specialized Management & Ethics</h4>
+        <p>The system implements granular access control for <b>Supervisors, Doctors, and Patients</b>. Furthermore, it includes an <b>Ethics Reviewer Agent</b> that ethically validates every AI response, ensuring regulatory compliance within healthcare environments.</p>
+    `,
+    images: [
+      "Media/Proyectos/Proyecto1/banner_github_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/login_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/paciente_chat_Medico_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/medico_Mis_Pacientes_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/medico_registrar_paciente_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/medico_pdf_Informe_Clinico_digital_paciente_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/supervisor_Medicos_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/supervisor_Auditoria_OmniCareAI.png",
+      "Media/Proyectos/Proyecto1/supervisor_Perfil_OmniCareAI.png",
+    ],
+    skills: [
+      ".NET 8",
+      "LangGraph",
+      "Python",
+      "FastAPI",
+      "Django 5.0",
+      "Microservicios",
+      "Agentic AI",
+      "Big Data",
+      "Clean Architecture",
+      "IA Generativa",
+      "JWT Security",
+      "Scalar",
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/OmniCare-AI",
+      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_proyectoabrfinalizado-ai-softwarearchitecture-activity-7414018104952856576-z2Bv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+    },
+  },
+  "2_en": {
+    title: "Specialization in Autonomous Agents (LangChain & LangGraph)",
+    content: `
+        <h3>Generative AI Specialist</h3>
+        <p>During late 2025, I developed an AI application ecosystem focused on enterprise solutions, evolving from simple prompting to <b>Autonomous Agents</b> with advanced reasoning and persistent memory.</p>
+        
+        <h4>Ecosystem Technical Milestones</h4>
+        <ul>
+            <li><b>Multi-Agent SOC:</b> Coordination of specialized agents for cybersecurity threat analysis.</li>
+            <li><b>RAG Legal Assistant:</b> Contract analysis system using semantic retrieval with ChromaDB and FAISS.</li>
+            <li><b>Intelligent Helpdesk:</b> Agent featuring human escalation and advanced flow control (Human-in-the-loop).</li>
+            <li><b>CV Screening System:</b> Automated candidate evaluation integrating multiple data sources.</li>
+        </ul>
+        
+        <h4>Architecture & Capabilities</h4>
+        <p>Implementation of cyclic workflows with <b>LangGraph</b>, enabling pausing, resuming, and hybrid memory management (Checkpoints and Sliding Windows). Integration of external tools such as Tavily Search and Gmail Toolkit for real-world actions.</p>
+    `,
+    images: [
+      "Media/Proyectos/Proyecto2/portada_proyecto_LangChain_LangGraph.png"
+    ],
+    skills: [
+      "LangGraph",
+      "LangChain (LCEL)",
+      "Python",
+      "RAG (Retrieval Augmented Generation)",
+      "OpenAI GPT-4o",
+      "Google Gemini",
+      "ChromaDB / FAISS",
+      "Streamlit",
+      "FastAPI",
+      "Agentes de IA",
+      "Liderazgo Técnico"
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/LangGraph-LangChain-Agentic-Workflows",
+      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_inteligenciaartificial-aiforbusiness-langgraph-activity-7410688640797917184-reJP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk"
+    },
+  },
+  "3_en": {
+    title: "High-Volume Architectures: IA & Big Data (500TB)",
+    content: `
+        <h3>Data Engineering & Advanced AI</h3>
+        <p>This project is a comprehensive Proof of Concept (PoC) addressing modern data engineering and large-scale AI challenges, focused on five strategic pillars to ensure scalability and diagnostic precision.</p>
+        
+        <h4>Strategic Pillars & Architecture</h4>
+        <ul>
+            <li><b>Big Data Systems (SBD):</b> Infrastructure design based on <b>Lambda Architecture</b> for hybrid processing (Batch/Streaming) of 500TB of data under ACID properties.</li>
+            <li><b>Computer Vision (MIA):</b> Implementation of Convolutional Neural Networks (CNN) using <b>TensorFlow</b> and MobileNetV2, following responsible AI frameworks.</li>
+            <li><b>Predictive Engineering (PIA):</b> Classification models utilizing Bayesian Inference and state-space optimization with heuristic search algorithms.</li>
+            <li><b>Machine Learning Strategy (SAA):</b> Robustness auditing through ROC/AUC curves and uncertainty management using fuzzy logic.</li>
+            <li><b>Security & Data Mining (BDA):</b> Critical data protection via RSA cryptography and NoSQL database management with MongoDB.</li>
+        </ul>
+        
+        <h4>Technical Impact</h4>
+        <p>Integration of a robust technology stack (Python, R, TensorFlow, MongoDB) focused on statistical rigor, high-volume asset processing efficiency, and the most demanding industry standards.</p>
+    `,
+    images: [
+      "Media/Proyectos/Proyecto3/Portada_Informes_IA_BigData.png",
+    ],
+    skills: [
+      "Arquitectura Lambda",
+      "Big Data (500TB)",
+      "TensorFlow",
+      "Machine Learning Engineering",
+      "MongoDB (NoSQL)",
+      "Deep Learning",
+      "Inferencia Bayesiana",
+      "Cloud (AWS/Azure)",
+      "Criptografía RSA",
+      "Python / R"
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/informes_ia_bigdata",
+      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_informe-pia-activity-7407811986094374913-2SVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk"
     },
   },
   "4_en": {
@@ -2412,7 +2523,144 @@ const projectsData = {
     links: {
         linkedin: "https://lnkd.in/p/d_p9d42i"
     }
-}
+  },
+  "29_en": {
+    title: "FullStack App Desktop Task System Project",
+    content: `
+        <h3>Project Description</h3>
+        <p>This project is a **Full-Stack desktop** application designed for comprehensive task management. It combines a robust backend with a modern, native user interface to provide a fluid and efficient experience. Its objective is to offer a complete tool for performing **CRUD** operations (Create, Read, Update, and Delete).</p>
+        
+        <h4>Backend: The System's Core</h4>
+        <p>The backend is developed with **Spring Boot** and **Spring Framework**, ensuring a solid architecture. It uses **JPA** (Java Persistence API) for persistence, with information stored in a **MySQL** database. The integration of **Lombok** optimizes the code and reduces verbosity for more agile development.</p>
+        
+        <h4>Frontend: Modern User Experience</h4>
+        <p>The frontend is built with **JavaFX**, a library for creating desktop user interfaces. This choice allows for designing a modern, native UX/UI that integrates seamlessly with the user's operating system.</p>
+        
+        <h4>Integration and Full Functionality</h4>
+        <p>The project is a true Full-Stack system, where the frontend communicates with the Spring Boot backend through a **RESTful API**. This separation of responsibilities allows each layer to be developed independently.</p>
+    `,
+    images: [
+      "Media/Proyectos/Proyecto29/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto29/ventanaPrincipal_1.jpeg",
+    ],
+    skills: [
+      "JavaFX",
+      "Spring Framework",
+      "MySQL",
+      "Programación",
+      "Maven",
+      "JPA",
+      "Spring Boot",
+      "Lombok",
+      "Gestión de proyectos",
+      "Metodologías ágiles",
+      "Capacidad de análisis e investigación",
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/tareas_JavaFX-SpringBoot",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363223176245370881-Sg4H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+    },
+  },
+  "30_en": {
+    title: "FullStack App Web People System Project",
+    content: `
+        <h3>Project Description</h3>
+        <p>I developed a complete people management system, applying a **full-stack approach with Jakarta EE technologies**. The project is built on a robust architecture, using a modern and enterprise-grade stack ideal for business applications.</p>
+        
+        <h4>Presentation Layer</h4>
+        <p>I designed and developed the user interface with **Jakarta Server Faces (JSF)**, enhanced with the **PrimeFaces** component library for an interactive and responsive web experience.</p>
+        
+        <h4>Business Logic and Persistence</h4>
+        <p>The business logic is implemented securely and transactionally with **Enterprise JavaBeans (EJB)**, while data persistence is managed with **Jakarta Persistence API (JPA)** and **EclipseLink** for efficient ORM mapping to a **MySQL** database. The deployment was carried out on a **GlassFish 8.0.0** server.</p>
+        
+        <h4>Security and Modularity</h4>
+        <p>The system includes a security module with user roles (admin, user, guest), ensuring controlled access to functionalities. This project demonstrates a solid understanding of enterprise software development best practices, including the separation of concerns and code modularity, which makes it an easily scalable and maintainable project.</p>
+        
+        <h4>Documentation</h4>
+        <p>The project includes installation and configuration manuals in the README.md section, and the documentation package contains everything necessary and the requirements to test the project in **Netbeans**.</p>
+    `,
+    images: [
+      "Media/Proyectos/Proyecto30/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto30/Pantalla_EditarPersona.jpg",
+      "Media/Proyectos/Proyecto30/Pantalla_EliminarPersona.jpg",
+      "Media/Proyectos/Proyecto30/Pantalla_ListadoPersonas.jpg",
+      "Media/Proyectos/Proyecto30/Pantalla_Login_Usuario_es_admin o user_Contraseña_es_123_.jpg",
+      "Media/Proyectos/Proyecto30/Pantalla_Principal_User_.jpg",
+    ],
+    skills: [
+      "Jakarta EE",
+      "MySQL",
+      "GlassFish",
+      "Jakarta JWS",
+      "PrimeFaces",
+      "Maven",
+      "EJB",
+      "SLF4J",
+      "JPA",
+      "EclipseLink",
+      "Java",
+      "Gestión y documentación de proyectos",
+      "HTML5",
+      "Metodologías ágiles",
+      "Apache Netbeans IDE",
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/personas-ejb-jee-web",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364310370116583424-1ZNv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+    },
+  },
+  "31_en": {
+    title: "FullStack App Web Contact System Project",
+    content: `
+        <h3>Project Description</h3>
+        <p>I developed a complete and functional **Contact Management System**, designed for efficient information administration. This full-stack project allowed me to apply my knowledge in web application development, from data persistence to the user interface, using a modern and robust technology stack.</p>
+        
+        <h4>CRUD Functionality</h4>
+        <p>The heart of the application is the **CRUD (Create, Read, Update, Delete)** functionality, which allows users to manage their contacts intuitively and securely. Each operation is validated to ensure data integrity.</p>
+        
+        <h4>Backend Technologies</h4>
+        <p>On the backend, I used **Java with Spring Boot 3.5.3**, creating a scalable and high-performance system. For the persistence layer, I integrated **Spring Data JPA** with a **MySQL** database, which simplified data interaction. Dependency management was handled by **Maven**, and the integration of **Lombok** helped me maintain clean and concise code.</p>
+        
+        <h4>User Interface</h4>
+        <p>The user interface was built with **Thymeleaf**, a template engine that integrates perfectly with Spring. This allowed me to develop a fluid user experience and generate dynamic server-side views.</p>
+        
+        <p>In summary, this project is a concrete proof of my skills as a full-stack developer, demonstrating my ability to build complete and practical solutions that solve real-world problems.</p>
+        `,
+    images: [
+      "Media/Proyectos/Proyecto31/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto31/Pantalla_AgregarContactol.jpg",
+      "Media/Proyectos/Proyecto31/Pantalla_EditarContacto.jpg",
+      "Media/Proyectos/Proyecto31/Pantalla_principal.jpg",
+    ],
+    skills: [
+      "Spring Framework",
+      "MySQL",
+      "Thymeleaf",
+      "Programación",
+      "Maven",
+      "JPA",
+      "Administración de sistemas y servidores",
+      "CSS Responsive",
+      "SASS",
+      "Flexbox",
+      "Grid",
+      "Bootstrap",
+      "Spring Boot",
+      "Analítico y algorítmico",
+      "Gestión y documentación de proyectos",
+      "Metodologías ágiles",
+      "Planificación de proyectos",
+      "Lombok",
+      "Capacidad de análisis e investigación",
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/contactos_Thymeleaf-SpringBoot",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363947996163510272-Z__I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+    },
+  },
 
 
 

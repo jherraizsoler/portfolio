@@ -239,7 +239,7 @@
         </div>
     </nav>
 
-    <label for="mobile-nav">Navegación:</label>
+    <label for="mobile-nav" class="visually-hidden">Navegación:</label>
     <select id="mobile-nav" class="mobile-nav" onchange="window.location.href=this.value">
         <option value="" selected disabled>Selecciona una sección</option>
         <option value="#contenedorSeccionesAcademicas">Académico</option>
@@ -298,7 +298,7 @@
 
         <div id="contenedorSeccionesAcademicas">
             <h2 id="Academico" class="titulos">Formación Académica</h2>
-            <sl-tab-group class="centered-tabs" style="--sl-color-primary-500: #04b61f;">
+            <sl-tab-group class="centered-tabs">
                 <sl-tab slot="nav" panel="desarrollador">Desarrollador</sl-tab>
                 <sl-tab slot="nav" panel="bigdata_ia">Big Data - IA</sl-tab>
                 <sl-tab slot="nav" panel="soporte_it">Soporte IT</sl-tab>
@@ -330,7 +330,7 @@
                             </ul>
                         </div>
                         <a href="https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/des-aplicaciones-multiplataforma.html"
-                            target="_blank" class="panel-link">Saber más</a>
+                            rel="noopener noreferrer" target="_blank" class="panel-link">Saber más</a>
                     </div>
                 </sl-tab-panel>
 
@@ -350,7 +350,7 @@
                                 <li>Big Data aplicado.</li>
                             </ul>
                         </div>
-                        <a href="https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/ce-inteligencia-artificial-bigdata.html" target="_blank" class="panel-link">Saber más</a>
+                        <a href="https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/ce-inteligencia-artificial-bigdata.html" rel="noopener noreferrer" target="_blank" class="panel-link">Saber más</a>
                     </div>
                 </sl-tab-panel>
 
@@ -378,7 +378,7 @@
                             </ul>
                         </div>
                         <a href="https://www.todofp.es/que-estudiar/familias-profesionales/informatica-comunicaciones/sistemas-microniformaticos-redes.html"
-                            target="_blank" class="panel-link">Saber más</a>
+                           rel="noopener noreferrer" target="_blank" class="panel-link">Saber más</a>
                     </div>
                 </sl-tab-panel>
 
@@ -386,10 +386,9 @@
             </sl-tab-group>
         </div>
 
-
         <div id="contenedorSeccionesExperiencia">
             <h2 id="ExperienciaLaboral" class="titulos">Experiencia Laboral</h2>
-            <sl-tab-group class="centered-tabs" style="--sl-color-primary-500: #04b61f;">
+            <sl-tab-group class="centered-tabs">
                 <sl-tab slot="nav" panel="desarrolladorExperiencia">Desarrollador</sl-tab>
                 <sl-tab slot="nav" panel="soporte_itExperiencia">Soporte IT</sl-tab>
 
@@ -496,7 +495,7 @@
                         </div>
                         <br>
                         <a href="https://www.k-tuin.com/"
-                            target="_blank" class="panel-link">Saber más</a>
+                            rel="noopener noreferrer" target="_blank" class="panel-link">Saber más</a>
                     </div>
                 </sl-tab-panel>
 
@@ -509,27 +508,27 @@
             <div class="articles">
                 <article class="project-card" data-project-id="1_es">
                     <figure>
-                        <img src="Media/Proyectos/Proyecto1/imagenPrincipal.jpeg" alt="Preview">
+                        <img src="Media/Proyectos/Proyecto1/banner_github_OmniCareAI.png" alt="Preview">
                     </figure>
                     <div class="article-preview">
-                        <h2>Proyecto FullStack App Desktop Sistema de Tareas</h2>
+                        <h2>OmniCare AI: Sistema de Agentes Médicos</h2>
                     </div>
                 </article>
 
                 <article class="project-card" data-project-id="2_es">
                     <figure>
-                        <img src="Media/Proyectos/Proyecto2/imagenPrincipal.jpeg" alt="Preview">
+                        <img src="Media/Proyectos/Proyecto2/portada_pequeña_proyecto_LangChain_LangGraph.png" alt="Preview">
                     </figure>
                     <div class="article-preview">
-                        <h2>Proyecto FullStack App Web Sistema de Personas</h2>
+                        <h2>Ecosistema de Agentes: LangChain & LangGraph</h2>
                     </div>
                 </article>
                 <article class="project-card" data-project-id="3_es">
                     <figure>
-                        <img src="Media/Proyectos/Proyecto3/imagenPrincipal.jpeg" alt="Preview">
+                        <img src="Media/Proyectos/Proyecto3/Portada_Informes_IA_BigData.png" alt="Preview">
                     </figure>
                     <div class="article-preview">
-                        <h2>Proyecto FullStack App Web Sistema de Contactos</h2>
+                        <h2>Arquitecturas Big Data & IA Alta Volumetría</h2>
                     </div>
                 </article>
                 <article class="project-card" data-project-id="4_es">
@@ -732,6 +731,31 @@
                         <h2>Documentación completa de la red de una empresa (Ficticia) y simulación con Cisco Packet Tracer</h2>
                     </div>
                 </article>
+                <article class="project-card" data-project-id="29_es">
+                    <figure>
+                        <img src="Media/Proyectos/Proyecto29/imagenPrincipal.jpeg" alt="Preview">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Proyecto FullStack App Desktop Sistema de Tareas</h2>
+                    </div>
+                </article>
+
+                <article class="project-card" data-project-id="30_es">
+                    <figure>
+                        <img src="Media/Proyectos/Proyecto30/imagenPrincipal.jpeg" alt="Preview">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Proyecto FullStack App Web Sistema de Personas</h2>
+                    </div>
+                </article>
+                <article class="project-card" data-project-id="31_es">
+                    <figure>
+                        <img src="Media/Proyectos/Proyecto31/imagenPrincipal.jpeg" alt="Preview">
+                    </figure>
+                    <div class="article-preview">
+                        <h2>Proyecto FullStack App Web Sistema de Contactos</h2>
+                    </div>
+                </article>
             </div>
         </div>
         <div id="fullscreen-image-viewer" class="fullscreen-image-viewer">
@@ -748,6 +772,7 @@
         <!-- Sección cursos certificaciones o insignias-->
         <div id="contenedorSeccionesCCI">
             <h2 id="Academico" class="titulos">Cursos y Certificaciones</h2>
+            <!-- AWS Academy Graduate - AWS Academy Cloud Foundations -->
             <div class="containerCCI">
                 <article class="cardCCI card_AWS_CCI">
                     <div class='backgroundCCI'>
@@ -781,6 +806,7 @@
                     </div>
                 </article>
             </div>
+            <!--  AWS Academy Graduate - AWS Academy Introduction to Cloud Semester 1 -->
             <div class="containerCCI">
                 <article class="cardCCI card_AWS_CCI">
                     <div class='backgroundCCI'>
@@ -816,6 +842,47 @@
                 </article>
             </div>
 
+            <!--  Udemy:HTML5 Course from scratch: The most complete course in Spanish -->
+            <div class="containerCCI">
+                <article class="cardCCI card_UDEMY_CCI">
+                    <div class='backgroundCCI'>
+                        <img src="Media/udemy2.jpg" alt="profile">
+                    </div>
+                    <div class='contentCCI'>
+                        <h2>Udemy: Curso Completo: LangChain, LangGraph y Agentes IA con Python</h2>
+                        <p>
+                            Certificado de finalización con
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
+                            <br>
+                            Instructores: Santiago Hernández
+                        </p>
+                        <p>Preparado para</p>
+                        <ul class="chipsCCI">
+                            <li class="chipCCI">LangChain & LangGraph</li>
+                            <li class="chipCCI">Agentes Autónomos con Python</li>
+                            <li class="chipCCI">RAG Avanzado (ChromaDB/FAISS)</li>
+                            <li class="chipCCI">Sistemas Multi-Agente</li>
+                            <li class="chipCCI">Memoria Inteligente & Checkpoints</li>
+                            <li class="chipCCI">Human-in-the-loop (Escalado Humano)</li>
+                            <li class="chipCCI">Prompt Engineering & Pydantic</li>
+                            <li class="chipCCI">Integración LLMs (OpenAI/Gemini)</li>
+                            <li class="chipCCI">Automatización de Workflows IA</li>
+                        </ul>
+                        <div class="action-buttonsCCI">
+                            <a href="https://www.udemy.com/certificate/UC-50d85abc-606e-4f55-bf65-01d5ccebdf9a/"
+                                rel="noopener noreferrer" target="_blank">
+                                Certificación
+                            </a>
+                            <a href="https://www.udemy.com/course/curso-completo-langchain-langgraph-y-agentes-ia-con-python/"
+                                 rel="noopener noreferrer" target="_blank" class="secondaryCCI">
+                                Saber más
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!--  Udemy:HTML5 Course from scratch: The most complete course in Spanish -->
             <div class="containerCCI">
                 <article class="cardCCI card_UDEMY_CCI">
                     <div class='backgroundCCI'>
@@ -853,7 +920,7 @@
                     </div>
                 </article>
             </div>
-
+            <!--  Udemy: Master in CSS3: Responsive, SASS, Flexbox, Grid and Bootstrap -->
             <div class="containerCCI">
                 <article class="cardCCI card_UDEMY_CCI">
                     <div class='backgroundCCI'>
@@ -894,7 +961,7 @@
                     </div>
                 </article>
             </div>
-
+            <!--  Udemy: UX: Máster en Diseño web y Experiencia de Usuario -->
             <div class="containerCCI">
                 <article class="cardCCI card_UDEMY_CCI">
                     <div class='backgroundCCI'>
@@ -931,7 +998,7 @@
                 </article>
             </div>
 
-
+            <!--  Udemy: Certificate of Completion: Java University - Zero to Expert - Updated (+150 hrs) -->
             <div class="containerCCI">
                 <article class="cardCCI card_UDEMY_CCI">
                     <div class='backgroundCCI'>
@@ -975,7 +1042,7 @@
                     </div>
                 </article>
             </div>
-
+            <!--  freeCodeCamp: JavaScript Algorithms and Data Structures -->
             <div class="containerCCI">
                 <article class="cardCCI card_FCC_CCI">
                     <div class='backgroundCCI'>
@@ -1019,7 +1086,7 @@
                 </article>
             </div>
 
-
+            <!--  Cisco: Networking basics -->
             <div class="containerCCI">
                 <article class="cardCCI card_CISCO_CCI">
                     <div class='backgroundCCI'>
@@ -1055,8 +1122,7 @@
                 </article>
             </div>
 
-
-
+            <!--  Cisco: Course DAM - NDG Linux Essentials: View report -->
             <div class="containerCCI">
                 <article class="cardCCI card_CISCO_CCI">
                     <div class='backgroundCCI'>
@@ -1088,6 +1154,7 @@
                 </article>
             </div>
 
+            <!--  Cisco: Certificado de finalización: Python Essentials 1 -->
             <div class="containerCCI">
                 <article class="cardCCI card_CISCO_CCI">
                     <div class='backgroundCCI'>
@@ -1126,6 +1193,7 @@
                 </article>
             </div>
 
+            <!--  Cisco: Certificado de finalización: Python Essentials 2 -->
             <div class="containerCCI">
                 <article class="cardCCI card_CISCO_CCI">
                     <div class='backgroundCCI'>
@@ -1164,7 +1232,7 @@
                 </article>
             </div>
 
-
+            <!--  Google Cloud Skills Boost: Introduction to Generative AI Studio -->
             <div class="containerCCI">
                 <article class="cardCCI card_GC_CCI">
                     <div class='backgroundCCI'>
@@ -1197,7 +1265,7 @@
                 </article>
             </div>
 
-
+            <!--  Oracle University: Java Explorer -->
             <div class="containerCCI">
                 <article class="cardCCI card_ORACLE_CCI">
                     <div class='backgroundCCI'>
@@ -1233,121 +1301,113 @@
                     </div>
                 </article>
             </div>
-
         </div>
 
-        <div id="contenedorTecnologias">
+       <div id="contenedorTecnologias">
             <h2 id="Tecnologias" class="titulos">Tecnologías</h2>
             <div class="skills-grid">
                 <div class="skill-category">
+                    <h3>Inteligencia Artificial & Big Data</h3>
+                    <div class="skill-list">
+                        <span>LangChain</span>
+                        <span>LangGraph</span>
+                        <span>RAG (Retrieval)</span>
+                        <span>TensorFlow</span>
+                        <span>OpenAI / Gemini</span>
+                        <span>ChromaDB / FAISS</span>
+                        <span>Arquitectura Lambda</span>
+                        <span>Deep Learning</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
                     <h3>Lenguajes de Programación</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_azul">Java</span>
-                        <span class="skill-pill_azul">C#</span>
-                        <span class="skill-pill_azul">Python</span>
-                        <span class="skill-pill_azul">JavaScript</span>
-                        <span class="skill-pill_azul">TypeScript</span>
-                        <span class="skill-pill_azul">Kotlin</span>
+                        <span>Java</span>
+                        <span>C#</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>Kotlin</span>
+                        <span>R (Data Science)</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Frameworks & Servidores Backend</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_verde">Spring</span>
-                        <span class="skill-pill_verde">Spring Boot</span>
-                        <span class="skill-pill_verde">.NET</span>
-                        <span class="skill-pill_verde">JakartaEE</span>
-                        <span class="skill-pill_verde">Tomcat 7</span>
-                        <span class="skill-pill_verde">Tomcat 9</span>
-                        <span class="skill-pill_verde">Glassfish</span>
-                        <span class="skill-pill_verde">Servlets</span>
-                        <span class="skill-pill_verde">EJB</span>
+                        <span>Spring / Spring Boot</span>
+                        <span>.NET 8</span>
+                        <span>FastAPI</span>
+                        <span>Django 5.0</span>
+                        <span>JakartaEE</span>
+                        <span>Tomcat 7 / 9</span>
+                        <span>Glassfish</span>
+                        <span>Servlets / EJB</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Bases de Datos & Persistencia</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_morado">SQL Server</span>
-                        <span class="skill-pill_morado">MySQL</span>
-                        <span class="skill-pill_morado">Oracle</span>
-                        <span class="skill-pill_morado">PostgreSQL</span>
-                        <span class="skill-pill_morado">MongoDB</span>
-                        <span class="skill-pill_morado">Hibernate</span>
-                        <span class="skill-pill_morado">JPA</span>
-                        <span class="skill-pill_morado">Entity Framework</span>
-                        <span class="skill-pill_morado">EclipseLink</span>
+                        <span>SQL Server</span>
+                        <span>MySQL</span>
+                        <span>Oracle</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB (NoSQL)</span>
+                        <span>Hibernate / JPA</span>
+                        <span>Entity Framework</span>
+                        <span>EclipseLink</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Frameworks & Librerías Frontend</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_naranja">React</span>
-                        <span class="skill-pill_naranja">Angular</span>
-                        <span class="skill-pill_naranja">jQuery</span>
-                        <span class="skill-pill_naranja">Bootstrap</span>
-                        <span class="skill-pill_naranja">jqGrid</span>
-                        <span class="skill-pill_naranja">JSF</span>
-                        <span class="skill-pill_naranja">JSP</span>
-                        <span class="skill-pill_naranja">JSPx</span>
-                        <span class="skill-pill_naranja">JSTL</span>
-                        <span class="skill-pill_naranja">Primefaces</span>
-                        <span class="skill-pill_naranja">Flatlaf</span>
-                        <span class="skill-pill_naranja">Swing</span>
-                        <span class="skill-pill_naranja">JavaFX</span>
-                        <span class="skill-pill_naranja">Facelets</span>
+                        <span>React</span>
+                        <span>Angular</span>
+                        <span>Streamlit</span>
+                        <span>Bootstrap</span>
+                        <span>jQuery / jqGrid</span>
+                        <span>JSF / JSP / JSPx</span>
+                        <span>JavaFX / Swing</span>
+                        <span>Primefaces</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Herramientas de Desarrollo y DevOps</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_roja">Git</span>
-                        <span class="skill-pill_roja">GitHub</span>
-                        <span class="skill-pill_roja">Eclipse</span>
-                        <span class="skill-pill_roja">Visual Studio</span>
-                        <span class="skill-pill_roja">IntelliJ IDEA</span>
-                        <span class="skill-pill_roja">NetBeans</span>
-                        <span class="skill-pill_roja">Postman</span>
-                        <span class="skill-pill_roja">AWS</span>
-                        <span class="skill-pill_roja">GitExtensions</span>
-                        <span class="skill-pill_roja">DiffMerge</span>
-                        <span class="skill-pill_roja">Swagger</span>
-                        <span class="skill-pill_roja">PuTTY</span>
+                        <span>Git / GitHub</span>
+                        <span>Docker / Microservicios</span>
+                        <span>AWS / Azure</span>
+                        <span>Postman / Swagger / Scalar</span>
+                        <span>IntelliJ / Visual Studio</span>
+                        <span>Eclipse / NetBeans</span>
+                        <span>Maven</span>
                     </div>
                 </div>
+
                 <div class="skill-category">
                     <h3>Tecnologías & Protocolos Web</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_verdeAzulado">JSON</span>
-                        <span class="skill-pill_verdeAzulado">XML</span>
-                        <span class="skill-pill_verdeAzulado">AJAX</span>
-                        <span class="skill-pill_verdeAzulado">JasperReports</span>
-                        <span class="skill-pill_verdeAzulado">TLS/SSL</span>
-                        <span class="skill-pill_verdeAzulado">JWS</span>
-                        <span class="skill-pill_verdeAzulado">FormData</span>
-                        <span class="skill-pill_verdeAzulado">Cookies</span>
-                        <span class="skill-pill_verdeAzulado">RSS</span>
-                        <span class="skill-pill_verdeAzulado">ATOM</span>
-                        <span class="skill-pill_verdeAzulado">XSLT</span>
-                        <span class="skill-pill_verdeAzulado">XPath</span>
-                        <span class="skill-pill_verdeAzulado">XQuery</span>
+                        <span>JSON / XML</span>
+                        <span>AJAX / WebSockets</span>
+                        <span>JWT / SSL</span>
+                        <span>XSLT / XPath / XQuery</span>
+                        <span>JasperReports</span>
                     </div>
                 </div>
-                
 
                 <div class="skill-category">
                     <h3>Librerías & Sistemas Específicos</h3>
                     <div class="skill-list">
-                        <span class="skill-pill_rosa">Odoo</span>
-                        <span class="skill-pill_rosa">Lombok</span>
-                        <span class="skill-pill_rosa">JDBC</span>
-                        <span class="skill-pill_rosa">iTextPDF</span>
-                        <span class="skill-pill_rosa">Thymeleaf</span>
-                        <span class="skill-pill_rosa">SLF4J</span>
-                        <span class="skill-pill_rosa">Log4j</span>
+                        <span>Odoo</span>
+                        <span>Lombok</span>
+                        <span>JDBC</span>
+                        <span>Thymeleaf</span>
+                        <span>Log4j / SLF4J</span>
+                        <span>Tavily Search</span>
                     </div>
                 </div>
             </div>

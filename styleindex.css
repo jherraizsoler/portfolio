@@ -48,11 +48,7 @@
 
         --background-color-recomendation:  #1c2d47;
         --color-letras-autor: #b0b0b0; 
-
-
 }
-
-
 * {
     margin: 0;
     padding: 0;
@@ -60,13 +56,9 @@
     font-family: 'Poppins', sans-serif;
     
 }
-
-
 html {
 	scroll-behavior: smooth;
 }
-
-
 #bar{
     position: fixed;
     width: 100vw;
@@ -88,12 +80,10 @@ html {
     z-index: 1000;
     overflow: hidden;
 }
-
 ::-webkit-scrollbar{
     width: 0px;
     left: 0px;
 }
-
 .scroll-progress{
     width: 0%;
     background: linear-gradient(
@@ -112,7 +102,6 @@ html {
     left: 0;
     z-index: 5;
 }
-
 body{
     background-color: var(--primary-colorFondo);
     color: #ededed;
@@ -122,8 +111,6 @@ body{
     scrollbar-color: #00c6ff #242942;
 
 }
-
-
 .light_theme{
 
     --primary-colorFondo: #f6f6f6;
@@ -155,11 +142,6 @@ body{
 
 
 }
-
-
-
-
-
 .header{
     position: relative;
     width: 90%;
@@ -170,6 +152,17 @@ body{
     align-items: center;
     z-index: 10;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
 
 #a_portafolio{
     margin-left: 0px;
@@ -178,20 +171,16 @@ body{
     font-size: 40px;
     font-weight: bolder;
 }
-  
-
 #logo{
    width: 90px;
    margin-right: 10px;
 }
-
 #herramientas{
     position: fixed;
     top: 15px;
     right: 30px;
     z-index: 900;
 }
-
 .home{
    position: relative;
    height: 80vh;
@@ -200,15 +189,12 @@ body{
    padding: 0 5%;
    z-index: 2;
 }
-
 .home-content{
     max-width: 800px;
     z-index: 5;
     margin-left: 10%;
 
 }
-
-
 #textH1{
     display: flex;
 
@@ -217,90 +203,84 @@ body{
     color: var(--primary-color-Letras);
     z-index: 5;
     
-  }
-  
-  .listaTextH1{
+}
+.listaTextH1{
     margin-left: 10px;
-  }
-  
-  .containerTextH1{
+}
+.containerTextH1{
     display: flex;
     flex-direction: column;
-    
+}
    
-  }
-  
-  
-  .itemTextH1:nth-child(1){
+.itemTextH1:nth-child(1){
     position: absolute;
     animation: roll 8s ease 1s  backwards;
     -webkit-animation: roll 8s ease 1s  backwards;
     animation-delay: 0s;
     opacity: 0;
-  }
-  .itemTextH1:nth-child(2){
+}
+.itemTextH1:nth-child(2){
     position: absolute;
     animation: roll 8s ease 1s  backwards;
     -webkit-animation: roll 8s ease 1s  backwards;
     animation-delay: 2s;
     opacity: 0;
-  }
-  .itemTextH1:nth-child(3){
+}
+.itemTextH1:nth-child(3){
     position: absolute;
     animation: roll4 8s ease 1s  backwards;
     -webkit-animation: roll4 8s ease 1s  backwards;
     animation-delay: 4s;
     opacity: 1;
-  }
-  
+}
   
 
-  /** Start TabGroup Academic*/
+/** Start TabGroup Academic*/
 
-    /* Estilos para el contenedor de las pestañas */
-    sl-tab-group {
+/* Estilos para el contenedor de las pestañas */
+sl-tab-group {
         z-index: 5;
     /* Cambia el color de la barra inferior de las pestañas */
     --track-color: #555;
     /* El color del texto de la pestaña activa y del indicador */
     --indicator-color:  var(--sl-color-neutral-600);
-    }
+}
 
-    /* Estilos de las pestañas individuales (inactivas) */
-    sl-tab::part(base) {
-    /*Colordeltexto*/color: var(--sl-color-neutral-inactivas);
-    /*Eliminaelfondodelaspestañas*/background-color: transparent;
-    /*Añadeunespaciadointeriorparaqueseveanmásgrandes*/padding: 1rem 1.5rem;
-    /*Suavizaloscambiosconunatransición*/transition: all 0.2s ease-in-out;
+/* Estilos de las pestañas individuales (inactivas) */
+sl-tab::part(base) {
+    color: var(--sl-color-neutral-inactivas);  /*Colordeltexto*/
+    background-color: transparent;             /*Eliminaelfondodelaspestañas*/
+    padding: 1rem 1.5rem;                      /*Añadeunespaciadointeriorparaqueseveanmásgrandes*/
+    transition: all 0.2s ease-in-out;          /*Suavizaloscambiosconunatransición*/
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
 }
 
-    /* Estilos para la pestaña activa */
-    sl-tab[aria-selected="true"]::part(base) {
+/* Estilos para la pestaña activa */
+sl-tab[aria-selected="true"]::part(base) {
     /* El color del texto se vuelve blanco al estar activo */
     color: var(--sl-color-neutral-600);
     /* Elimina el fondo si el tema oscuro está activado */
     background-color: transparent;
-    }
+}
 
-    /* Estilos al pasar el ratón por encima */
-    sl-tab:hover::part(base) {
+/* Estilos al pasar el ratón por encima */
+sl-tab:hover::part(base) {
     /* El color del texto se vuelve blanco al pasar el ratón */
      color: var(--sl-color-neutral-600);
-    }
+}
 
-    /* Centra los elementos de la barra de navegación */
-    .centered-tabs::part(nav) {
+/* Centra los elementos de la barra de navegación */
+.centered-tabs::part(nav) {
     display: flex;
     justify-content: center;
-    }
-    /** End TabGroup Academic*/
+    --sl-color-primary-500: #04b61f;
+}
+/** End TabGroup Academic*/
 
-
-  @keyframes roll{
+@keyframes roll{
      0% {
       opacity: 0;
       transform: translate3d(0, -70%, 0);
@@ -326,9 +306,9 @@ body{
       -o-transform: translate3d(0, 20%, 0);
   }
   
-  }
+}
 
-  @keyframes roll4{
+@keyframes roll4{
     0% {
      opacity: 0;
      transform: translate3d(0, -70%, 0);
@@ -345,7 +325,7 @@ body{
      -ms-transform: translateZ(0);
      -o-transform: translateZ(0);
    }
- }
+}
 
 .containerH3 .text{
     
@@ -360,23 +340,17 @@ body{
 }
  .containerH3 .text.first-text{
     content: "";
-    
-    
  }
 
  .containerH3 .text.sec-text{
     content: "";
-    
     visibility: hidden;
-    
  }
 
  .containerH3 .text.third-text{
     content: "";
     visibility: hidden;
  }
-
-
 
 .home-content p{
     font-size: 16px;
@@ -392,14 +366,11 @@ body{
     justify-content: space-between;
     width: 345px;
     height: 50px;
-  
 }
 
 .global-section-Home{
     display: flex;
     justify-content:space-evenly;
-
-
 }
 
 .btn-box a{
@@ -444,11 +415,9 @@ color:#081b29;
 
 }
 
-
 .btn-box a:nth-child(2)::before {
     background: #00abf0;
 }
-
 
 .btn-box a::before{
     content: '';
@@ -529,8 +498,6 @@ color:#081b29;
 .home-sci a:hover::before{
     width: 100%;
 }
-
-
 
 .container {
 
@@ -1579,8 +1546,6 @@ footer p{
     backdrop-filter: blur(2px);
     z-index: 90;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    
-    
 }
 
 #contenedorSeccionesCCI > .seccionCCI:hover{
@@ -1760,7 +1725,99 @@ footer p{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.skill-pill_naranja {
+
+
+
+
+/* Estilos para el contenedor de Tecnologías Web (el 1º) */
+.skills-grid > div:nth-child(1) {
+    background-color: #485abf; /* El color de fondo que elegiste */
+    border-radius: 8px;
+    padding: 15px;
+}
+.skills-grid > div:nth-child(1) h3 {
+    border-bottom: 2px solid #0cc3fb;
+    margin-bottom: 10px;
+}
+.skills-grid > div:nth-child(1) .skill-list span {
+    /* Usa la variable para el color de fondo */
+    background-color: var(--pill-color_azul);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+.skills-grid > div:nth-child(1) .skill-list span:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos para el contenedor de Tecnologías Web (el 2º) */
+.skills-grid > div:nth-child(2) {
+    background-color: #1b4d1d; /* El color de fondo que elegiste */
+    border-radius: 8px;
+    padding: 15px;
+}
+.skills-grid > div:nth-child(2) h3 {
+    border-bottom: 2px solid #219f25;
+    margin-bottom: 10px;
+}
+.skills-grid > div:nth-child(2) .skill-list span {
+    /* Usa la variable para el color de fondo */
+    background-color: var(--pill-color_verde);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+.skills-grid > div:nth-child(2) .skill-list span:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos para el contenedor de Tecnologías Web (el 3º) */
+.skills-grid > div:nth-child(3) {
+    background-color: #3f1c60; /* El color de fondo que elegiste */
+    border-radius: 8px;
+    padding: 15px;
+}
+.skills-grid > div:nth-child(3) h3 {
+    border-bottom: 2px solid #8d00c9;
+    margin-bottom: 10px;
+}
+.skills-grid > div:nth-child(3) .skill-list span {
+    /* Usa la variable para el color de fondo */
+    background-color: var(--pill-color_morado);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+.skills-grid > div:nth-child(3) .skill-list span:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos para el contenedor de Tecnologías Web (el 4º) */
+.skills-grid > div:nth-child(4) {
+    background-color: #b89944; /* El color de fondo que elegiste */
+    border-radius: 8px;
+    padding: 15px;
+}
+.skills-grid > div:nth-child(4) h3 {
+    border-bottom: 2px solid #4f2f00;
+    margin-bottom: 10px;
+}
+.skills-grid > div:nth-child(4) .skill-list span {
     /* Usa la variable para el color de fondo */
     background-color: var(--pill-color_naranja);
     color: white;
@@ -1770,14 +1827,23 @@ footer p{
     font-weight: 500;
     transition: transform 0.2s ease-in-out;
 }
-
-
-.skill-pill_naranja:hover {
+.skills-grid > div:nth-child(4) .skill-list span:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.skill-pill_roja {
+
+/* Estilos para el contenedor de Tecnologías Web (el 5º) */
+.skills-grid > div:nth-child(5) {
+    background-color: #6f2323; /* El color de fondo que elegiste */
+    border-radius: 8px;
+    padding: 15px;
+}
+.skills-grid > div:nth-child(5) h3 {
+    border-bottom: 2px solid #3b1414;
+    margin-bottom: 10px;
+}
+.skills-grid > div:nth-child(5) .skill-list span {
     /* Usa la variable para el color de fondo */
     background-color: var(--pill-color_rojo);
     color: white;
@@ -1787,14 +1853,23 @@ footer p{
     font-weight: 500;
     transition: transform 0.2s ease-in-out;
 }
-
-
-.skill-pill_roja:hover {
+.skills-grid > div:nth-child(5) .skill-list span:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.skill-pill_verdeAzulado {
+
+/* Estilos para el contenedor de Tecnologías Web (el 6º) */
+.skills-grid > div:nth-child(6) {
+    background-color: #598e9bf3; /* El color de fondo que elegiste */
+    border-radius: 8px;
+    padding: 15px;
+}
+.skills-grid > div:nth-child(6) h3 {
+    border-bottom: 2px solid #1f4c4e;
+    margin-bottom: 10px;
+}
+.skills-grid > div:nth-child(6) .skill-list span {
     /* Usa la variable para el color de fondo */
     background-color: var(--pill-color_verdeAzulado);
     color: white;
@@ -1804,15 +1879,50 @@ footer p{
     font-weight: 500;
     transition: transform 0.2s ease-in-out;
 }
-
-
-.skill-pill_verdeAzulado:hover {
+.skills-grid > div:nth-child(6) .skill-list span:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.skill-pill_rosa {
+
+/* Estilos para el contenedor de Tecnologías Web (el 7º) */
+.skills-grid > div:nth-child(7) {
+    background-color: #598e9bf3; /* El color de fondo que elegiste */
+    border-radius: 8px;
+    padding: 15px;
+}
+.skills-grid > div:nth-child(7) h3 {
+    border-bottom: 2px solid #1f4c4e;
+    margin-bottom: 10px;
+}
+.skills-grid > div:nth-child(7) .skill-list span {
     /* Usa la variable para el color de fondo */
+    background-color: var(--pill-color_verde);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+.skills-grid > div:nth-child(7) .skill-list span:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos para el contenedor de Tecnologías Web (el 8º) */
+.skills-grid > div:nth-child(8) {
+    background-color: #98599bf3; /* El color de fondo que elegiste */
+    border-radius: 8px;
+    padding: 15px;
+}
+.skills-grid > div:nth-child(8) h3 {
+    border-bottom: 2px solid #4e1f4e;
+    margin-bottom: 10px;
+}
+.skills-grid > div:nth-child(8) .skill-list span {
+     /* Usa la variable para el color de fondo */
     background-color: var(--pill-color_rosa);
     color: white;
     padding: 0.5rem 1rem;
@@ -1821,73 +1931,10 @@ footer p{
     font-weight: 500;
     transition: transform 0.2s ease-in-out;
 }
-
-
-.skill-pill_rosa:hover {
+.skills-grid > div:nth-child(8) .skill-list span:hover {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
-.skills-grid > div:nth-child(1) {
-    background-color: #485abf; /* Azul oscuro */
-}
-
-.skills-grid > div:nth-child(1) h3 {
-    border-bottom: 2px solid #0cc3fb;;
-}
-
-.skills-grid > div:nth-child(2) {
-    background-color: #1b4d1d; /* Azul ligeramente más claro */
-}
-
-.skills-grid > div:nth-child(2) h3 {
-    border-bottom: 2px solid #219f25;
-}
-
-.skills-grid > div:nth-child(3) {
-    background-color: #3f1c60; /* Azul medio */
-}
-
-.skills-grid > div:nth-child(3) h3 {
-    border-bottom: 2px solid #8d00c9;
-}
-
-/* Puedes seguir con esta lógica para más categorías */
-
-.skills-grid > div:nth-child(4) {
-    background-color: #b89944;
-}
-
-.skills-grid > div:nth-child(4) h3 {
-    border-bottom: 2px solid #4f2f00;
-}
-
-.skills-grid > div:nth-child(5) {
-    background-color: #6f2323;
-}
-
-.skills-grid > div:nth-child(5) h3 {
-    border-bottom: 2px solid #3b1414;
-}
-
-.skills-grid > div:nth-child(6) {
-    background-color: #307562;
-}
-
-.skills-grid > div:nth-child(6) h3 {
-    border-bottom: 2px solid #1f4e3d;
-}
-
-.skills-grid > div:nth-child(7) {
-    background-color: #98599bf3;
-}
-
-.skills-grid > div:nth-child(7) h3 {
-    border-bottom: 2px solid #4e1f4e;
-}
-
-
 
 
 #seccionAcademica{
@@ -1899,7 +1946,6 @@ footer p{
     margin-bottom: 50px;
     z-index: 2;
 }
-
 
 /* Estilos del contenedor de cada panel */
 .info-panel {
