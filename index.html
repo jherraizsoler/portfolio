@@ -41,7 +41,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/jherraizsoler" title="Github" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/jherraizsoler" title="Github" rel="noopener noreferrer"
+                                target="_blank">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 30 30"
                                     stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -135,7 +136,7 @@
                 <span class="text">Experience</span>
             </a>
         </div>
-         <!-- Proyectos -->
+        <!-- Proyectos -->
         <div class="elementos">
             <a href="#proyectos">
                 <svg class="icon" width="50px" height="50px" viewBox="0 0 24 24" fill="none"
@@ -206,7 +207,7 @@
                 <span class="text">Technologies</span>
             </a>
         </div>
-       
+
         <!-- Recomendations -->
         <div class="elementos">
             <a href="#contenedorRecomendaciones">
@@ -230,15 +231,15 @@
             </a>
         </div>
     </nav>
-    <label for="mobile-nav" class="visually-hidden">Navegación:</label
-    <select id="mobile-nav" class="mobile-nav" onchange="window.location.href=this.value">
-        <option value="" selected disabled hidden>Selecciona una sección</option>
-        <option value="#contenedorSeccionesAcademicas" hidden>Académico</option>
-        <option value="#contenedorSeccionesExperiencia" hidden>Experiencia</option>
-        <option value="#proyectos" hidden>Proyectos</option>
-        <option value="#contenedorSeccionesCCI" hidden>Cursos</option>
-        <option value="#contenedorTecnologias" hidden>Tecnologías</option>
-        <option value="#contenedorRecomendaciones" hidden>Recomendaciones</option>
+    <label for="mobile-nav" class="visually-hidden">Navegación:</label <select id="mobile-nav" class="mobile-nav"
+        onchange="window.location.href=this.value">
+    <option value="" selected disabled hidden>Selecciona una sección</option>
+    <option value="#contenedorSeccionesAcademicas" hidden>Académico</option>
+    <option value="#contenedorSeccionesExperiencia" hidden>Experiencia</option>
+    <option value="#proyectos" hidden>Proyectos</option>
+    <option value="#contenedorSeccionesCCI" hidden>Cursos</option>
+    <option value="#contenedorTecnologias" hidden>Tecnologías</option>
+    <option value="#contenedorRecomendaciones" hidden>Recomendaciones</option>
     </select>
 
 
@@ -287,9 +288,31 @@
         <div id="contenedorSeccionesAcademicas">
             <h2 id="Academico" class="titulos">Academic Section</h2>
             <sl-tab-group class="centered-tabs">
-                <sl-tab slot="nav" panel="desarrollador">Developer</sl-tab>
                 <sl-tab slot="nav" panel="bigdata_ia">Big Data - AI</sl-tab>
+                <sl-tab slot="nav" panel="desarrollador">Developer</sl-tab>
                 <sl-tab slot="nav" panel="soporte_it">IT Support</sl-tab>
+
+                <!-- Big Data - AI -->
+                <sl-tab-panel name="bigdata_ia">
+                    <div class="info-panel">
+                        <h3 class="panel-subtitle">Campus Digital FP</h3>
+                        <h2 class="panel-title">Big Data - AI</h2>
+                        <p class="panel-date">2025 - Ongoing</p>
+                        <div class="panel-content">
+                            <p><span>Highlight:</span> Brief description of the Big Data - AI course or training program
+                            </p>
+                            <p><span>Subjects:</span></p>
+                            <ul class="subjects-list">
+                                <li>Artificial Intelligence Models</li>
+                                <li>Machine Learning Systems</li>
+                                <li>AI Programming</li>
+                                <li>Big Data Systems</li>
+                                <li>Applied Big Data</li>
+                            </ul>
+                        </div>
+                        <a href="#" rel="noopener noreferrer" target="_blank" class="panel-link">Learn more</a>
+                    </div>
+                </sl-tab-panel>
 
                 <!-- Developer -->
                 <sl-tab-panel name="desarrollador">
@@ -322,28 +345,7 @@
                             rel="noopener noreferrer" target="_blank" class="panel-link">Learn more</a>
                     </div>
                 </sl-tab-panel>
-
-                <!-- Big Data - AI -->
-                <sl-tab-panel name="bigdata_ia">
-                    <div class="info-panel">
-                        <h3 class="panel-subtitle">Campus Digital FP</h3>
-                        <h2 class="panel-title">Big Data - AI</h2>
-                        <p class="panel-date">2025 - Ongoing</p>
-                        <div class="panel-content">
-                            <p><span>Highlight:</span> Brief description of the Big Data - AI course or training program
-                            </p>
-                            <p><span>Subjects:</span></p>
-                            <ul class="subjects-list">
-                                <li>Artificial Intelligence Models</li>
-                                <li>Machine Learning Systems</li>
-                                <li>AI Programming</li>
-                                <li>Big Data Systems</li>
-                                <li>Applied Big Data</li>
-                            </ul>
-                        </div>
-                        <a href="#" rel="noopener noreferrer" target="_blank" class="panel-link">Learn more</a>
-                    </div>
-                </sl-tab-panel>
+                
 
                 <!-- IT Support -->
                 <sl-tab-panel name="soporte_it">
@@ -381,8 +383,104 @@
         <div id="contenedorSeccionesExperiencia">
             <h2 id="ExperienciaLaboral" class="titulos">Work Experience</h2>
             <sl-tab-group class="centered-tabs">
+                <sl-tab slot="nav" panel="desarrollador-IA-Experiencia">Developer FullStack IA</sl-tab>
                 <sl-tab slot="nav" panel="desarrolladorExperiencia">Developer</sl-tab>
                 <sl-tab slot="nav" panel="soporte_itExperiencia">IT Support</sl-tab>
+
+                <sl-tab-panel name="desarrollador-IA-Experiencia">
+                    <div class="info-panel">
+                        <h3 class="panel-subtitle">Deveco.IT</h3>
+                        <h2 class="panel-title_Medio">AI FullStack Developer</h2> <br>
+                        <p class="panel-date">Permanent Contract · Feb 2026 - Present</p> <br>
+                        <div class="panel-content">
+                            <p>
+                                <span>Highlights:</span> Involved in the development of advanced AI solutions,
+                                autonomous agent architectures, and scalable enterprise systems focused on
+                                automation and decision-making.
+                            </p>
+                            <br>
+                            <p><span>Responsibilities:</span></p>
+                            <ul class="subjects-list">
+                                <li>
+                                    <strong>Architecture & Consulting:</strong>
+                                    <ul>
+                                        <li>Designed solutions as a Software Architect and AI & Big Data Consultant.
+                                        </li>
+                                        <li>Performed technical analysis and defined microservices-based architectures.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>AI & Backend Development:</strong>
+                                    <ul>
+                                        <li>Developed intelligent systems using Python, LangChain, and LangGraph.</li>
+                                        <li>Implemented APIs, business logic, and agent orchestration.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Frontend Development:</strong>
+                                    <ul>
+                                        <li>Built modern interfaces using React and TypeScript.</li>
+                                        <li>Developed data visualization and interactive tools for end users.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Automation & Microservices:</strong>
+                                    <ul>
+                                        <li>Automated business processes using n8n and distributed architectures.</li>
+                                        <li>Developed microservices-based applications.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>DevOps & Deployment:</strong>
+                                    <ul>
+                                        <li>Containerization with Docker and management using Portainer and Dockploy.
+                                        </li>
+                                        <li>Deployment on Azure and pipeline management with GitHub DevOps.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Testing & Quality:</strong>
+                                    <ul>
+                                        <li>Testing, maintenance, and optimization of production systems.</li>
+                                        <li>Technical auditing and continuous improvement of solutions.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>AI Specialization:</strong>
+                                    <ul>
+                                        <li>Design and orchestration of intelligent agents using LangGraph.</li>
+                                        <li>Automation of intelligent workflows and processes with n8n.</li>
+                                        <li>Prompt engineering and conversational system design.</li>
+                                        <li>Integration of voice solutions (Twilio, Vapi) and AI assistants.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <br>
+                            <p><span>Projects & Sectors:</span></p>
+                            <ul class="subjects-list">
+                                <li>Participation in 11 projects (updated April 2026).</li>
+                                <li>Sectors: insurance, healthcare (3D surgery and AI-based psychology), food SMEs,
+                                    custom manufacturing, chemical production and water control (legionella),
+                                    industrial automation, and AI-powered call centers.</li>
+                                <li>Development of solutions such as call assistants, OCR systems, order automation,
+                                    and enterprise management platforms.</li>
+                            </ul>
+
+                            <br>
+                            <p><span>Technologies:</span></p>
+                            <p>
+                                N8n | Python | LangChain | LangGraph | React | TypeScript | Docker | Portainer |
+                                Dockploy | Twilio | Vapi | Supabase | Azure | GitHub DevOps | Salesforce | Confluence |
+                                3D Slicer | Trame
+                            </p>
+                        </div>
+                        <br>
+                        <a href="https://deveco.it/es/" target="_blank" rel="noopener noreferrer"
+                            class="panel-link">Learn more</a>
+                    </div>
+                </sl-tab-panel>
 
                 <sl-tab-panel name="desarrolladorExperiencia">
                     <div class="info-panel">
@@ -513,7 +611,8 @@
                 </article>
                 <article class="project-card" data-project-id="30_en">
                     <figure>
-                        <img src="Media/Proyectos/Proyecto2/portada_pequeña_proyecto_LangChain_LangGraph.png" alt="Preview">
+                        <img src="Media/Proyectos/Proyecto2/portada_pequeña_proyecto_LangChain_LangGraph.png"
+                            alt="Preview">
                     </figure>
                     <div class="article-preview">
                         <h2>Agent Ecosystem: LangChain & LangGraph</h2>
@@ -724,7 +823,8 @@
                         <img src="Media/Proyectos/Proyecto28/imagenPrincipal.jpg" alt="Preview">
                     </figure>
                     <div class="article-preview">
-                        <h2>Complete Documentation of a Fictional Company's Network and Simulation with Cisco Packet Tracer</h2>
+                        <h2>Complete Documentation of a Fictional Company's Network and Simulation with Cisco Packet
+                            Tracer</h2>
                     </div>
                 </article>
                 <article class="project-card" data-project-id="3_en">
@@ -755,7 +855,7 @@
         </div>
 
         <div id="fullscreen-image-viewer" class="fullscreen-image-viewer">
-             <img id="fullscreen-image" src="" alt="Ampliada">
+            <img id="fullscreen-image" src="" alt="Ampliada">
         </div>
 
         <div class="modal-container" id="modal-container">
@@ -780,7 +880,8 @@
                         <h2>AWS Academy Graduate - AWS Academy Cloud Foundations</h2>
                         <p>
                             Issued by
-                            <a href="https://www.credly.com/organizations/amazon-web-services/badges" rel="noopener noreferrer" target="_blank"
+                            <a href="https://www.credly.com/organizations/amazon-web-services/badges"
+                                rel="noopener noreferrer" target="_blank"
                                 title="Amazon Web Services Training and Certification"> Amazon Web Services Training and
                                 Certification</a>
                         </p>
@@ -797,7 +898,8 @@
                                 rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://aws.amazon.com/training/awsacademy/" rel="noopener noreferrer" target="_blank" class="secondaryCCI">
+                            <a href="https://aws.amazon.com/training/awsacademy/" rel="noopener noreferrer"
+                                target="_blank" class="secondaryCCI">
                                 Learn more
                             </a>
                         </div>
@@ -814,7 +916,8 @@
                         <h2>AWS Academy Graduate - AWS Academy Introduction to Cloud Semester 1</h2>
                         <p>
                             Issued by
-                            <a href="https://www.credly.com/organizations/amazon-web-services/badges" rel="noopener noreferrer" target="_blank"
+                            <a href="https://www.credly.com/organizations/amazon-web-services/badges"
+                                rel="noopener noreferrer" target="_blank"
                                 title="Amazon Web Services Training and Certification"> Amazon Web Services Training and
                                 Certification</a>
                         </p>
@@ -832,7 +935,8 @@
                                 rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://aws.amazon.com/training/awsacademy/" rel="noopener noreferrer" target="_blank" class="secondaryCCI">
+                            <a href="https://aws.amazon.com/training/awsacademy/" rel="noopener noreferrer"
+                                target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -849,7 +953,8 @@
                         <h2>Udemy: Complete Course: LangChain, LangGraph, and AI Agents with Python</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy">
+                                Udemy</a>
                             <br>
                             Instructors: Santiago Hernández
                         </p>
@@ -871,7 +976,7 @@
                                 Certification
                             </a>
                             <a href="https://www.udemy.com/course/curso-completo-langchain-langgraph-y-agentes-ia-con-python/"
-                                 rel="noopener noreferrer" target="_blank" class="secondaryCCI">
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -889,7 +994,8 @@
                         <h2>Udemy:HTML5 Course from scratch: The most complete course in Spanish</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy">
+                                Udemy</a>
                             <br>
                             Instructors: Víctor Robles
                         </p>
@@ -928,7 +1034,8 @@
                         <h2>Udemy: Master in CSS3: Responsive, SASS, Flexbox, Grid and Bootstrap</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy">
+                                Udemy</a>
                             <br>
                             Instructors: Víctor Robles
                         </p>
@@ -971,7 +1078,8 @@
                         <h2>Udemy: UX: Máster en Diseño web y Experiencia de Usuario</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy">
+                                Udemy</a>
                             <br>
                             Instructors: Juan Fernando Urrego
                         </p>
@@ -1008,7 +1116,8 @@
                         <h2>Udemy: Certificate of Completion: Java University - Zero to Expert - Updated (+150 hrs)</h2>
                         <p>
                             Certificate of completion with
-                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy"> Udemy</a>
+                            <a href="https://www.udemy.com/" rel="noopener noreferrer" target="_blank" title="Udemy">
+                                Udemy</a>
                             <br>
                             Instructors: Global Mentoring Ing. Ubaldo Acosta
                         </p>
@@ -1054,7 +1163,8 @@
                         <h2>freeCodeCamp: JavaScript Algorithms and Data Structures</h2>
                         <p>
                             With
-                            <a href="https://www.freecodecamp.org/learn" rel="noopener noreferrer" target="_blank" title="freecodecamp">
+                            <a href="https://www.freecodecamp.org/learn" rel="noopener noreferrer" target="_blank"
+                                title="freecodecamp">
                                 freecodecamp</a>
                         </p>
                         <p>Prepared for</p>
@@ -1098,7 +1208,8 @@
                         <h2>Cisco: Networking basics</h2>
                         <p>
                             With
-                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank" title="Cisco Academy">
+                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank"
+                                title="Cisco Academy">
                                 CISCO ACADEMY</a>
                         </p>
                         <p>Prepared for</p>
@@ -1115,8 +1226,8 @@
                                 rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://skillsforall.com/course/networking-basics?courseLang=en-US" rel="noopener noreferrer" target="_blank"
-                                class="secondaryCCI">
+                            <a href="https://skillsforall.com/course/networking-basics?courseLang=en-US"
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -1134,7 +1245,8 @@
                         <h2>Cisco: Course DAM - NDG Linux Essentials: View report</h2>
                         <p>
                             With
-                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank" title="Cisco Academy">
+                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank"
+                                title="Cisco Academy">
                                 CISCO ACADEMY</a>
                         </p>
                         <p>Prepared for</p>
@@ -1166,7 +1278,8 @@
                         <h2>Cisco: Certificate of completion: Python Essentials 1</h2>
                         <p>
                             With
-                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank" title="Cisco Academy">
+                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank"
+                                title="Cisco Academy">
                                 CISCO ACADEMY</a>
                         </p>
                         <p>Prepared for</p>
@@ -1205,7 +1318,8 @@
                         <h2>Cisco: Certificate of completion: Python Essentials 2</h2>
                         <p>
                             With
-                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank" title="Cisco Academy">
+                            <a href="https://skillsforall.com/#netacadStory" rel="noopener noreferrer" target="_blank"
+                                title="Cisco Academy">
                                 CISCO ACADEMY</a>
                         </p>
                         <p>Prepared for</p>
@@ -1259,8 +1373,8 @@
                                 rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://www.cloudskillsboost.google/course_templates/552" rel="noopener noreferrer" target="_blank"
-                                class="secondaryCCI">
+                            <a href="https://www.cloudskillsboost.google/course_templates/552" rel="noopener noreferrer"
+                                target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -1279,7 +1393,8 @@
                         <h2>Oracle University: Java Explorer</h2>
                         <p>
                             With
-                            <a href="https://mylearn.oracle.com/ou/home" rel="noopener noreferrer" target="_blank" title="Oracle University">
+                            <a href="https://mylearn.oracle.com/ou/home" rel="noopener noreferrer" target="_blank"
+                                title="Oracle University">
                                 Oracle University</a>
                         </p>
                         <p>Prepared for</p>
@@ -1297,8 +1412,8 @@
                                 rel="noopener noreferrer" target="_blank">
                                 Badge
                             </a>
-                            <a href="https://mylearn.oracle.com/ou/learning-path/java-explorer/79726" rel="noopener noreferrer" target="_blank"
-                                class="secondaryCCI">
+                            <a href="https://mylearn.oracle.com/ou/learning-path/java-explorer/79726"
+                                rel="noopener noreferrer" target="_blank" class="secondaryCCI">
                                 Learn More
                             </a>
                         </div>
@@ -1453,8 +1568,7 @@
 
     <script type="text/javascript">
         var pos = document.documentElement;
-        pos.addEventListener('mousemove', e =>
-        {
+        pos.addEventListener('mousemove', e => {
             pos.style.setProperty('--x', e.clientX + 'px')
             pos.style.setProperty('--y', e.clientY + 'px')
         })   
@@ -1464,8 +1578,7 @@
         const progressBar = document.querySelector('#bar');
         const htmlElement = document.documentElement;
 
-        const updateProgress = () =>
-        {
+        const updateProgress = () => {
             // 1. Calcular la altura total de la página que puede ser desplazada
             const totalHeight = htmlElement.scrollHeight - htmlElement.clientHeight;
 
@@ -1492,16 +1605,13 @@
     <script>
         var icon = document.getElementById("icon");
         var isdark = true;
-        icon.onclick = function ()
-        {
+        icon.onclick = function () {
             document.body.classList.toggle("light_theme");
-            if (document.body.classList.contains("light_theme"))
-            {
+            if (document.body.classList.contains("light_theme")) {
                 isdark = false;
 
                 icon.src = "Media/lunaEstiloCanva.png";
-            } else
-            {
+            } else {
                 icon.src = "Media/sun-sun-ray-icon-transparent-free-png.webp";
             }
         }

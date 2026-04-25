@@ -732,6 +732,7 @@ color:#081b29;
     top: 5%;
     height: 860px;
     width: 400px;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: var(--primary-color-FiguraIzquierda);
    
@@ -1545,6 +1546,7 @@ footer p{
     -o-border-radius: 10px;
     background: var(--primary-opacity-cristal);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     z-index: 90;
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -1554,6 +1556,7 @@ footer p{
     transition-duration: 0.5s;
     background: var(--primary-opacity-cristal);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     z-index: 1;
     border: 3px solid rgba(255, 255, 255, 0.30);
@@ -1984,6 +1987,11 @@ sl-tab-panel[name="bigdata_ia"] .info-panel {
   background-image: url('./Media/AI-big-data.jpg');
 }
 
+/* Estilos para el panel de Desarrollador IA  */
+sl-tab-panel[name="desarrollador-IA-Experiencia"] .info-panel {
+  background-image: url('./Media/Oficina_Deveco.jpeg');
+}
+
 /* Estilos para el panel de Desarrollador */
 sl-tab-panel[name="desarrolladorExperiencia"] .info-panel {
   background-image: url('./Media/oficinas_central_hiberus.png');
@@ -2355,6 +2363,7 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
     left:-200px;
     top: 3%;
    
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: var(--primary-color-FiguraIzquierda);
    

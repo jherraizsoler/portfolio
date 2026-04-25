@@ -26,6 +26,7 @@ const projectsData = {
     `,
     images: [
       "Media/Proyectos/Proyecto32/Portada.png",
+      "Media/Proyectos/Proyecto32/Portada.png",
       "Media/Proyectos/Proyecto32/diagrama_arquitectura.png",
       "Media/Proyectos/Proyecto32/diagrama_observabilidad.png",
       "Media/Proyectos/Proyecto32/diagrama_orquestacion.png",
@@ -1408,6 +1409,7 @@ const projectsData = {
         </ul>
     `,
     images: [
+      "Media/Proyectos/Proyecto32/Portada.png",
       "Media/Proyectos/Proyecto32/Portada.png",
       "Media/Proyectos/Proyecto32/diagrama_arquitectura.png",
       "Media/Proyectos/Proyecto32/diagrama_observabilidad.png",
