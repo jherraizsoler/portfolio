@@ -3022,25 +3022,19 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
         text-align: center;
     }
 
-    
-
-    .mobile-nav select {
-        width: 90%;
-        padding: 10px;
-        border-radius: 5px;
-        font-size: 20px;
-        border: 1px solid #ccc;
-        color:white;
+    .mobile-nav option {
+        color: #0a2132;
+        background-color: #ffffff;
     }
 
-    .mobile-nav select option:checked {
+    .mobile-nav option:checked {
         background-color: #485474; /* Color de fondo */
         color: white; /* Color del texto */
         font-weight: bolder;
     }
 
     /* Opcionalmente, para un mejor contraste en la lista desplegable */
-    .mobile-nav select option:hover {
+    .mobile-nav option:hover {
         background-color: #1f3f98;
         color: white;
     }
