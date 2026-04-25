@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 :root{
       --primary-colorFondo: rgb(10, 33, 50);
@@ -713,7 +713,8 @@ color:#081b29;
 .containerNav{
     position: fixed;
     align-items: start;
-    top: 28%;
+    top: 50%;
+    transform: translateY(-50%);
     left: 20px;
     width: 60px;
     display: block;
@@ -726,18 +727,23 @@ color:#081b29;
 .formaIzquierda{
     position: fixed;
     display: block;
-    left:-200px;
-    top: 5%;
-    height: 860px;
-    width: 400px;
+    left: -10.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    min-height: 35rem;
+    height: clamp(48rem, 86vh, 54rem);
+    width: 22.5rem;
     backdrop-filter: blur(10px);
     background-color: var(--primary-color-FiguraIzquierda);
-   
     border: 5px solid rgb(255, 255, 255);
     clip-path: polygon(40% 2%, 72% 28%, 72% 70%, 40% 94%);
     z-index: 100;
     filter: blur(10px);
     -webkit-filter: blur(10px);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 .containerNav a{
@@ -2312,14 +2318,16 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
     #herramientas {
         display: flex;
         flex-direction: column;
-        top: 40%;
+          top: 50%;
+          transform: translateY(-50%);
         right: -110px;
      }
     
      #icon{
         display: flex;
         flex-direction: column;
-        top: 90px;
+          top: 50%;
+          transform: translateY(-50%);
         right: 142px;
      }
     
@@ -2352,20 +2360,27 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
         right: 0;
         left: 38%;
     } 
+    
     .formaIzquierda{
-    position: fixed;
-    display: block;
-    left:-200px;
-    top: 3%;
-   
-    backdrop-filter: blur(10px);
-    background-color: var(--primary-color-FiguraIzquierda);
-   
-    border: 5px solid rgb(255, 255, 255);
-    clip-path: polygon(40% 2%, 72% 28%, 72% 70%, 40% 94%);
-    z-index: 100;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
+        position: fixed;
+        display: block;
+        left: -10.25rem;
+        top: 50%;
+        transform: translateY(-50%);
+        min-height: 35rem;
+        height: clamp(48rem, 86vh, 54rem);
+        width: 22.5rem;
+        backdrop-filter: blur(10px);
+        background-color: var(--primary-color-FiguraIzquierda);
+        border: 5px solid rgb(255, 255, 255);
+        clip-path: polygon(40% 2%, 72% 28%, 72% 70%, 40% 94%);
+        z-index: 100;
+        filter: blur(10px);
+        -webkit-filter: blur(10px);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
     }
 
         
@@ -2712,14 +2727,16 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
  #herramientas {
     display: flex;
     flex-direction: column;
-    top: 40%;
+     top: 50%;
+     transform: translateY(-50%);
     right: -120px;
  }
 
  #icon{
     display: flex;
     flex-direction: column;
-    top: 90px;
+     top: 50%;
+     transform: translateY(-50%);
     right: 142px;
  }
 
@@ -2750,6 +2767,45 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
     }
     .home-content{
         margin-left: 10px;
+    }
+
+    #herramientas {
+        position: fixed;
+        top: 50%;
+        right: 0.75rem;
+        transform: translateY(-50%);
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+        z-index: 1200;
+    }
+    #herramientas > .boton_traductor {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 2.4rem;
+        margin: 0;
+        order: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #herramientas > .boton_traductor > svg {
+        width: 100%;
+    }
+
+    #herramientas > #icon {
+        position: relative;
+        display: block;
+        top: auto;
+        right: auto;
+        transform: none;
+        width: 3rem;
+        margin-right: 0;
+        order: 1;
     }
 
     #contenedorSeccionesCCI{
@@ -2879,7 +2935,42 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
     }
 
     #herramientas {
-        margin-right: -20px;
+        position: fixed;
+        top: 50%;
+        right: 0.75rem;
+        transform: translateY(-50%);
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.7rem;
+        z-index: 1200;
+    }
+
+    #herramientas > .boton_traductor {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 2.5rem;
+        margin: 0;
+        order: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #herramientas > .boton_traductor > svg {
+        width: 100%;
+    }
+
+    #herramientas > #icon {
+        position: relative;
+        display: block;
+        top: auto;
+        right: auto;
+        transform: none;
+        margin-right: 0;
+        order: 1;
     }
 
     .card-front,
@@ -3226,7 +3317,7 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
         left: 0px;
         align-items: center;
         text-align: center;
-        z-index: 100000;
+        z-index: 950;
     }
 
 
@@ -3517,6 +3608,21 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
     
 }
 
+@media (max-width: 570px) {
+    #herramientas {
+        position: fixed;
+        top: 78px;
+        right: 0;
+        transform: none;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+        z-index: 1200;
+    }
+}
+
 @media (max-width: 520px) {
     .home{
         margin-top: 250px;
@@ -3561,8 +3667,17 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
         font-size: 17px;
     }
 
-    #herramientas{
-        margin-right: -10px;
+    #herramientas {
+        position: fixed;
+        top: 78px;
+        right: 0;
+        transform: none;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+        z-index: 1200;
     }
     .container {
         position: absolute;
@@ -3824,8 +3939,17 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
         font-size: 17px;
     }
 
-    #herramientas{
-        margin-right: -10px;
+    #herramientas {
+        position: fixed;
+        top: 78px;
+        right: 0;
+        transform: none;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+        z-index: 1200;
     }
     .container {
         position: absolute;
@@ -4289,26 +4413,55 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
         left: 0px;
         align-items: center;
         text-align: center;
-        z-index: 100000;
+        z-index: 950;
     }
 
     
-    #herramientas{
-        margin-right: 0px;
-        right: -140px;
-        top: 70px;
+    #herramientas {
+        position: fixed;
+        top: 78px;
+        right: 0;
+        transform: none;
+        margin-right: 0;
         height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.65rem;
+        z-index: 1200;
+    }
+
+    #herramientas > .boton_traductor{
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 2.2rem;
+        margin: 0;
+        order: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #herramientas > .boton_traductor > svg{
+        width: 100%;
     }
 
     #herramientas > a > svg{
         width: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 0;
+        flex-shrink: 0;
     }
 
     #herramientas > #icon{
+        position: relative;
+        display: block;
         width: 50px;
-        margin-right: 5px;
-        top: 70px;
+        margin-right: 0;
+        top: auto;
+        right: auto;
+        transform: none;
+        order: 1;
     }
 
     #contenedorSeccionesCCI{
@@ -4448,76 +4601,7 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
 
 }
 
-@media (max-height: 830px){
-     .home{
-        margin-top: 50%;
-        width: 100%;
-    }
-
-    .global-section-Home{
-        width: 100%;
-        justify-content: center;
-
-    }
-
-
-     .container {
-        position: absolute;
-        top: 6rem;
-        right: 0;
-        left: 3%;
-    } 
-
-    
-
-    .home-content{
-        width: 100%;
-        max-width: 900px;
-        margin-right: 2%;
-        margin-left: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-
-    .seccionesNav{
-    
-        width: 85%;
-        top: 1500px;
-        margin-top: 150px;
-        display: block;
-        text-align: center;
-        z-index: 5;
-    }
-
-        
-    .profile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        overflow: hidden;
-        width: 18rem;
-        height: 18.5rem;
-        border-radius: 25rem;
-        box-shadow: 0 5px 18px rgb(0, 0, 0);
-        cursor: pointer;
-        transition: 0.5s;
-        z-index: 6;
-        -webkit-border-radius: 25rem;
-        -moz-border-radius: 25rem;
-        -ms-border-radius: 25rem;
-        -o-border-radius: 25rem;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
-    }
-
-}
-
-
-@media (max-height: 750px){
+@media (max-width: 830px) and (max-height: 750px){
     body{
         margin-left: 40px;
     }
@@ -4760,3 +4844,66 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
 }
 
 /*Medias Querys menu forma izquierda*/
+
+@media (max-width: 830px) and (max-height: 830px) {
+    #herramientas {
+        /* Mantiene un alto util minimo para que no se rompa el nav */
+        min-height: 19rem;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0.75rem;
+        margin-right: 0;
+        height: auto;
+        justify-content: center;
+        gap: 0.7rem;
+        z-index: 1200;
+    }
+
+    #herramientas > a > svg {
+        flex-shrink: 0;
+    }
+
+    #herramientas > #icon {
+        position: relative;
+        top: 0;
+        right: auto;
+        transform: none;
+        margin-right: 5px;
+        flex-shrink: 0;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+}
+
+    
+   
+}
+
+@media (max-width: 830px) and (max-height: 750px) {
+    #herramientas {
+        min-height: 18rem;
+    }
+
+    .formaIzquierda {
+        min-height: 24rem;
+        height: clamp(24rem, 80vh, 44rem);
+        width: 19.5rem;
+        left: -11rem;
+        top: 45.5%;
+    }
+}
+
+@media (max-width: 830px) and (max-height: 620px) {
+    #herramientas {
+        min-height: 16.5rem;
+    }
+
+    .formaIzquierda {
+        min-height: 22rem;
+        height: clamp(22rem, 78vh, 40rem);
+        width: 19.5rem;
+        left: -11rem;
+        top: 44.5%;
+    }
+}

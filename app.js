@@ -2958,3 +2958,17 @@ function closeFullscreenImageViewer() {
   fullscreenImageViewer.classList.remove("active");
   document.body.style.overflow = "";
 }
+
+// Baja el z-index de #herramientas cuando el menú móvil está abierto
+// para que el dropdown nativo del <select> quede por encima
+const mobileNavSelect = document.getElementById("mobile-nav");
+const herramientasEl = document.getElementById("herramientas");
+
+if (mobileNavSelect && herramientasEl) {
+  mobileNavSelect.addEventListener("focus", function () {
+    herramientasEl.style.zIndex = "500";
+  });
+  mobileNavSelect.addEventListener("blur", function () {
+    herramientasEl.style.zIndex = "1200";
+  });
+}
