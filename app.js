@@ -1,6 +1,58 @@
 // 1. Datos de todos los proyectos en un objeto
 const projectsData = {
-  "1_es": {
+  "32_es": {
+    title:
+      "Nexus Strategy Engine: Plataforma de Agentes Estratégicos Autónomos",
+    content: `
+        <h3>Descripción del Proyecto</h3>
+        <p><b>Nexus Strategy Engine (NSE)</b> es una plataforma de ingeniería avanzada que integra el desarrollo de software profesional con la <b>IA Generativa</b> de vanguardia. Se trata de un ecosistema de agentes autónomos orquestados mediante grafos, diseñado para procesar, auditar y sintetizar información compleja destinada a la toma de decisiones directivas de alto nivel.</p>
+
+        <h4>Arquitectura de Grafos y Stack Profesional</h4>
+        <p>El sistema se fundamenta en una topología de estados coordinada que garantiza escalabilidad, observabilidad y persistencia:</p>
+        <ul>
+            <li><b>Frontend Dashboard (Angular 18):</b> Interfaz reactiva premium desarrollada con componentes standalone y SCSS, que permite la gestión de hilos y visualización jerárquica de resultados.</li>
+            <li><b>AI Core Engine (LangGraph & FastAPI):</b> Motor de razonamiento basado en Python que orquesta agentes especializados bajo una lógica de grafos de estados para permitir ciclos de retroalimentación técnica.</li>
+            <li><b>Data & Intelligence Layer:</b> Implementa persistencia de memoria con SQLite Checkpointer y gestión de conocimiento vectorial mediante ChromaDB para optimizar el contexto de negocio.</li>
+            <li><b>Infraestructura Robusta (Docker):</b> Despliegue contenedorizado mediante Docker Compose que asegura la paridad de entornos y el aislamiento total del sistema.</li>
+        </ul>
+
+        <h4>Especialización y Flujo de Trabajo Agéntico</h4>
+        <p>El sistema opera bajo una jerarquía de agentes especializados que colaboran para garantizar el rigor técnico del análisis:</p>
+        <ul>
+            <li><b>Strategic Orchestrator:</b> Delegación inteligente de tareas y gestión del estado global de la consulta.</li>
+            <li><b>Specialized Agents:</b> Colaboración entre expertos en <i>Market Intelligence</i>, <i>Risk Officer</i> (cumplimiento GDPR) y <i>Solutions Architect</i> (especialista en .NET 8).</li>
+            <li><b>Executive Reviewer:</b> Agente de control de calidad final que realiza una auditoría de coherencia y asigna un Score de Validación antes de la entrega del reporte.</li>
+        </ul>
+    `,
+    images: [
+      "Media/Proyectos/Proyecto32/Portada.png",
+      "Media/Proyectos/Proyecto32/diagrama_arquitectura.png",
+      "Media/Proyectos/Proyecto32/diagrama_observabilidad.png",
+      "Media/Proyectos/Proyecto32/diagrama_orquestacion.png",
+    ],
+    skills: [
+      "LangGraph",
+      "Python 3.11+",
+      "FastAPI",
+      "Angular 18",
+      "Agentic AI",
+      "IA Generativa (GPT-4o)",
+      "Multi-Agent Orchestration",
+      "Docker & Docker Compose",
+      "SQLite Checkpointer",
+      "ChromaDB (Vector Memory)",
+      "SCSS & UI/UX Premium",
+      "RxJS",
+      "Arquitectura de Grafos",
+      ".NET 8 (Technical Strategy)"
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/Nexus-Strategy-Engine",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-ai-softwarearchitecture-ugcPost-7426395320227368961-SJn3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+    },
+  },
+  "31_es": {
     title: "OmniCare AI - Sistema de Agentes Médicos Autónomos",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -45,10 +97,11 @@ const projectsData = {
     ],
     links: {
       github: "https://github.com/jherraizsoler/OmniCare-AI",
-      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_proyectoabrfinalizado-ai-softwarearchitecture-activity-7414018104952856576-z2Bv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_proyectoabrfinalizado-ai-softwarearchitecture-activity-7414018104952856576-z2Bv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "2_es": {
+  "30_es": {
     title: "Especialización en Agentes Autónomos (LangChain & LangGraph)",
     content: `
         <h3>Especialista en IA Generativa</h3>
@@ -66,7 +119,7 @@ const projectsData = {
         <p>Implementación de flujos cíclicos con <b>LangGraph</b>, permitiendo pausas, reanudación y gestión de memoria híbrida (Checkpoints y Ventanas Deslizantes). Integración de herramientas externas como Tavily Search y Gmail Toolkit para acciones en tiempo real.</p>
     `,
     images: [
-      "Media/Proyectos/Proyecto2/portada_proyecto_LangChain_LangGraph.png"
+      "Media/Proyectos/Proyecto2/portada_proyecto_LangChain_LangGraph.png",
     ],
     skills: [
       "LangGraph",
@@ -79,14 +132,16 @@ const projectsData = {
       "Streamlit",
       "FastAPI",
       "Agentes de IA",
-      "Liderazgo Técnico"
+      "Liderazgo Técnico",
     ],
     links: {
-      github: "https://github.com/jherraizsoler/LangGraph-LangChain-Agentic-Workflows",
-      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_inteligenciaartificial-aiforbusiness-langgraph-activity-7410688640797917184-reJP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk"
+      github:
+        "https://github.com/jherraizsoler/LangGraph-LangChain-Agentic-Workflows",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_inteligenciaartificial-aiforbusiness-langgraph-activity-7410688640797917184-reJP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "3_es": {
+  "29_es": {
     title: "Arquitecturas de Alta Volumetría: IA & Big Data (500TB)",
     content: `
         <h3>Ingeniería de Datos y IA Avanzada</h3>
@@ -104,9 +159,7 @@ const projectsData = {
         <h4>Impacto Técnico</h4>
         <p>Integración de un stack tecnológico robusto (Python, R, TensorFlow, MongoDB) enfocado en el rigor estadístico, la eficiencia en el procesamiento de activos de alta volumetría y los estándares más exigentes de la industria.</p>
     `,
-    images: [
-      "Media/Proyectos/Proyecto3/Portada_Informes_IA_BigData.png",
-    ],
+    images: ["Media/Proyectos/Proyecto3/Portada_Informes_IA_BigData.png"],
     skills: [
       "Arquitectura Lambda",
       "Big Data (500TB)",
@@ -117,14 +170,15 @@ const projectsData = {
       "Inferencia Bayesiana",
       "Cloud (AWS/Azure)",
       "Criptografía RSA",
-      "Python / R"
+      "Python / R",
     ],
     links: {
       github: "https://github.com/jherraizsoler/informes_ia_bigdata",
-      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_informe-pia-activity-7407811986094374913-2SVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk"
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_informe-pia-activity-7407811986094374913-2SVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "4_es": {
+  "28_es": {
     title: "Proyecto FullStack App Web Sistema de Empleados",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -164,7 +218,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364234844140109825-Z7zG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "5_es": {
+  "27_es": {
     title: "Proyecto Frontend App Web Sistema de Presupuestos",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -213,7 +267,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363842300013142016-hAWD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "6_es": {
+  "26_es": {
     title: "Proyecto FullStack App Web Sistemas de Personas",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -262,7 +316,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364310370116583424-1ZNv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "7_es": {
+  "25_es": {
     title:
       "Proyecto FullStack GymFlow: Sistema Integral de Gestión de clientes para Gimnasios",
     content: `
@@ -314,7 +368,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_me-alegra-compartir-que-he-trabajado-en-este-activity-7363479906225209344-u4JU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "8_es": {
+  "24_es": {
     title: "Proyecto Backend Sistemas de Personas",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -349,7 +403,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364672707344408576-6zC2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "9_es": {
+  "23_es": {
     title: "Proyecto Backend Sistemas de Inventario de productos",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -366,7 +420,7 @@ const projectsData = {
         <h4>Arquitectura y Tecnologías</h4>
         <p>El corazón de este proyecto se centra en las operaciones de gestión de productos, facilitando las funciones **CRUD** (Crear, Leer, Actualizar y Borrar). La arquitectura del sistema está diseñada para ser modular y extensible, lo que permite una fácil integración con otras plataformas, como sistemas de punto de venta (POS) o tiendas de comercio electrónico.</p>
     `,
-    images: [ "Media/Proyectos/Proyecto9/imagenPrincipal.jpeg" ], // Agrega las rutas a tus imágenes si las tienes
+    images: ["Media/Proyectos/Proyecto9/imagenPrincipal.jpeg"], // Agrega las rutas a tus imágenes si las tienes
     skills: [
       "Spring Framework",
       "MySQL",
@@ -386,7 +440,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364567005435183106-GUO_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "10_es": {
+  "22_es": {
     title: "Proyecto Backend Sistema de empleados de RRHH",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -406,7 +460,7 @@ const projectsData = {
         </ul>
         <p>Esta estructura de API desacopla el backend del frontend, permitiendo que aplicaciones de cliente como las construidas con React o Angular se conecten y gestionen los datos de manera fluida y eficiente.</p>
     `,
-    images: [ "Media/Proyectos/Proyecto10/imagenPrincipal.jpeg" ],
+    images: ["Media/Proyectos/Proyecto10/imagenPrincipal.jpeg"],
     skills: [
       "Spring Framework",
       "MySQL",
@@ -427,7 +481,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363117473442729984-SFbf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "11_es": {
+  "21_es": {
     title: "Proyecto Frontend App Web Sistemas de Personas",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -463,7 +517,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_me-alegra-compartir-que-he-trabajado-en-este-activity-7363585596990066688-W4p-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "12_es": {
+  "20_es": {
     title: "Proyecto Frontend Sistemas de Inventario de productos",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -503,7 +557,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364597242957074435-43O7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "13_es": {
+  "19_es": {
     title: "Proyecto Frontend App Web Sistema de RRHH Empleados",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -548,7 +602,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363147659655757824-1Srn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "14_es": {
+  "18_es": {
     title: "Proyecto Backend API RESTFull Zafra Retail",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -566,7 +620,7 @@ const projectsData = {
 
         <p>Este backend es la columna vertebral digital de Zafra, permitiendo una gestión interna unificada y eficiente, y proporcionando la infraestructura necesaria para su crecimiento.</p>
     `,
-    images: [ "Media/Proyectos/Proyecto14/imagenPrincipal.jpeg" ],
+    images: ["Media/Proyectos/Proyecto14/imagenPrincipal.jpeg"],
     skills: [
       "C#",
       "Diseño de experiencia de usuario (UX) y interfaz de usuario (UI)",
@@ -594,7 +648,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_me-alegra-compartir-que-estoy-trabajado-en-activity-7356720798738329600-0MyI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "15_es": {
+  "17_es": {
     title: "Proyecto fullstack App Movil PersonalHub",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -671,7 +725,7 @@ const projectsData = {
       "Media/Proyectos/Proyecto16/VentanaPrincipal.jpg",
       "Media/Proyectos/Proyecto16/VentanaPrincipal_graficos.jpg",
       "Media/Proyectos/Proyecto16/Ventana_AgregarTienda.jpg",
-      "Media/Proyectos/Proyecto16/Ventana_EditarTienda.jpg"
+      "Media/Proyectos/Proyecto16/Ventana_EditarTienda.jpg",
     ],
     skills: [
       "Angular",
@@ -691,60 +745,61 @@ const projectsData = {
       linkedin: "https://lnkd.in/p/dxk_Axrc",
     },
   },
-  "17_es": {
-        title: "Proyecto Frontend Porfolio Jorge Herraiz Soler",
-        content: "Estoy realizando mi porfolio desde cero, estoy materializando mis ideas de aquel porfolio que me gustaría tener, cuáles son las primeras sensaciones y cuidar el contenido. Quiero crear un porfolio que demuestre quien soy, que es lo que hago, cuál es mi iniciativa, mi camino, cuáles son mis valores, principios y el cuidado de los detalles. Me gusta mostrar en el porfolio, el disfrute y estudio constante que estoy desarrollando desde hace 3 años focalizándome en el sector IT. Tecnologías utilizadas: - HTML5 - CSS3 - JavaScript - Shoelace-style para algunos componentes para sección Académica y Experiencia Aprendizaje, elementos o componentes nuevos: - Nav estatico, componente blanco izquierdo con botones de guia por el portafolio (clip-path) - Footer Statico (z-index) - Circulo radius filtro blur cursor, Diseño y UX/UI - Cambio de Idioma Boton / Componente modalidad traductor Ingles y Español - Modo Dark / Light Boton / Componente modalidad Visibilidad / colores - PopUps / Ventanas emergentes Mostrar mas información sobre los proyectos - Sección Académico mejorado - Sección Experiencia mejorado - Sección Proyectos mejorado - Sección Cursos y Certificaciones actualizado - Sección Tecnologías implementado y mejorado - Sección Recomendaciones implementado y mejorado Ultima actualización 19/09/2025 @jherraizsoler",
-        images: [
-          "Media/Proyectos/Proyecto17/imagenPrincipal.jpg",
-          "Media/Proyectos/Proyecto17/imagenPrincipal.jpg",
-          "Media/Proyectos/Proyecto17/imagenPrincipal_componenteAbierto.jpg",
-          "Media/Proyectos/Proyecto17/imagen_Internalización_Ingles_Español.jpg",
-          "Media/Proyectos/Proyecto17/imagen_mode_Dark.jpg",
-          "Media/Proyectos/Proyecto17/imagen_mode_Light.jpg",
-          "Media/Proyectos/Proyecto17/imagen_responsive.jpg",
-          "Media/Proyectos/Proyecto17/imagen_responsive_iphoneSE.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_BigData_IA.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_Developer.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_SoporteIT.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_2.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_3.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_4.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionExperiencia_Developer.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionExperiencia_SoporteIT.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionProyectos.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_1.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_captura2.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_imagenAmpliada.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionRecomendaciones.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionTecnologias_captura1.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionTecnologias_captura2.jpg"
-        ],
-        skills: [
-            "Diseño de experiencia de usuario (UX) y interfaz de usuario (UI)",
-            "Resolución de problemas",
-            "Desarrollo front end",
-            "Desarrollo de software",
-            "Programación",
-            "Gestión documental",
-            "JavaScript",
-            "CSS3",
-            "Liderazgo",
-            "Administración de sistemas y servidores",
-            "Microsoft Visual Studio Code",
-            "Analítico y algorítmico",
-            "Gestión y documentación de proyectos",
-            "HTML5",
-            "Metodologías ágiles",
-            "Planificación de proyectos",
-            "Capacidad de análisis e investigación"
-        ],
-        links: {
-            github: "https://github.com/jherraizsoler/portfolio",
-            linkedin: "https://lnkd.in/p/d87i8hnh"
-        }
+  "15_es": {
+    title: "Proyecto Frontend Porfolio Jorge Herraiz Soler",
+    content:
+      "Estoy realizando mi porfolio desde cero, estoy materializando mis ideas de aquel porfolio que me gustaría tener, cuáles son las primeras sensaciones y cuidar el contenido. Quiero crear un porfolio que demuestre quien soy, que es lo que hago, cuál es mi iniciativa, mi camino, cuáles son mis valores, principios y el cuidado de los detalles. Me gusta mostrar en el porfolio, el disfrute y estudio constante que estoy desarrollando desde hace 3 años focalizándome en el sector IT. Tecnologías utilizadas: - HTML5 - CSS3 - JavaScript - Shoelace-style para algunos componentes para sección Académica y Experiencia Aprendizaje, elementos o componentes nuevos: - Nav estatico, componente blanco izquierdo con botones de guia por el portafolio (clip-path) - Footer Statico (z-index) - Circulo radius filtro blur cursor, Diseño y UX/UI - Cambio de Idioma Boton / Componente modalidad traductor Ingles y Español - Modo Dark / Light Boton / Componente modalidad Visibilidad / colores - PopUps / Ventanas emergentes Mostrar mas información sobre los proyectos - Sección Académico mejorado - Sección Experiencia mejorado - Sección Proyectos mejorado - Sección Cursos y Certificaciones actualizado - Sección Tecnologías implementado y mejorado - Sección Recomendaciones implementado y mejorado Ultima actualización 19/09/2025 @jherraizsoler",
+    images: [
+      "Media/Proyectos/Proyecto17/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto17/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto17/imagenPrincipal_componenteAbierto.jpg",
+      "Media/Proyectos/Proyecto17/imagen_Internalización_Ingles_Español.jpg",
+      "Media/Proyectos/Proyecto17/imagen_mode_Dark.jpg",
+      "Media/Proyectos/Proyecto17/imagen_mode_Light.jpg",
+      "Media/Proyectos/Proyecto17/imagen_responsive.jpg",
+      "Media/Proyectos/Proyecto17/imagen_responsive_iphoneSE.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_BigData_IA.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_Developer.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_SoporteIT.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_2.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_3.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_4.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionExperiencia_Developer.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionExperiencia_SoporteIT.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionProyectos.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_1.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_captura2.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_imagenAmpliada.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionRecomendaciones.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionTecnologias_captura1.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionTecnologias_captura2.jpg",
+    ],
+    skills: [
+      "Diseño de experiencia de usuario (UX) y interfaz de usuario (UI)",
+      "Resolución de problemas",
+      "Desarrollo front end",
+      "Desarrollo de software",
+      "Programación",
+      "Gestión documental",
+      "JavaScript",
+      "CSS3",
+      "Liderazgo",
+      "Administración de sistemas y servidores",
+      "Microsoft Visual Studio Code",
+      "Analítico y algorítmico",
+      "Gestión y documentación de proyectos",
+      "HTML5",
+      "Metodologías ágiles",
+      "Planificación de proyectos",
+      "Capacidad de análisis e investigación",
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/portfolio",
+      linkedin: "https://lnkd.in/p/d87i8hnh",
+    },
   },
-  "18_es": {
+  "14_es": {
     title: "Proyecto Backend Sistemas de personas con Hibernate",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -761,22 +816,22 @@ const projectsData = {
     `,
     images: ["Media/Proyectos/Proyecto18/imagenPrincipal.jpeg"],
     skills: [
-        "Hibernate",
-        "MySQL",
-        "Programación",
-        "Maven",
-        "Java",
-        "Gestión y documentación de proyectos",
-        "Metodologías ágiles",
-        "Planificación de proyectos",
-        "Apache Netbeans IDE"
+      "Hibernate",
+      "MySQL",
+      "Programación",
+      "Maven",
+      "Java",
+      "Gestión y documentación de proyectos",
+      "Metodologías ágiles",
+      "Planificación de proyectos",
+      "Apache Netbeans IDE",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/personas_hibernate",
-        linkedin: "https://lnkd.in/p/dyHdgtQi"
-    }
+      github: "https://github.com/jherraizsoler/personas_hibernate",
+      linkedin: "https://lnkd.in/p/dyHdgtQi",
+    },
   },
-  "19_es": {
+  "13_es": {
     title: "Proyecto FullStack App Web Sistemas de Alumnos",
     content: `
         <h3>Sistema de Gestión de Alumnos Full-Stack</h3>
@@ -795,33 +850,34 @@ const projectsData = {
         <p>Este proyecto demuestra mi capacidad para desarrollar aplicaciones web de extremo a extremo, manejando tanto la lógica del servidor como el diseño de la interfaz de usuario, y asegurando una gestión de datos eficiente y organizada.</p>
     `,
     images: [
-              "Media/Proyectos/Proyecto19/imagenPrincipal.jpeg",
-              "Media/Proyectos/Proyecto19/Pantalla_Inicio.jpg",
-              "Media/Proyectos/Proyecto19/Pantalla_ListadoAlumnos.jpg",
-              "Media/Proyectos/Proyecto19/Pantalla_ModificarAlumno.jpg",
-              "Media/Proyectos/Proyecto19/Pantalla_AgregarAlumno.jpg"
+      "Media/Proyectos/Proyecto19/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto19/Pantalla_Inicio.jpg",
+      "Media/Proyectos/Proyecto19/Pantalla_ListadoAlumnos.jpg",
+      "Media/Proyectos/Proyecto19/Pantalla_ModificarAlumno.jpg",
+      "Media/Proyectos/Proyecto19/Pantalla_AgregarAlumno.jpg",
     ],
     skills: [
-        "Jakarta EE",
-        "Hibernate",
-        "MySQL",
-        "Programación",
-        "Log4j",
-        "Maven",
-        "Java",
-        "Gestión y documentación de proyectos",
-        "HTML5",
-        "JSP",
-        "Metodologías ágiles",
-        "Planificación de proyectos",
-        "Apache Netbeans IDE"
+      "Jakarta EE",
+      "Hibernate",
+      "MySQL",
+      "Programación",
+      "Log4j",
+      "Maven",
+      "Java",
+      "Gestión y documentación de proyectos",
+      "HTML5",
+      "JSP",
+      "Metodologías ágiles",
+      "Planificación de proyectos",
+      "Apache Netbeans IDE",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/AlumnosWebHibernateJPA_fullstack",
-        linkedin: "https://lnkd.in/p/dW4Zw3Ft"
-    }
+      github:
+        "https://github.com/jherraizsoler/AlumnosWebHibernateJPA_fullstack",
+      linkedin: "https://lnkd.in/p/dW4Zw3Ft",
+    },
   },
-  "20_es": {
+  "12_es": {
     title: "Proyecto FullStack App Web Sistemas de Clientes",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -830,35 +886,35 @@ const projectsData = {
         <p>El frontend, una interfaz moderna y completamente adaptable, se construye sobre Thymeleaf, un motor de plantillas del lado del servidor. El diseño responsivo está garantizado por Bootstrap 5 con su enfoque mobile-first, asegurando una visualización perfecta en cualquier dispositivo. Para mejorar la estética, se integra Font Awesome, que proporciona una vasta colección de íconos. La gestión de estas librerías externas se simplifica con Webjars. La combinación de estas tecnologías resulta en una experiencia de usuario fluida, intuitiva y visualmente agradable, demostrando la alta calidad de una solución full-stack moderna.</p>
     `,
     images: [
-             "Media/Proyectos/Proyecto20/imagenPrincipal.jpeg",
-             "Media/Proyectos/Proyecto20/Pantalla_Login.jpg",
-             "Media/Proyectos/Proyecto20/Pantalla_Principal.jpg",
-             "Media/Proyectos/Proyecto20/Pantalla_EditarPersona.jpg"
+      "Media/Proyectos/Proyecto20/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto20/Pantalla_Login.jpg",
+      "Media/Proyectos/Proyecto20/Pantalla_Principal.jpg",
+      "Media/Proyectos/Proyecto20/Pantalla_EditarPersona.jpg",
     ],
     skills: [
-        "Diseño de experiencia de usuario (UX) y interfaz de usuario (UI)",
-        "Spring Framework",
-        "MySQL",
-        "Thymeleaf",
-        "Programación",
-        "Maven",
-        "JPA",
-        "Administración de sistemas y servidores",
-        "Spring Boot",
-        "Analítico y algorítmico",
-        "Gestión y documentación de proyectos",
-        "Metodologías ágiles",
-        "Planificación de proyectos",
-        "jbcrypt",
-        "Apache Netbeans IDE",
-        "Capacidad de análisis e investigación"
+      "Diseño de experiencia de usuario (UX) y interfaz de usuario (UI)",
+      "Spring Framework",
+      "MySQL",
+      "Thymeleaf",
+      "Programación",
+      "Maven",
+      "JPA",
+      "Administración de sistemas y servidores",
+      "Spring Boot",
+      "Analítico y algorítmico",
+      "Gestión y documentación de proyectos",
+      "Metodologías ágiles",
+      "Planificación de proyectos",
+      "jbcrypt",
+      "Apache Netbeans IDE",
+      "Capacidad de análisis e investigación",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/ControlClientes",
-        linkedin: "https://lnkd.in/p/dJBB44-M"
-    }
+      github: "https://github.com/jherraizsoler/ControlClientes",
+      linkedin: "https://lnkd.in/p/dJBB44-M",
+    },
   },
-  "21_es": {
+  "11_es": {
     title: "Proyecto Fullstack App Web Bolsa empleo Validación Vacantes",
     content: `
         <h3>Desarrollo fullstack - Proyecto de Formulario Web con Jakarta EE Facelets</h3>
@@ -868,30 +924,31 @@ const projectsData = {
         <p>Este proyecto ha sido una oportunidad para aplicar y demostrar mi capacidad para construir aplicaciones web empresariales, implementar validaciones de datos y gestionar un proyecto con un stack de tecnologías maduras y robustas. ¡Gracias por leer!</p>
     `,
     images: [
-             "Media/Proyectos/Proyecto21/imagenPrincipal.jpeg",
-             "Media/Proyectos/Proyecto21/Pantalla_Principal_datosIncorrectos.jpg",
-             "Media/Proyectos/Proyecto21/Pantalla_Feedback_Negativo.jpg",
-             "Media/Proyectos/Proyecto21/Pantalla_Principal_Feedback_Positivo_DatosCorrectos.jpg"
+      "Media/Proyectos/Proyecto21/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto21/Pantalla_Principal_datosIncorrectos.jpg",
+      "Media/Proyectos/Proyecto21/Pantalla_Feedback_Negativo.jpg",
+      "Media/Proyectos/Proyecto21/Pantalla_Principal_Feedback_Positivo_DatosCorrectos.jpg",
     ],
     skills: [
-        "Jakarta EE",
-        "JavaServer Faces (JSF)",
-        "Programación",
-        "Maven",
-        "Facelets",
-        "Java",
-        "Gestión y documentación de proyectos",
-        "HTML5",
-        "Metodologías ágiles",
-        "Planificación de proyectos",
-        "Apache Netbeans IDE"
+      "Jakarta EE",
+      "JavaServer Faces (JSF)",
+      "Programación",
+      "Maven",
+      "Facelets",
+      "Java",
+      "Gestión y documentación de proyectos",
+      "HTML5",
+      "Metodologías ágiles",
+      "Planificación de proyectos",
+      "Apache Netbeans IDE",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/vacantesBolsaTrabajo_FaceletsJSF_frontend",
-        linkedin: "https://lnkd.in/p/du34AJJw"
-    }
+      github:
+        "https://github.com/jherraizsoler/vacantesBolsaTrabajo_FaceletsJSF_frontend",
+      linkedin: "https://lnkd.in/p/du34AJJw",
+    },
   },
-  "22_es": {
+  "10_es": {
     title: "Proyecto backend Servidor PersonalHub",
     content: `
         <h3>PersonalHub: Servidor Backend</h3>
@@ -903,28 +960,29 @@ const projectsData = {
     `,
     images: ["Media/Proyectos/Proyecto22/imagenPrincipal.jpeg"],
     skills: [
-        "MongoDB",
-        "Programación",
-        "Maven",
-        "JSON",
-        "JavaScript",
-        "JSON Web Token (JWT)",
-        "Administración de sistemas y servidores",
-        "Analítico y algorítmico",
-        "Gestión y documentación de proyectos",
-        "Metodologías ágiles",
-        "Node.js",
-        "Planificación de proyectos",
-        "jbcrypt",
-        "Capacidad de análisis e investigación"
+      "MongoDB",
+      "Programación",
+      "Maven",
+      "JSON",
+      "JavaScript",
+      "JSON Web Token (JWT)",
+      "Administración de sistemas y servidores",
+      "Analítico y algorítmico",
+      "Gestión y documentación de proyectos",
+      "Metodologías ágiles",
+      "Node.js",
+      "Planificación de proyectos",
+      "jbcrypt",
+      "Capacidad de análisis e investigación",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/backend-auth",
-        linkedin: "https://lnkd.in/p/dM7-zKZS"
-    }
+      github: "https://github.com/jherraizsoler/backend-auth",
+      linkedin: "https://lnkd.in/p/dM7-zKZS",
+    },
   },
-  "23_es": {
-    title: "Proyecto multiplataforma final de grado superior DAM FPGS IFC302 TFG",
+  "9_es": {
+    title:
+      "Proyecto multiplataforma final de grado superior DAM FPGS IFC302 TFG",
     content: `
         <h3>CofradeDome</h3>
         <p>La aplicación "CofradeDome" surge de manera ficticia como respuesta a la solicitud de una cofradía que requiere una solución digital para optimizar la gestión de los cofrades asistentes de la sección de instrumentos. Su objetivo principal es mejorar el proceso de registro y control de asistencia mediante el uso de Códigos QR en los ensayos.</p>
@@ -957,42 +1015,40 @@ const projectsData = {
             <li>**GestorCofrades (Generador Tarjetas PDF):** itext-core de com.itextpdf, layout de com.itextpdf</li>
         </ul>
     `,
-    images: [
-              "Media/Proyectos/Proyecto23/imagenPrincipal.png"
-    ],
+    images: ["Media/Proyectos/Proyecto23/imagenPrincipal.png"],
     skills: [
-        "Diseño de experiencia de usuario (UX) y interfaz de usuario (UI)",
-        "Executor",
-        "Resolución de problemas",
-        "Python",
-        "Desarrollo de software",
-        "MySQL",
-        "Programación",
-        "Maven",
-        "Certificaciones SSL",
-        "Ubuntu",
-        "Android",
-        "biometric",
-        "Liderazgo",
-        "Administración de sistemas y servidores",
-        "zxing",
-        "Analítico y algorítmico",
-        "Gestión y documentación de proyectos",
-        "Seguridad de la capa de transporte (TLS)",
-        "Metodologías ágiles",
-        "Kotlin",
-        "Modelo-Vista-Controlador (MVC)",
-        "Planificación de proyectos",
-        "jbcrypt",
-        "Diseño y administración de bases de datos",
-        "Capacidad de análisis e investigación"
+      "Diseño de experiencia de usuario (UX) y interfaz de usuario (UI)",
+      "Executor",
+      "Resolución de problemas",
+      "Python",
+      "Desarrollo de software",
+      "MySQL",
+      "Programación",
+      "Maven",
+      "Certificaciones SSL",
+      "Ubuntu",
+      "Android",
+      "biometric",
+      "Liderazgo",
+      "Administración de sistemas y servidores",
+      "zxing",
+      "Analítico y algorítmico",
+      "Gestión y documentación de proyectos",
+      "Seguridad de la capa de transporte (TLS)",
+      "Metodologías ágiles",
+      "Kotlin",
+      "Modelo-Vista-Controlador (MVC)",
+      "Planificación de proyectos",
+      "jbcrypt",
+      "Diseño y administración de bases de datos",
+      "Capacidad de análisis e investigación",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/AppCofradeDome",
-        linkedin: "https://lnkd.in/p/dHTFAcfE"
-    }
+      github: "https://github.com/jherraizsoler/AppCofradeDome",
+      linkedin: "https://lnkd.in/p/dHTFAcfE",
+    },
   },
-  "24_es": {
+  "8_es": {
     title: "Proyecto Software App Desktop WPF Editor de textos",
     content: `
         <h3>Proyecto: Editor de Texto WPF</h3>
@@ -1017,44 +1073,38 @@ const projectsData = {
         <p>Este proyecto me permitió consolidar mis conocimientos en el desarrollo de aplicaciones con **WPF**, aplicando patrones de diseño para lograr una arquitectura de código más limpia y mantenible. Demuestra mi capacidad para trabajar con tecnologías de vanguardia para crear experiencias de usuario enriquecidas y funcionales.</p>
     `,
     images: [
-              "Media/Proyectos/Proyecto24/imagenPrincipal.jpg",
-              "Media/Proyectos/Proyecto24/imagenPrincipal.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_date.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Archivo.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Ayuda.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Ayuda_Ventana.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formato_ColorFondo.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formato_ColorTexto.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formulario.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Modificada.jpg"
+      "Media/Proyectos/Proyecto24/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto24/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_date.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Archivo.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Ayuda.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Ayuda_Ventana.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formato_ColorFondo.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formato_ColorTexto.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formulario.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Modificada.jpg",
     ],
-    skills: [
-        "C#",
-        ".NET Framework"
-    ],
+    skills: ["C#", ".NET Framework"],
     links: {
-        github: "https://github.com/jherraizsoler/WPF_Menus_Archivos_Custom_EditorTexto",
-        linkedin: "https://lnkd.in/p/dAihRfHX"
-    }
+      github:
+        "https://github.com/jherraizsoler/WPF_Menus_Archivos_Custom_EditorTexto",
+      linkedin: "https://lnkd.in/p/dAihRfHX",
+    },
   },
-  "25_es": {
+  "7_es": {
     title: "Proyecto app Desktop WF_SistemaProyectos",
     content: ` 
             <h3>Proyecto: WF_SistemaProyectos</h3>
             <p>Lideré el análisis, desarrollo y documentación de ProyectosDome, una aplicación de escritorio para S.O. Windows diseñada para optimizar la gestión de proyectos, tareas y clientes. Esta solución fue concebida para una empresa con el fin de mejorar su eficiencia operativa y asegurar la integridad de los datos.</p><h4>Objetivos del Proyecto:</h4><ul><li><b>Persistencia y Gestión de Datos:</b> Diseño e implementación de un sistema robusto para la gestión y persistencia de datos, garantizando la integridad referencial y la fiabilidad de la información.</li><li><b>Validación de Datos:</b> Desarrollo de lógicas de validación para asegurar que los datos insertados en la base de datos cumplan con los criterios de negocio definidos.</li><li><b>Diseño de la Interfaz:</b> Creación de una interfaz de usuario intuitiva en C# con Windows Forms, facilitando la interacción del usuario con la aplicación.</li><li><b>Generación de Documentación:</b> Elaboración de una memoria técnica completa, detallando la arquitectura de la aplicación, el flujo de datos y las decisiones de diseño.</li></ul><h4>Tecnologías y Metodologías:</h4><ul><li><b>Lenguaje de Programación:</b> C#</li><li><b>Framework:</b> .NET, Windows Forms</li><li><b>IDE:</b> Visual Studio</li><li><b>Base de Datos:</b> SQL Server</li><li><b>Gestión de Datos:</b> Modelado, inserción y recuperación de datos para la persistencia en la base de datos.</li><li><b>Ingeniería de Software:</b> Análisis de requisitos, diseño de la solución y desarrollo.</li></ul><p>Este proyecto me permitió aplicar mis conocimientos en desarrollo de software de ciclo completo, desde el análisis y la arquitectura de la solución hasta la implementación y documentación final, con un enfoque en la calidad del código y la eficiencia del sistema.</p>
       `,
     images: ["Media/Proyectos/Proyecto25/imagenPrincipal.jpg"],
-    skills: [
-        "C#",
-        ".NET Framework",
-        "SQL"
-    ],
+    skills: ["C#", ".NET Framework", "SQL"],
     links: {
-        github: "https://github.com/jherraizsoler/WF_SistemaProyectos",
-        linkedin: "https://lnkd.in/p/dcfiPhn9"
-    }
+      github: "https://github.com/jherraizsoler/WF_SistemaProyectos",
+      linkedin: "https://lnkd.in/p/dcfiPhn9",
+    },
   },
-  "26_es": {
+  "6_es": {
     title: "Proyecto Software app Editor de textos WF",
     content: `
         <h3>Proyecto: Editor de Texto WF</h3>
@@ -1078,27 +1128,24 @@ const projectsData = {
         <p>Este proyecto me permitió consolidar mis conocimientos en **programación orientada a objetos (POO)**, manejo de eventos y gestión del sistema de archivos, aplicando buenas prácticas de desarrollo.</p>
     `,
     images: [
-            "Media/Proyectos/Proyecto26/imagenPrincipal.jpg",
-            "Media/Proyectos/Proyecto26/imagenPrincipal.jpg",
-            "Media/Proyectos/Proyecto26/Pantalla_Principal_Ayuda.jpg",
-            "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Archivo.jpg",
-            "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Ayuda.jpg",
-            "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Formato_ColorFondo.jpg",
-            "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Formato_ColorTexto.jpg",
-            "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Formulario.jpg",
-            "Media/Proyectos/Proyecto26/Pantalla_Principal_modificada.jpg"
+      "Media/Proyectos/Proyecto26/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto26/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto26/Pantalla_Principal_Ayuda.jpg",
+      "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Archivo.jpg",
+      "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Ayuda.jpg",
+      "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Formato_ColorFondo.jpg",
+      "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Formato_ColorTexto.jpg",
+      "Media/Proyectos/Proyecto26/Pantalla_Principal_Menu_Formulario.jpg",
+      "Media/Proyectos/Proyecto26/Pantalla_Principal_modificada.jpg",
     ],
-    skills: [
-        ".NET Framework",
-        "Microsoft Visual Studio Code",
-        "C#"
-    ],
+    skills: [".NET Framework", "Microsoft Visual Studio Code", "C#"],
     links: {
-        github: "https://github.com/jherraizsoler/WF_Menus_Archivos_Custom_EditorTexto",
-        linkedin: "https://lnkd.in/p/digKzB6G"
-    }
+      github:
+        "https://github.com/jherraizsoler/WF_Menus_Archivos_Custom_EditorTexto",
+      linkedin: "https://lnkd.in/p/digKzB6G",
+    },
   },
-  "27_es": {
+  "5_es": {
     title: "App Biblioteca – Gestión personal de libros en Android",
     content: `
         <h3>App Biblioteca - Gestión personal de libros en Android</h3>
@@ -1124,80 +1171,81 @@ const projectsData = {
         <p>Este proyecto refleja mis habilidades en desarrollo Android, organización de código limpio y pruebas de software. Además, demuestra mi capacidad para llevar una aplicación desde el diseño inicial hasta un producto final funcional, escalable y fácil de mantener.</p>
     `,
     images: [
-            "Media/Proyectos/Proyecto27/imagenPrincipal.jpeg",
-            "Media/Proyectos/Proyecto27/Pantalla_Principal.png",
-            "Media/Proyectos/Proyecto27/Pantalla_Principal_Menu.png",
-            "Media/Proyectos/Proyecto27/Pantalla_Principal_Opciones.png",
-            "Media/Proyectos/Proyecto27/Dialogo_ModificarLibro.png",
-            "Media/Proyectos/Proyecto27/Opcion_OrdenarPor.png",
-            "Media/Proyectos/Proyecto27/OpcionEliminar.png",
-            "Media/Proyectos/Proyecto27/Pantalla_DarAltaLibro.png"    
+      "Media/Proyectos/Proyecto27/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto27/Pantalla_Principal.png",
+      "Media/Proyectos/Proyecto27/Pantalla_Principal_Menu.png",
+      "Media/Proyectos/Proyecto27/Pantalla_Principal_Opciones.png",
+      "Media/Proyectos/Proyecto27/Dialogo_ModificarLibro.png",
+      "Media/Proyectos/Proyecto27/Opcion_OrdenarPor.png",
+      "Media/Proyectos/Proyecto27/OpcionEliminar.png",
+      "Media/Proyectos/Proyecto27/Pantalla_DarAltaLibro.png",
     ],
     skills: [
-        "Android",
-        "Java",
-        "JUnit",
-        "Mockito",
-        "Gradle",
-        "Material Design",
-        "AndroidX",
-        "Espresso",
-        "Pruebas de software",
-        "Desarrollo de software"
+      "Android",
+      "Java",
+      "JUnit",
+      "Mockito",
+      "Gradle",
+      "Material Design",
+      "AndroidX",
+      "Espresso",
+      "Pruebas de software",
+      "Desarrollo de software",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/appbiblioteca",
-        linkedin: "https://lnkd.in/p/diywaF5j"
-    }
+      github: "https://github.com/jherraizsoler/appbiblioteca",
+      linkedin: "https://lnkd.in/p/diywaF5j",
+    },
   },
-  "28_es": {
-    title: "Documentación completa de la red de una empresa (Ficticia) y simulación con Cisco Packet Tracer",
+  "4_es": {
+    title:
+      "Documentación completa de la red de una empresa (Ficticia) y simulación con Cisco Packet Tracer",
     content: `
         <h3>Documentación de la red y simulación con Cisco Packet Tracer</h3>
         <p>Este proyecto consistió en la documentación completa, análisis, estudio, toma de decisiones y desarrollo de un caso ficticio de un ticket de un cliente con un problema de red. Se analizó la situación, se tomaron decisiones de diseño y se desarrolló una red de empresa ficticia, simulada con **Cisco Packet Tracer**. El proyecto completo, con toda la información técnica, está detallado en un documento PDF adjunto.</p>
     `,
     images: [
-            "Media/Proyectos/Proyecto28/imagenPrincipal.jpg",
-            "Media/Proyectos/Proyecto28/imagenPrincipal.jpg",
-            "Media/Proyectos/Proyecto28/2.jpg",
-            "Media/Proyectos/Proyecto28/3.jpg",
-            "Media/Proyectos/Proyecto28/4.jpg",
-            "Media/Proyectos/Proyecto28/5.jpg",
-            "Media/Proyectos/Proyecto28/6.jpg",
-            "Media/Proyectos/Proyecto28/7.jpg",
-            "Media/Proyectos/Proyecto28/8.jpg",
-            "Media/Proyectos/Proyecto28/9.jpg",
-            "Media/Proyectos/Proyecto28/10.jpg",
-            "Media/Proyectos/Proyecto28/11.jpg",
-            "Media/Proyectos/Proyecto28/12.jpg",
-            "Media/Proyectos/Proyecto28/13.jpg",
-            "Media/Proyectos/Proyecto28/14.jpg",
-            "Media/Proyectos/Proyecto28/15.jpg",
-            "Media/Proyectos/Proyecto28/16.jpg",
-            "Media/Proyectos/Proyecto28/17.jpg",
-            "Media/Proyectos/Proyecto28/18.jpg",
-            "Media/Proyectos/Proyecto28/19.jpg"  
+      "Media/Proyectos/Proyecto28/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto28/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto28/2.jpg",
+      "Media/Proyectos/Proyecto28/3.jpg",
+      "Media/Proyectos/Proyecto28/4.jpg",
+      "Media/Proyectos/Proyecto28/5.jpg",
+      "Media/Proyectos/Proyecto28/6.jpg",
+      "Media/Proyectos/Proyecto28/7.jpg",
+      "Media/Proyectos/Proyecto28/8.jpg",
+      "Media/Proyectos/Proyecto28/9.jpg",
+      "Media/Proyectos/Proyecto28/10.jpg",
+      "Media/Proyectos/Proyecto28/11.jpg",
+      "Media/Proyectos/Proyecto28/12.jpg",
+      "Media/Proyectos/Proyecto28/13.jpg",
+      "Media/Proyectos/Proyecto28/14.jpg",
+      "Media/Proyectos/Proyecto28/15.jpg",
+      "Media/Proyectos/Proyecto28/16.jpg",
+      "Media/Proyectos/Proyecto28/17.jpg",
+      "Media/Proyectos/Proyecto28/18.jpg",
+      "Media/Proyectos/Proyecto28/19.jpg",
     ],
     skills: [
-        "Resolución de problemas",
-        "Gestión y resolución de incidencias",
-        "Programación",
-        "Gestión documental",
-        "Maven",
-        "Liderazgo",
-        "Administración de sistemas y servidores",
-        "Gestión de redes",
-        "Analítico y algorítmico",
-        "Gestión y documentación de proyectos",
-        "Metodologías ágiles",
-        "Planificación de proyectos",
-        "Capacidad de análisis e investigación"
+      "Resolución de problemas",
+      "Gestión y resolución de incidencias",
+      "Programación",
+      "Gestión documental",
+      "Maven",
+      "Liderazgo",
+      "Administración de sistemas y servidores",
+      "Gestión de redes",
+      "Analítico y algorítmico",
+      "Gestión y documentación de proyectos",
+      "Metodologías ágiles",
+      "Planificación de proyectos",
+      "Capacidad de análisis e investigación",
     ],
     links: {
-        linkedin: "https://lnkd.in/p/d_p9d42i"
-    }
+      linkedin: "https://lnkd.in/p/d_p9d42i",
+    },
   },
-  "29_es": {
+  "3_es": {
     title: "Proyecto FullStack App Desktop Sistema de Tareas",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -1235,7 +1283,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363223176245370881-Sg4H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "30_es": {
+  "2_es": {
     title: "Proyecto FullStack App Web Sistema de Personas",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -1284,7 +1332,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364310370116583424-1ZNv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "31_es": {
+  "1_es": {
     title: "Proyecto FullStack App Web Sistema de Contactos",
     content: `
         <h3>Descripción del Proyecto</h3>
@@ -1335,9 +1383,59 @@ const projectsData = {
     },
   },
 
-
   // Ingles
-  "1_en": {
+  "32_en": {
+    title: "Nexus - Autonomous Medical Agent System",
+    content: `
+        <h3>Project Description</h3>
+        <p><b>Nexus Strategy Engine (NSE)</b> is an advanced engineering platform that integrates professional software development with cutting-edge <b>Generative AI</b>. It is an ecosystem of autonomous agents orchestrated through graph structures, designed to process, audit, and synthesize complex information for high-level executive decision-making.</p>
+
+        <h4>Graph Architecture and Professional Stack</h4>
+        <p>The system is built on a coordinated state topology that ensures scalability, observability, and persistence:</p>
+        <ul>
+            <li><b>Frontend Dashboard (Angular 18):</b> A premium reactive interface developed with standalone components and SCSS, enabling thread management and hierarchical visualization of results.</li>
+            <li><b>AI Core Engine (LangGraph & FastAPI):</b> A Python-based reasoning engine that orchestrates specialized agents using state graph logic to enable technical feedback loops.</li>
+            <li><b>Data & Intelligence Layer:</b> Implements memory persistence with SQLite Checkpointer and vector knowledge management using ChromaDB to optimize business context.</li>
+            <li><b>Robust Infrastructure (Docker):</b> Containerized deployment using Docker Compose that ensures environment parity and complete system isolation.</li>
+        </ul>
+
+        <h4>Agent Specialization and Workflow</h4>
+        <p>The system operates under a hierarchy of specialized agents that collaborate to ensure the technical rigor of the analysis:</p>
+        <ul>
+            <li><b>Strategic Orchestrator:</b> Intelligent task delegation and global query state management.</li>
+            <li><b>Specialized Agents:</b> Collaboration between experts in <i>Market Intelligence</i>, <i>Risk Officer</i> (GDPR compliance), and <i>Solutions Architect</i> (specialist in .NET 8).</li>
+            <li><b>Executive Reviewer:</b> Final quality control agent that performs a coherence audit and assigns a Validation Score before delivering the report.</li>
+        </ul>
+    `,
+    images: [
+      "Media/Proyectos/Proyecto32/Portada.png",
+      "Media/Proyectos/Proyecto32/diagrama_arquitectura.png",
+      "Media/Proyectos/Proyecto32/diagrama_observabilidad.png",
+      "Media/Proyectos/Proyecto32/diagrama_orquestacion.png",
+    ],
+    skills: [
+      "LangGraph",
+      "Python 3.11+",
+      "FastAPI",
+      "Angular 18",
+      "Agentic AI",
+      "IA Generativa (GPT-4o)",
+      "Multi-Agent Orchestration",
+      "Docker & Docker Compose",
+      "SQLite Checkpointer",
+      "ChromaDB (Vector Memory)",
+      "SCSS & UI/UX Premium",
+      "RxJS",
+      "Arquitectura de Grafos",
+      ".NET 8 (Technical Strategy)"
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/Nexus-Strategy-Engine",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-ai-softwarearchitecture-ugcPost-7426395320227368961-SJn3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+    },
+  },
+  "31_en": {
     title: "OmniCare AI - Autonomous Medical Agent System",
     content: `
         <h3>Project Description</h3>
@@ -1382,10 +1480,11 @@ const projectsData = {
     ],
     links: {
       github: "https://github.com/jherraizsoler/OmniCare-AI",
-      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_proyectoabrfinalizado-ai-softwarearchitecture-activity-7414018104952856576-z2Bv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_proyectoabrfinalizado-ai-softwarearchitecture-activity-7414018104952856576-z2Bv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "2_en": {
+  "30_en": {
     title: "Specialization in Autonomous Agents (LangChain & LangGraph)",
     content: `
         <h3>Generative AI Specialist</h3>
@@ -1403,7 +1502,7 @@ const projectsData = {
         <p>Implementation of cyclic workflows with <b>LangGraph</b>, enabling pausing, resuming, and hybrid memory management (Checkpoints and Sliding Windows). Integration of external tools such as Tavily Search and Gmail Toolkit for real-world actions.</p>
     `,
     images: [
-      "Media/Proyectos/Proyecto2/portada_proyecto_LangChain_LangGraph.png"
+      "Media/Proyectos/Proyecto2/portada_proyecto_LangChain_LangGraph.png",
     ],
     skills: [
       "LangGraph",
@@ -1416,14 +1515,16 @@ const projectsData = {
       "Streamlit",
       "FastAPI",
       "Agentes de IA",
-      "Liderazgo Técnico"
+      "Liderazgo Técnico",
     ],
     links: {
-      github: "https://github.com/jherraizsoler/LangGraph-LangChain-Agentic-Workflows",
-      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_inteligenciaartificial-aiforbusiness-langgraph-activity-7410688640797917184-reJP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk"
+      github:
+        "https://github.com/jherraizsoler/LangGraph-LangChain-Agentic-Workflows",
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_inteligenciaartificial-aiforbusiness-langgraph-activity-7410688640797917184-reJP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "3_en": {
+  "29_en": {
     title: "High-Volume Architectures: IA & Big Data (500TB)",
     content: `
         <h3>Data Engineering & Advanced AI</h3>
@@ -1441,9 +1542,7 @@ const projectsData = {
         <h4>Technical Impact</h4>
         <p>Integration of a robust technology stack (Python, R, TensorFlow, MongoDB) focused on statistical rigor, high-volume asset processing efficiency, and the most demanding industry standards.</p>
     `,
-    images: [
-      "Media/Proyectos/Proyecto3/Portada_Informes_IA_BigData.png",
-    ],
+    images: ["Media/Proyectos/Proyecto3/Portada_Informes_IA_BigData.png"],
     skills: [
       "Arquitectura Lambda",
       "Big Data (500TB)",
@@ -1454,14 +1553,15 @@ const projectsData = {
       "Inferencia Bayesiana",
       "Cloud (AWS/Azure)",
       "Criptografía RSA",
-      "Python / R"
+      "Python / R",
     ],
     links: {
       github: "https://github.com/jherraizsoler/informes_ia_bigdata",
-      linkedin: "https://www.linkedin.com/posts/jorgeherraizsoler_informe-pia-activity-7407811986094374913-2SVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk"
+      linkedin:
+        "https://www.linkedin.com/posts/jorgeherraizsoler_informe-pia-activity-7407811986094374913-2SVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "4_en": {
+  "28_en": {
     title: "FullStack App Web Employee System Project",
     content: `
         <h3>Project Description</h3>
@@ -1502,7 +1602,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364234844140109825-Z7zG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "5_en": {
+  "27_en": {
     title: "Proyecto Frontend App Web Sistema de Presupuestos",
     content: `
         <h3>Project Description</h3>
@@ -1551,7 +1651,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363842300013142016-hAWD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "6_en": {
+  "26_en": {
     title: "FullStack App Web People Systems Project",
     content: `
         <h3>Project Description</h3>
@@ -1600,7 +1700,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364310370116583424-1ZNv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "7_en": {
+  "25_en": {
     title:
       "FullStack GymFlow: Comprehensive Client Management System for Gyms Project",
     content: `
@@ -1652,7 +1752,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_me-alegra-compartir-que-he-trabajado-en-este-activity-7363479906225209344-u4JU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "8_en": {
+  "24_en": {
     title: "Backend People System Project",
     content: `
         <h3>Project Description</h3>
@@ -1687,7 +1787,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364672707344408576-6zC2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "9_en": {
+  "23_en": {
     title: "Backend Product Inventory System Project",
     content: `
         <h3>Project Description</h3>
@@ -1704,7 +1804,7 @@ const projectsData = {
         <h4>Architecture and Technologies</h4>
         <p>The core of this project focuses on product management operations, facilitating **CRUD** (Create, Read, Update, and Delete) functions. The system's architecture is designed to be modular and extensible, allowing for easy integration with other platforms, such as point of sale (POS) systems or e-commerce stores.</p>
         `,
-    images: [ "Media/Proyectos/Proyecto9/imagenPrincipal.jpeg" ], // Agrega las rutas a tus imágenes si las tienes
+    images: ["Media/Proyectos/Proyecto9/imagenPrincipal.jpeg"], // Agrega las rutas a tus imágenes si las tienes
     skills: [
       "Spring Framework",
       "MySQL",
@@ -1724,7 +1824,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364567005435183106-GUO_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "10_en": {
+  "22_en": {
     title: "Backend HR Employee System Project",
     content: `
         <h3>Project Description</h3>
@@ -1744,7 +1844,7 @@ const projectsData = {
         </ul>
         <p>This API structure decouples the backend from the frontend, allowing client applications like those built with React or Angular to connect and manage data in a fluid and efficient manner.</p>
         `,
-    images: [ "Media/Proyectos/Proyecto10/imagenPrincipal.jpeg" ],
+    images: ["Media/Proyectos/Proyecto10/imagenPrincipal.jpeg"],
     skills: [
       "Spring Framework",
       "MySQL",
@@ -1765,7 +1865,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363117473442729984-SFbf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "11_en": {
+  "21_en": {
     title: "Frontend App Web People Systems Project",
     content: `
         <h3>Project Description</h3>
@@ -1801,7 +1901,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_me-alegra-compartir-que-he-trabajado-en-este-activity-7363585596990066688-W4p-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "12_en": {
+  "20_en": {
     title: "Frontend Product Inventory System Project",
     content: `
         <h3>Project Description</h3>
@@ -1841,7 +1941,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364597242957074435-43O7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "13_en": {
+  "19_en": {
     title: "Frontend App Web HR Employee System Project",
     content: `
         <h3>Project Description</h3>
@@ -1886,7 +1986,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363147659655757824-1Srn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "14_en": {
+  "18_en": {
     title: "Backend API RESTFull Zafra Retail Project",
     content: `
        <h3>Project Description</h3>
@@ -1904,7 +2004,7 @@ const projectsData = {
 
         <p>This backend is the digital backbone of Zafra, enabling unified and efficient internal management and providing the necessary infrastructure for its growth.</p>
         `,
-    images: [ "Media/Proyectos/Proyecto14/imagenPrincipal.jpeg" ],
+    images: ["Media/Proyectos/Proyecto14/imagenPrincipal.jpeg"],
     skills: [
       "C#",
       "Diseño de experiencia de usuario (UX) y interfaz de usuario (UI)",
@@ -1932,7 +2032,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_me-alegra-compartir-que-estoy-trabajado-en-activity-7356720798738329600-0MyI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "15_en": {
+  "17_en": {
     title: "FullStack Mobile App PersonalHub Project",
     content: `
         <h3>Project Description</h3>
@@ -2031,59 +2131,60 @@ const projectsData = {
       linkedin: "https://lnkd.in/p/dxk_Axrc",
     },
   },
-  "17_en": {
-        title: "Frontend Project Portfolio Jorge Herraiz Soler",
-        content: "I am building my portfolio from scratch, materializing my ideas of the portfolio I would like to have, what the first impressions are, and taking care of the content. I want to create a portfolio that shows who I am, what I do, what my initiative is, my path, what my values are, principles, and attention to detail. I like to show in the portfolio the enjoyment and constant study that I have been developing for 3 years, focusing on the IT sector. Technologies used: - HTML5 - CSS3 - JavaScript - Shoelace-style for some components for Academic and Experience sections New learnings, elements or components: - Static Nav, white left-side component with guide buttons for the portfolio (clip-path) - Static Footer (z-index) - Circle radius blur filter cursor, Design and UX/UI - Language Change Button / Translator mode component English and Spanish - Dark / Light Mode Button / Visibility / color mode component - PopUps / Pop-up windows Show more information about the projects - Improved Academic section - Improved Experience section - Improved Projects section - Updated Courses and Certifications section - Implemented and improved Technologies section - Implemented and improved Recommendations section Last updated 19/09/2025 @jherraizsoler",
-        images: [
-          "Media/Proyectos/Proyecto17/imagenPrincipal.jpg",
-          "Media/Proyectos/Proyecto17/imagenPrincipal_componenteAbierto.jpg",
-          "Media/Proyectos/Proyecto17/imagen_Internalización_Ingles_Español.jpg",
-          "Media/Proyectos/Proyecto17/imagen_mode_Dark.jpg",
-          "Media/Proyectos/Proyecto17/imagen_mode_Light.jpg",
-          "Media/Proyectos/Proyecto17/imagen_responsive.jpg",
-          "Media/Proyectos/Proyecto17/imagen_responsive_¡phoneSE.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_BigData_IA.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_Developer.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_SoporteIT.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_2.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_3.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_4.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionExperiencia_Developer.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionExperiencia_SoporteIT.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionProyectos.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_1.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_captura2.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_imagenAmpliada.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionRecomendaciones.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionTecnologias_captura1.jpg",
-          "Media/Proyectos/Proyecto17/imagen_SeccionTecnologias_captura2.jpg"
-        ],
-        skills: [
-            "User Experience (UX) and User Interface (UI) Design",
-            "Problem Solving",
-            "Front-end Development",
-            "Software Development",
-            "Programming",
-            "Document Management",
-            "JavaScript",
-            "CSS3",
-            "Leadership",
-            "Systems and Server Administration",
-            "Microsoft Visual Studio Code",
-            "Analytical and Algorithmic",
-            "Project Management and Documentation",
-            "HTML5",
-            "Agile Methodologies",
-            "Project Planning",
-            "Analytical and Research Skills"
-        ],
-        links: {
-            github: "https://github.com/jherraizsoler/portfolio",
-            linkedin: "https://lnkd.in/p/d87i8hnh"
-        }
+  "15_en": {
+    title: "Frontend Project Portfolio Jorge Herraiz Soler",
+    content:
+      "I am building my portfolio from scratch, materializing my ideas of the portfolio I would like to have, what the first impressions are, and taking care of the content. I want to create a portfolio that shows who I am, what I do, what my initiative is, my path, what my values are, principles, and attention to detail. I like to show in the portfolio the enjoyment and constant study that I have been developing for 3 years, focusing on the IT sector. Technologies used: - HTML5 - CSS3 - JavaScript - Shoelace-style for some components for Academic and Experience sections New learnings, elements or components: - Static Nav, white left-side component with guide buttons for the portfolio (clip-path) - Static Footer (z-index) - Circle radius blur filter cursor, Design and UX/UI - Language Change Button / Translator mode component English and Spanish - Dark / Light Mode Button / Visibility / color mode component - PopUps / Pop-up windows Show more information about the projects - Improved Academic section - Improved Experience section - Improved Projects section - Updated Courses and Certifications section - Implemented and improved Technologies section - Implemented and improved Recommendations section Last updated 19/09/2025 @jherraizsoler",
+    images: [
+      "Media/Proyectos/Proyecto17/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto17/imagenPrincipal_componenteAbierto.jpg",
+      "Media/Proyectos/Proyecto17/imagen_Internalización_Ingles_Español.jpg",
+      "Media/Proyectos/Proyecto17/imagen_mode_Dark.jpg",
+      "Media/Proyectos/Proyecto17/imagen_mode_Light.jpg",
+      "Media/Proyectos/Proyecto17/imagen_responsive.jpg",
+      "Media/Proyectos/Proyecto17/imagen_responsive_¡phoneSE.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_BigData_IA.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_Developer.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionAcademica_SoporteIT.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_2.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_3.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionCursosCertificaciones_4.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionExperiencia_Developer.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionExperiencia_SoporteIT.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionProyectos.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_1.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_captura2.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionProyectos_VentanaEmergente_imagenAmpliada.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionRecomendaciones.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionTecnologias_captura1.jpg",
+      "Media/Proyectos/Proyecto17/imagen_SeccionTecnologias_captura2.jpg",
+    ],
+    skills: [
+      "User Experience (UX) and User Interface (UI) Design",
+      "Problem Solving",
+      "Front-end Development",
+      "Software Development",
+      "Programming",
+      "Document Management",
+      "JavaScript",
+      "CSS3",
+      "Leadership",
+      "Systems and Server Administration",
+      "Microsoft Visual Studio Code",
+      "Analytical and Algorithmic",
+      "Project Management and Documentation",
+      "HTML5",
+      "Agile Methodologies",
+      "Project Planning",
+      "Analytical and Research Skills",
+    ],
+    links: {
+      github: "https://github.com/jherraizsoler/portfolio",
+      linkedin: "https://lnkd.in/p/d87i8hnh",
+    },
   },
-  "18_en": {
+  "14_en": {
     title: "Backend Project People Systems with Hibernate",
     content: `
         <h3>Project Description</h3>
@@ -2100,22 +2201,22 @@ const projectsData = {
     `,
     images: ["Media/Proyectos/Proyecto18/imagenPrincipal.jpeg"],
     skills: [
-        "Hibernate",
-        "MySQL",
-        "Programming",
-        "Maven",
-        "Java",
-        "Project Management and Documentation",
-        "Agile Methodologies",
-        "Project Planning",
-        "Apache Netbeans IDE"
+      "Hibernate",
+      "MySQL",
+      "Programming",
+      "Maven",
+      "Java",
+      "Project Management and Documentation",
+      "Agile Methodologies",
+      "Project Planning",
+      "Apache Netbeans IDE",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/personas_hibernate",
-        linkedin: "https://lnkd.in/p/d4Y8aHQu"
-    }
+      github: "https://github.com/jherraizsoler/personas_hibernate",
+      linkedin: "https://lnkd.in/p/d4Y8aHQu",
+    },
   },
-  "19_en": {
+  "13_en": {
     title: "FullStack Web App Project Student Systems",
     content: `
         <h3>FullStack Web App Project Student Systems</h3>
@@ -2134,33 +2235,34 @@ const projectsData = {
         <p>This project demonstrates my ability to develop end-to-end web applications, handling both server logic and user interface design, and ensuring efficient and organized data management.</p>
     `,
     images: [
-              "Media/Proyectos/Proyecto19/imagenPrincipal.jpeg",
-              "Media/Proyectos/Proyecto19/Pantalla_Inicio.jpg",
-              "Media/Proyectos/Proyecto19/Pantalla_ListadoAlumnos.jpg",
-              "Media/Proyectos/Proyecto19/Pantalla_ModificarAlumno.jpg",
-              "Media/Proyectos/Proyecto19/Pantalla_AgregarAlumno.jpg"
+      "Media/Proyectos/Proyecto19/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto19/Pantalla_Inicio.jpg",
+      "Media/Proyectos/Proyecto19/Pantalla_ListadoAlumnos.jpg",
+      "Media/Proyectos/Proyecto19/Pantalla_ModificarAlumno.jpg",
+      "Media/Proyectos/Proyecto19/Pantalla_AgregarAlumno.jpg",
     ],
     skills: [
-        "Jakarta EE",
-        "Hibernate",
-        "MySQL",
-        "Programming",
-        "Log4j",
-        "Maven",
-        "Java",
-        "Project Management and Documentation",
-        "HTML5",
-        "JSP",
-        "Agile Methodologies",
-        "Project Planning",
-        "Apache Netbeans IDE"
+      "Jakarta EE",
+      "Hibernate",
+      "MySQL",
+      "Programming",
+      "Log4j",
+      "Maven",
+      "Java",
+      "Project Management and Documentation",
+      "HTML5",
+      "JSP",
+      "Agile Methodologies",
+      "Project Planning",
+      "Apache Netbeans IDE",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/AlumnosWebHibernateJPA_fullstack",
-        linkedin: "https://lnkd.in/p/dW4Zw3Ft"
-    }
+      github:
+        "https://github.com/jherraizsoler/AlumnosWebHibernateJPA_fullstack",
+      linkedin: "https://lnkd.in/p/dW4Zw3Ft",
+    },
   },
-  "20_en": {
+  "12_en": {
     title: "FullStack Web App Project Customer Systems",
     content: `
         <h3>Project Description</h3>
@@ -2169,36 +2271,36 @@ const projectsData = {
         <p>The frontend, a modern and fully adaptable interface, is built on **Thymeleaf**, a server-side template engine. The responsive design is guaranteed by **Bootstrap 5** with its mobile-first approach, ensuring a perfect display on any device. To enhance the aesthetics, **Font Awesome** is integrated, which provides a vast collection of icons. The management of these external libraries is simplified with **Webjars**. The combination of these technologies results in a fluid, intuitive, and visually pleasing user experience, demonstrating the high quality of a modern full-stack solution.</p>
     `,
     images: [
-             "Media/Proyectos/Proyecto20/imagenPrincipal.jpeg",
-             "Media/Proyectos/Proyecto20/Pantalla_Login.jpg",
-             "Media/Proyectos/Proyecto20/Pantalla_Principal.jpg",
-             "Media/Proyectos/Proyecto20/Pantalla_EditarPersona.jpg"
+      "Media/Proyectos/Proyecto20/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto20/Pantalla_Login.jpg",
+      "Media/Proyectos/Proyecto20/Pantalla_Principal.jpg",
+      "Media/Proyectos/Proyecto20/Pantalla_EditarPersona.jpg",
     ],
     skills: [
-        "User Experience (UX) and User Interface (UI) Design",
-        "Spring Framework",
-        "MySQL",
-        "Thymeleaf",
-        "Programming",
-        "Maven",
-        "JPA",
-        "Systems and Server Administration",
-        "Spring Boot",
-        "Analytical and Algorithmic",
-        "Project Management and Documentation",
-        "Agile Methodologies",
-        "Project Planning",
-        "jbcrypt",
-        "Apache Netbeans IDE",
-        "Analytical and Research Skills"
+      "User Experience (UX) and User Interface (UI) Design",
+      "Spring Framework",
+      "MySQL",
+      "Thymeleaf",
+      "Programming",
+      "Maven",
+      "JPA",
+      "Systems and Server Administration",
+      "Spring Boot",
+      "Analytical and Algorithmic",
+      "Project Management and Documentation",
+      "Agile Methodologies",
+      "Project Planning",
+      "jbcrypt",
+      "Apache Netbeans IDE",
+      "Analytical and Research Skills",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/ControlClientes",
-        linkedin: "https://lnkd.in/p/dJBB44-M"
-    }
+      github: "https://github.com/jherraizsoler/ControlClientes",
+      linkedin: "https://lnkd.in/p/dJBB44-M",
+    },
   },
 
-  "21_en": {
+  "11_en": {
     title: "Fullstack Web App Project Job Board Validation Vacancies",
     content: `
         <h3>Full-Stack Development - Web Form Project with Jakarta EE Facelets</h3>
@@ -2208,30 +2310,31 @@ const projectsData = {
         <p>This project has been an opportunity to apply and demonstrate my ability to build enterprise web applications, implement data validations, and manage a project with a mature and robust technology stack. Thanks for reading!</p>
     `,
     images: [
-             "Media/Proyectos/Proyecto21/imagenPrincipal.jpeg",
-             "Media/Proyectos/Proyecto21/Pantalla_Principal_datosIncorrectos.jpg",
-             "Media/Proyectos/Proyecto21/Pantalla_Feedback_Negativo.jpg",
-             "Media/Proyectos/Proyecto21/Pantalla_Principal_Feedback_Positivo_DatosCorrectos.jpg"
+      "Media/Proyectos/Proyecto21/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto21/Pantalla_Principal_datosIncorrectos.jpg",
+      "Media/Proyectos/Proyecto21/Pantalla_Feedback_Negativo.jpg",
+      "Media/Proyectos/Proyecto21/Pantalla_Principal_Feedback_Positivo_DatosCorrectos.jpg",
     ],
     skills: [
-        "Jakarta EE",
-        "JavaServer Faces (JSF)",
-        "Programming",
-        "Maven",
-        "Facelets",
-        "Java",
-        "Project Management and Documentation",
-        "HTML5",
-        "Agile Methodologies",
-        "Project Planning",
-        "Apache Netbeans IDE"
+      "Jakarta EE",
+      "JavaServer Faces (JSF)",
+      "Programming",
+      "Maven",
+      "Facelets",
+      "Java",
+      "Project Management and Documentation",
+      "HTML5",
+      "Agile Methodologies",
+      "Project Planning",
+      "Apache Netbeans IDE",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/vacantesBolsaTrabajo_FaceletsJSF_frontend",
-        linkedin: "https://lnkd.in/p/du34AJJw"
-    }
+      github:
+        "https://github.com/jherraizsoler/vacantesBolsaTrabajo_FaceletsJSF_frontend",
+      linkedin: "https://lnkd.in/p/du34AJJw",
+    },
   },
-  "22_en": {
+  "10_en": {
     title: "PersonalHub Server Backend Project",
     content: `
         <h3>PersonalHub: Backend Server</h3>
@@ -2243,27 +2346,27 @@ const projectsData = {
     `,
     images: ["Media/Proyectos/Proyecto22/imagenPrincipal.jpeg"],
     skills: [
-        "MongoDB",
-        "Programming",
-        "Maven",
-        "JSON",
-        "JavaScript",
-        "JSON Web Token (JWT)",
-        "Systems and Server Administration",
-        "Analytical and Algorithmic",
-        "Project Management and Documentation",
-        "Agile Methodologies",
-        "Node.js",
-        "Project Planning",
-        "jbcrypt",
-        "Analytical and Research Skills"
+      "MongoDB",
+      "Programming",
+      "Maven",
+      "JSON",
+      "JavaScript",
+      "JSON Web Token (JWT)",
+      "Systems and Server Administration",
+      "Analytical and Algorithmic",
+      "Project Management and Documentation",
+      "Agile Methodologies",
+      "Node.js",
+      "Project Planning",
+      "jbcrypt",
+      "Analytical and Research Skills",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/backend-auth",
-        linkedin: "https://lnkd.in/p/dM7-zKZS"
-    }
+      github: "https://github.com/jherraizsoler/backend-auth",
+      linkedin: "https://lnkd.in/p/dM7-zKZS",
+    },
   },
-  "23_en": {
+  "9_en": {
     title: "Final Degree Project for Higher-Level DAM FPGS IFC302 TFG",
     content: `
         <h3>CofradeDome</h3>
@@ -2297,42 +2400,40 @@ const projectsData = {
             <li>**GestorCofrades (PDF Card Generator):** itext-core from com.itextpdf, layout from com.itextpdf</li>
         </ul>
     `,
-    images: [
-              "Media/Proyectos/Proyecto23/imagenPrincipal.png"
-    ],
+    images: ["Media/Proyectos/Proyecto23/imagenPrincipal.png"],
     skills: [
-        "User Experience (UX) and User Interface (UI) Design",
-        "Executor",
-        "Problem Solving",
-        "Python",
-        "Software Development",
-        "MySQL",
-        "Programming",
-        "Maven",
-        "SSL Certificates",
-        "Ubuntu",
-        "Android",
-        "biometric",
-        "Leadership",
-        "Systems and Server Administration",
-        "zxing",
-        "Analytical and Algorithmic",
-        "Project Management and Documentation",
-        "Transport Layer Security (TLS)",
-        "Agile Methodologies",
-        "Kotlin",
-        "Model-View-Controller (MVC)",
-        "Project Planning",
-        "jbcrypt",
-        "Database Design and Administration",
-        "Analytical and Research Skills"
+      "User Experience (UX) and User Interface (UI) Design",
+      "Executor",
+      "Problem Solving",
+      "Python",
+      "Software Development",
+      "MySQL",
+      "Programming",
+      "Maven",
+      "SSL Certificates",
+      "Ubuntu",
+      "Android",
+      "biometric",
+      "Leadership",
+      "Systems and Server Administration",
+      "zxing",
+      "Analytical and Algorithmic",
+      "Project Management and Documentation",
+      "Transport Layer Security (TLS)",
+      "Agile Methodologies",
+      "Kotlin",
+      "Model-View-Controller (MVC)",
+      "Project Planning",
+      "jbcrypt",
+      "Database Design and Administration",
+      "Analytical and Research Skills",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/AppCofradeDome",
-        linkedin: "https://lnkd.in/p/dHTFAcfE"
-    }
+      github: "https://github.com/jherraizsoler/AppCofradeDome",
+      linkedin: "https://lnkd.in/p/dHTFAcfE",
+    },
   },
-  "24_en": {
+  "8_en": {
     title: "Software Project Desktop WPF Text Editor",
     content: `
         <h3>Project: WPF Text Editor</h3>
@@ -2357,41 +2458,36 @@ const projectsData = {
         <p>This project allowed me to consolidate my knowledge in application development with **WPF**, applying design patterns to achieve a cleaner and more maintainable code architecture. It demonstrates my ability to work with cutting-edge technologies to create rich and functional user experiences.</p>
     `,
     images: [
-              "Media/Proyectos/Proyecto24/imagenPrincipal.jpg",
-              "Media/Proyectos/Proyecto24/imagenPrincipal.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_date.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Archivo.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Ayuda.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Ayuda_Ventana.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formato_ColorFondo.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formato_ColorTexto.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formulario.jpg",
-              "Media/Proyectos/Proyecto24/Pantalla_Principal_Modificada.jpg"
+      "Media/Proyectos/Proyecto24/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto24/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_date.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Archivo.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Ayuda.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Ayuda_Ventana.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formato_ColorFondo.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formato_ColorTexto.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Menu_Formulario.jpg",
+      "Media/Proyectos/Proyecto24/Pantalla_Principal_Modificada.jpg",
     ],
-    skills: [
-        "C#",
-        ".NET Framework"
-    ],
+    skills: ["C#", ".NET Framework"],
     links: {
-        github: "https://github.com/jherraizsoler/WPF_Menus_Archivos_Custom_EditorTexto",
-        linkedin: "https://lnkd.in/p/dAihRfHX"
-    }
+      github:
+        "https://github.com/jherraizsoler/WPF_Menus_Archivos_Custom_EditorTexto",
+      linkedin: "https://lnkd.in/p/dAihRfHX",
+    },
   },
-  "25_en": {
+  "7_en": {
     title: "Desktop App Project WF SystemProjects",
-    content: "<h3>Project: WF_SystemProjects</h3><p>I led the analysis, development, and documentation of ProyectosDome, a desktop application for the Windows OS designed to optimize the management of projects, tasks, and clients. This solution was conceived for a company to improve its operational efficiency and ensure data integrity.</p><h4>Project Objectives:</h4><ul><li><b>Data Persistence and Management:</b> Design and implementation of a robust system for data management and persistence, ensuring referential integrity and information reliability.</li><li><b>Data Validation:</b> Development of validation logic to ensure that data inserted into the database meets defined business criteria.</li><li><b>Interface Design:</b> Creation of an intuitive user interface in C# with Windows Forms, facilitating user interaction with the application.</li><li><b>Documentation Generation:</b> Elaboration of a complete technical report, detailing the application's architecture, data flow, and design decisions.</li></ul><h4>Technologies and Methodologies:</h4><ul><li><b>Programming Language:</b> C#</li><li><b>Framework:</b> .NET, Windows Forms</li><li><b>IDE:</b> Visual Studio</li><li><b>Database:</b> SQL Server</li><li><b>Data Management:</b> Modeling, insertion, and retrieval of data for database persistence.</li><li><b>Software Engineering:</b> Requirements analysis, solution design, and development.</li></ul><p>This project allowed me to apply my knowledge in full-cycle software development, from the analysis and architecture of the solution to the final implementation and documentation, with a focus on code quality and system efficiency.</p>",
+    content:
+      "<h3>Project: WF_SystemProjects</h3><p>I led the analysis, development, and documentation of ProyectosDome, a desktop application for the Windows OS designed to optimize the management of projects, tasks, and clients. This solution was conceived for a company to improve its operational efficiency and ensure data integrity.</p><h4>Project Objectives:</h4><ul><li><b>Data Persistence and Management:</b> Design and implementation of a robust system for data management and persistence, ensuring referential integrity and information reliability.</li><li><b>Data Validation:</b> Development of validation logic to ensure that data inserted into the database meets defined business criteria.</li><li><b>Interface Design:</b> Creation of an intuitive user interface in C# with Windows Forms, facilitating user interaction with the application.</li><li><b>Documentation Generation:</b> Elaboration of a complete technical report, detailing the application's architecture, data flow, and design decisions.</li></ul><h4>Technologies and Methodologies:</h4><ul><li><b>Programming Language:</b> C#</li><li><b>Framework:</b> .NET, Windows Forms</li><li><b>IDE:</b> Visual Studio</li><li><b>Database:</b> SQL Server</li><li><b>Data Management:</b> Modeling, insertion, and retrieval of data for database persistence.</li><li><b>Software Engineering:</b> Requirements analysis, solution design, and development.</li></ul><p>This project allowed me to apply my knowledge in full-cycle software development, from the analysis and architecture of the solution to the final implementation and documentation, with a focus on code quality and system efficiency.</p>",
     images: ["Media/Proyectos/Proyecto25/imagenPrincipal.jpg"],
-    skills: [
-        "C#",
-        ".NET Framework",
-        "SQL"
-    ],
+    skills: ["C#", ".NET Framework", "SQL"],
     links: {
-        github: "https://github.com/jherraizsoler/WF_SistemaProyectos",
-        linkedin: "https://lnkd.in/p/dcfiPhn9"
-    }
+      github: "https://github.com/jherraizsoler/WF_SistemaProyectos",
+      linkedin: "https://lnkd.in/p/dcfiPhn9",
+    },
   },
-  "26_en": {
+  "6_en": {
     title: "WF Text Editor Software App Project",
     content: `
         <h3>Project: WF Text Editor</h3>
@@ -2415,17 +2511,14 @@ const projectsData = {
         <p>This project allowed me to consolidate my knowledge in **object-oriented programming (OOP)**, event handling, and file system management, applying good development practices.</p>
     `,
     images: [],
-    skills: [
-        ".NET Framework",
-        "Microsoft Visual Studio Code",
-        "C#"
-    ],
+    skills: [".NET Framework", "Microsoft Visual Studio Code", "C#"],
     links: {
-        github: "https://github.com/jherraizsoler/WF_Menus_Archivos_Custom_EditorTexto",
-        linkedin: "https://lnkd.in/p/digKzB6G"
-    }
+      github:
+        "https://github.com/jherraizsoler/WF_Menus_Archivos_Custom_EditorTexto",
+      linkedin: "https://lnkd.in/p/digKzB6G",
+    },
   },
-  "27_en": {
+  "5_en": {
     title: "Library App – Personal Book Management on Android",
     content: `
         <h3>Library App - Personal Book Management on Android</h3>
@@ -2451,80 +2544,81 @@ const projectsData = {
         <p>This project reflects my skills in Android development, clean code organization, and software testing. It also demonstrates my ability to take an application from initial design to a functional, scalable, and easy-to-maintain final product.</p>
     `,
     images: [
-            "Media/Proyectos/Proyecto27/imagenPrincipal.jpeg",
-            "Media/Proyectos/Proyecto27/Pantalla_Principal.png",
-            "Media/Proyectos/Proyecto27/Pantalla_Principal_Menu.png",
-            "Media/Proyectos/Proyecto27/Pantalla_Principal_Opciones.png",
-            "Media/Proyectos/Proyecto27/Dialogo_ModificarLibro.png",
-            "Media/Proyectos/Proyecto27/Opcion_OrdenarPor.png",
-            "Media/Proyectos/Proyecto27/OpcionEliminar.png",
-            "Media/Proyectos/Proyecto27/Pantalla_DarAltaLibro.png" 
+      "Media/Proyectos/Proyecto27/imagenPrincipal.jpeg",
+      "Media/Proyectos/Proyecto27/Pantalla_Principal.png",
+      "Media/Proyectos/Proyecto27/Pantalla_Principal_Menu.png",
+      "Media/Proyectos/Proyecto27/Pantalla_Principal_Opciones.png",
+      "Media/Proyectos/Proyecto27/Dialogo_ModificarLibro.png",
+      "Media/Proyectos/Proyecto27/Opcion_OrdenarPor.png",
+      "Media/Proyectos/Proyecto27/OpcionEliminar.png",
+      "Media/Proyectos/Proyecto27/Pantalla_DarAltaLibro.png",
     ],
     skills: [
-        "Android",
-        "Java",
-        "JUnit",
-        "Mockito",
-        "Gradle",
-        "Material Design",
-        "AndroidX",
-        "Espresso",
-        "Software Testing",
-        "Software Development"
+      "Android",
+      "Java",
+      "JUnit",
+      "Mockito",
+      "Gradle",
+      "Material Design",
+      "AndroidX",
+      "Espresso",
+      "Software Testing",
+      "Software Development",
     ],
     links: {
-        github: "https://github.com/jherraizsoler/appbiblioteca",
-        linkedin: "https://lnkd.in/p/diywaF5j"
-    }
+      github: "https://github.com/jherraizsoler/appbiblioteca",
+      linkedin: "https://lnkd.in/p/diywaF5j",
+    },
   },
-  "28_en": {
-    title: "Complete Documentation of a Fictional Company's Network and Simulation with Cisco Packet Tracer",
+  "4_en": {
+    title:
+      "Complete Documentation of a Fictional Company's Network and Simulation with Cisco Packet Tracer",
     content: `
         <h3>Network Documentation and Simulation with Cisco Packet Tracer</h3>
         <p>This project consisted of the complete documentation, analysis, study, decision-making, and development of a fictional case of a client's problem ticket. The situation was analyzed, design decisions were made, and a fictional company's network was developed and simulated with **Cisco Packet Tracer**. The complete project, with all the technical information, is detailed in an attached PDF document.</p>
     `,
     images: [
-            "Media/Proyectos/Proyecto28/imagenPrincipal.jpg",
-            "Media/Proyectos/Proyecto28/imagenPrincipal.jpg",
-            "Media/Proyectos/Proyecto28/2.jpg",
-            "Media/Proyectos/Proyecto28/3.jpg",
-            "Media/Proyectos/Proyecto28/4.jpg",
-            "Media/Proyectos/Proyecto28/5.jpg",
-            "Media/Proyectos/Proyecto28/6.jpg",
-            "Media/Proyectos/Proyecto28/7.jpg",
-            "Media/Proyectos/Proyecto28/8.jpg",
-            "Media/Proyectos/Proyecto28/9.jpg",
-            "Media/Proyectos/Proyecto28/10.jpg",
-            "Media/Proyectos/Proyecto28/11.jpg",
-            "Media/Proyectos/Proyecto28/12.jpg",
-            "Media/Proyectos/Proyecto28/13.jpg",
-            "Media/Proyectos/Proyecto28/14.jpg",
-            "Media/Proyectos/Proyecto28/15.jpg",
-            "Media/Proyectos/Proyecto28/16.jpg",
-            "Media/Proyectos/Proyecto28/17.jpg",
-            "Media/Proyectos/Proyecto28/18.jpg",
-            "Media/Proyectos/Proyecto28/19.jpg"  
+      "Media/Proyectos/Proyecto28/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto28/imagenPrincipal.jpg",
+      "Media/Proyectos/Proyecto28/2.jpg",
+      "Media/Proyectos/Proyecto28/3.jpg",
+      "Media/Proyectos/Proyecto28/4.jpg",
+      "Media/Proyectos/Proyecto28/5.jpg",
+      "Media/Proyectos/Proyecto28/6.jpg",
+      "Media/Proyectos/Proyecto28/7.jpg",
+      "Media/Proyectos/Proyecto28/8.jpg",
+      "Media/Proyectos/Proyecto28/9.jpg",
+      "Media/Proyectos/Proyecto28/10.jpg",
+      "Media/Proyectos/Proyecto28/11.jpg",
+      "Media/Proyectos/Proyecto28/12.jpg",
+      "Media/Proyectos/Proyecto28/13.jpg",
+      "Media/Proyectos/Proyecto28/14.jpg",
+      "Media/Proyectos/Proyecto28/15.jpg",
+      "Media/Proyectos/Proyecto28/16.jpg",
+      "Media/Proyectos/Proyecto28/17.jpg",
+      "Media/Proyectos/Proyecto28/18.jpg",
+      "Media/Proyectos/Proyecto28/19.jpg",
     ],
     skills: [
-        "Problem Solving",
-        "Incident Management and Resolution",
-        "Programming",
-        "Document Management",
-        "Maven",
-        "Leadership",
-        "Systems and Server Administration",
-        "Network Management",
-        "Analytical and Algorithmic",
-        "Project Management and Documentation",
-        "Agile Methodologies",
-        "Project Planning",
-        "Analytical and Research Skills"
+      "Problem Solving",
+      "Incident Management and Resolution",
+      "Programming",
+      "Document Management",
+      "Maven",
+      "Leadership",
+      "Systems and Server Administration",
+      "Network Management",
+      "Analytical and Algorithmic",
+      "Project Management and Documentation",
+      "Agile Methodologies",
+      "Project Planning",
+      "Analytical and Research Skills",
     ],
     links: {
-        linkedin: "https://lnkd.in/p/d_p9d42i"
-    }
+      linkedin: "https://lnkd.in/p/d_p9d42i",
+    },
   },
-  "29_en": {
+  "3_en": {
     title: "FullStack App Desktop Task System Project",
     content: `
         <h3>Project Description</h3>
@@ -2562,7 +2656,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363223176245370881-Sg4H?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "30_en": {
+  "2_en": {
     title: "FullStack App Web People System Project",
     content: `
         <h3>Project Description</h3>
@@ -2611,7 +2705,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7364310370116583424-1ZNv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-  "31_en": {
+  "1_en": {
     title: "FullStack App Web Contact System Project",
     content: `
         <h3>Project Description</h3>
@@ -2661,13 +2755,7 @@ const projectsData = {
         "https://www.linkedin.com/posts/jorgeherraizsoler_nuevoproyecto-activity-7363947996163510272-Z__I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEACjaIB6DsKY_IcuDUqisiL9oD5WELnCHk",
     },
   },
-
-
-
-
- };
-
-
+};
 
 // 2. Referencias a los elementos del DOM (se agrega el visor de imágenes)
 const articlesContainer = document.getElementById("contenedorArticulos");
@@ -2676,7 +2764,7 @@ const modalContent = modalContainer.querySelector(".modal");
 
 // Visor de imágenes a pantalla completa
 const fullscreenImageViewer = document.getElementById(
-  "fullscreen-image-viewer"
+  "fullscreen-image-viewer",
 );
 const fullscreenImage = document.getElementById("fullscreen-image");
 let isZoomed = false;
@@ -2686,25 +2774,21 @@ let imageX = 0,
   imageY = 0;
 
 // 3. Manejador de eventos para abrir el modal
-articlesContainer.addEventListener("click", (event) =>
-{
+articlesContainer.addEventListener("click", (event) => {
   const projectCard = event.target.closest(".project-card");
 
-  if (projectCard)
-  {
+  if (projectCard) {
     const projectId = projectCard.getAttribute("data-project-id");
-    const projectData = projectsData[ projectId ];
+    const projectData = projectsData[projectId];
 
-    if (projectData)
-    {
+    if (projectData) {
       let contentHTML = "";
 
       // Lógica para la imagen principal y las adjuntas
-      if (projectData.images && projectData.images.length > 0)
-      {
+      if (projectData.images && projectData.images.length > 0) {
         contentHTML += `
           <div class="modal-image-top">
-            <img src="${projectData.images[ 0 ]}" alt="${projectData.title}" class="modal-project-image">
+            <img src="${projectData.images[0]}" alt="${projectData.title}" class="modal-project-image">
           </div>`;
       }
 
@@ -2712,55 +2796,50 @@ articlesContainer.addEventListener("click", (event) =>
       contentHTML += `<div class="modal-body">${projectData.content}</div>`;
 
       // Añade los "chips" de aptitudes si existen
-      if (projectData.skills && projectData.skills.length > 0)
-      {
+      if (projectData.skills && projectData.skills.length > 0) {
         const lang = projectId.includes("_en") ? "en" : "es";
 
-        if (lang === "es")
-        {
+        if (lang === "es") {
           contentHTML += `<h4>Aptitudes Clave</h4>`;
-        } else
-        {
+        } else {
           contentHTML += `<h4>Key Skills</h4>`;
         }
 
         contentHTML += `<div class="project-skills">`;
-        projectData.skills.forEach((skill) =>
-        {
+        projectData.skills.forEach((skill) => {
           contentHTML += `<span class="skill-chip">${skill}</span>`;
         });
         contentHTML += `</div>`;
       }
 
       // Añade imágenes adjuntas si hay más de una
-      if (projectData.images && projectData.images.length > 1)
-      {
+      if (projectData.images && projectData.images.length > 1) {
         contentHTML += `<div class="project-images">`;
-        for (let i = 1; i < projectData.images.length; i++)
-        {
-          contentHTML += `<img src="${projectData.images[ i ]}" alt="${projectData.title}" class="modal-project-image">`;
+        for (let i = 1; i < projectData.images.length; i++) {
+          contentHTML += `<img src="${projectData.images[i]}" alt="${projectData.title}" class="modal-project-image">`;
         }
         contentHTML += `</div>`;
       }
 
       // Añade los enlaces si existen
-      if (projectData.links)
-      {
+      if (projectData.links) {
         const lang = projectId.includes("_en") ? "en" : "es";
         contentHTML += `<div class="project-links">`;
 
-        if (projectData.links.github)
-        {
-          contentHTML += `<a href="${projectData.links.github
-            }" target="_blank" class="link-button">${lang === "es" ? "Ver en GitHub" : "View on GitHub"
-            }</a>`;
+        if (projectData.links.github) {
+          contentHTML += `<a href="${
+            projectData.links.github
+          }" target="_blank" class="link-button">${
+            lang === "es" ? "Ver en GitHub" : "View on GitHub"
+          }</a>`;
         }
 
-        if (projectData.links.linkedin)
-        {
-          contentHTML += `<a href="${projectData.links.linkedin
-            }" target="_blank" class="link-button">${lang === "es" ? "Ver en LinkedIn" : "View on LinkedIn"
-            }</a>`;
+        if (projectData.links.linkedin) {
+          contentHTML += `<a href="${
+            projectData.links.linkedin
+          }" target="_blank" class="link-button">${
+            lang === "es" ? "Ver en LinkedIn" : "View on LinkedIn"
+          }</a>`;
         }
 
         contentHTML += `</div>`;
@@ -2774,43 +2853,35 @@ articlesContainer.addEventListener("click", (event) =>
 });
 
 // 4. Manejador de eventos para cerrar el modal
-modalContainer.addEventListener("click", (event) =>
-{
+modalContainer.addEventListener("click", (event) => {
   if (
     event.target.id === "close-modal" ||
     event.target.id === "modal-container"
-  )
-  {
+  ) {
     modalContainer.classList.remove("show");
   }
 });
 // Lógica para el visor de imágenes (Sección modificada)
 // =======================================================
 // **DELEGACIÓN DE EVENTOS**: Escucha en el contenedor del modal
-modalContainer.addEventListener("click", (event) =>
-{
-  if (event.target.classList.contains("modal-project-image"))
-  {
+modalContainer.addEventListener("click", (event) => {
+  if (event.target.classList.contains("modal-project-image")) {
     openFullscreenImageViewer(event.target.src);
   }
 });
 
 // Evento para cerrar el visor al hacer clic en el fondo
-fullscreenImageViewer.addEventListener("click", (event) =>
-{
-  if (event.target === fullscreenImageViewer)
-  {
+fullscreenImageViewer.addEventListener("click", (event) => {
+  if (event.target === fullscreenImageViewer) {
     closeFullscreenImageViewer();
   }
 });
 
 // Evento para hacer zoom/des-zoom al hacer clic en la imagen ampliada
-fullscreenImage.addEventListener("click", () =>
-{
+fullscreenImage.addEventListener("click", () => {
   isZoomed = !isZoomed;
   fullscreenImage.classList.toggle("zoomed", isZoomed);
-  if (!isZoomed)
-  {
+  if (!isZoomed) {
     // Resetear posición al hacer des-zoom
     imageX = 0;
     imageY = 0;
@@ -2819,10 +2890,8 @@ fullscreenImage.addEventListener("click", () =>
 });
 
 // Nuevos eventos para el arrastre de la imagen (Pan)
-fullscreenImage.addEventListener("mousedown", (e) =>
-{
-  if (isZoomed)
-  {
+fullscreenImage.addEventListener("mousedown", (e) => {
+  if (isZoomed) {
     isDragging = true;
     startX = e.clientX;
     startY = e.clientY;
@@ -2831,8 +2900,7 @@ fullscreenImage.addEventListener("mousedown", (e) =>
   }
 });
 
-fullscreenImage.addEventListener("mousemove", (e) =>
-{
+fullscreenImage.addEventListener("mousemove", (e) => {
   if (!isDragging) return;
 
   currentX = e.clientX;
@@ -2852,32 +2920,27 @@ fullscreenImage.addEventListener("mousemove", (e) =>
   startY = currentY;
 });
 
-fullscreenImage.addEventListener("mouseup", () =>
-{
+fullscreenImage.addEventListener("mouseup", () => {
   isDragging = false;
   fullscreenImage.style.cursor = "grab";
 });
 
-fullscreenImageViewer.addEventListener("mouseleave", () =>
-{
+fullscreenImageViewer.addEventListener("mouseleave", () => {
   isDragging = false;
 });
 
 // Cerrar con la tecla Escape
-document.addEventListener("keydown", (event) =>
-{
+document.addEventListener("keydown", (event) => {
   if (
     event.key === "Escape" &&
     fullscreenImageViewer.classList.contains("active")
-  )
-  {
+  ) {
     closeFullscreenImageViewer();
   }
 });
 
 // Funciones del visor
-function openFullscreenImageViewer(imageSrc)
-{
+function openFullscreenImageViewer(imageSrc) {
   fullscreenImage.src = imageSrc;
   fullscreenImageViewer.classList.add("active");
   document.body.style.overflow = "hidden";
@@ -2889,8 +2952,7 @@ function openFullscreenImageViewer(imageSrc)
   imageY = 0;
 }
 
-function closeFullscreenImageViewer()
-{
+function closeFullscreenImageViewer() {
   fullscreenImageViewer.classList.remove("active");
   document.body.style.overflow = "";
 }

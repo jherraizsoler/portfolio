@@ -58,10 +58,11 @@
 }
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 #bar{
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 10px;
     transition: all linear .2s;
     -webkit-transition: all linear .2s;
@@ -105,9 +106,10 @@ html {
 body{
     background-color: var(--primary-colorFondo);
     color: #ededed;
-    margin-left: 10%;
+    margin-left: clamp(1.25rem, 6vw, 10%);
     max-height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
     scrollbar-color: #00c6ff #242942;
 
 }
@@ -190,9 +192,9 @@ body{
    z-index: 2;
 }
 .home-content{
-    max-width: 800px;
+    max-width: min(800px, 100%);
     z-index: 5;
-    margin-left: 10%;
+    margin-left: clamp(0.5rem, 4vw, 10%);
 
 }
 #textH1{
@@ -1301,8 +1303,8 @@ color:#081b29;
     opacity: 0;
     top: 0;
     left: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     z-index: 50;
     transition-duration: 0.3s;
     -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -2593,6 +2595,34 @@ sl-tab-panel[name="soporte_itExperiencia"] .info-panel {
     }
     
     
+}
+
+
+@media (min-width: 1001px) and (max-width: 1610px) {
+    body {
+        margin-left: 4%;
+    }
+
+    .home {
+        padding: 0 3%;
+        min-height: 80vh;
+    }
+
+    .home-content {
+        max-width: min(56%, 46rem);
+        margin-left: 2%;
+        margin-right: 0;
+    }
+
+    .container {
+        top: 8.5rem;
+        left: auto;
+        right: 4%;
+    }
+
+    #herramientas {
+        right: 1rem;
+    }
 }
 
 
